@@ -18,10 +18,10 @@ scenario with nominal Epic1 weapons and Epic Vigilance on every class**:
 
 For normalized attack and endurance coefficients $a_c$ and $e_c$, the columns use
 
-$$
+```math
 \mathrm{COMBAT}_c=100a_ce_c\%,\qquad
 \mathrm{VALUE}_c=\sqrt{a_ce_c}.
-$$
+```
 
 Calculations use the full-precision reconstructed coefficients before rounding
 the displayed columns.
@@ -48,11 +48,11 @@ base dodge, and $\mu_{R,c}$ the mean of its nominal generated weapon range.
 The following reconstruction matches **every supplied column at its displayed
 precision**:
 
-$$
+```math
 a_c=\frac{\mu_{R,c}}{\mu_{R,\mathrm{Rogue}}},\qquad
 e_c=\frac{h_c/[(1-\rho_c)(1-d_c-0.10)]}
 {h_{\mathrm{Rogue}}/[(1-\rho_{\mathrm{Rogue}})(1-d_{\mathrm{Rogue}}-0.10)]}.
-$$
+```
 
 The 0.10 is **Epic Vigilance**, applied to every class. The matching setup uses
 level 50, nominal Epic1 generation with both random generation factors set to
@@ -102,10 +102,10 @@ Vigilance and Vest are optional in the inventory search. Their columns above
 show the effect **when equipped**, not universal base stats. The exact HP formula
 with an Endurance stat buff $b_E$ is
 
-$$
+```math
 E_{\mathrm{eff}}=\left\lceil E(1+b_E)\right\rceil,\qquad
 H_c(E)=\left\lceil E_{\mathrm{eff}}(\ell+1)h_c\right\rceil.
-$$
+```
 
 The exact one-point increment is $H_c(E+1)-H_c(E)$. Without buffs, the continuous
 increment is $k_c=(\ell+1)h_c$ and the integer increment is either
@@ -121,11 +121,11 @@ Endurance raises HP; it does not directly raise dodge or mitigation. A useful
 survival proxy against normalized, noncritical incoming attempts with hit chance
 one is
 
-$$
+```math
 \mathrm{EHP}_c=\frac{H_c}{(1-d_c-v)(1-\rho_c)},\qquad
 \frac{\partial\mathrm{EHP}_c}{\partial E}
 \approx\frac{(\ell+1)h_c}{(1-d_c-v)(1-\rho_c)}.
-$$
+```
 
 Here $v$ is the equipped Vigilance bonus, and the displayed example has no Vest.
 This proxy incorporates expected dodge and mitigation; it is not an exact number
@@ -141,20 +141,26 @@ of attacks survived. It ignores the two-damage floor and critical variance.
 
 The Attack multiplier itself is shared across classes:
 
-$$
+```math
 A_{\mathrm{eff}}=\left\lceil A(1+b_A)\right\rceil,\qquad
 K_A=0.055A_{\mathrm{eff}}(1+b_{\mathrm{damage}}-b_{\mathrm{damageDebuff}}).
-$$
+```
 
 The class changes the **generated weapon range**, not the constant 0.055.
 For generation quality multiplier $q$, class parameters $p_c,b_c$, generation
 rolls $U\in[0.99,1.01]$ and $V\in[0.9,1.1]$, and class/quality spread $s_c$:
 
-$$
-S_c=(p_c\ell+b_c)qU,\quad s=s_cV,\quad
-R_{\min}=\left\lfloor\frac{S_c}{2+s}\right\rfloor,\quad
-R_{\max}=\operatorname{round}(S_c)-R_{\min}.
-$$
+```math
+S_c=(p_c\ell+b_c)qU,\qquad s=s_cV.
+```
+
+```math
+R_{\min}=\left\lfloor\frac{S_c}{2+s}\right\rfloor.
+```
+
+```math
+R_{\max}=\mathrm{round}(S_c)-R_{\min}.
+```
 
 Combat samples the equipped weapon's **stored** integer range. It does not add
 another class damage multiplier to a range that was already generated for a
@@ -172,10 +178,12 @@ $0.055\mu_R$, not a claim that every additional Attack point deals that exact
 integer damage in every matchup.
 
 **Proposition — the conditional mean is independent of spread.** The generator
-defines $R_{\min}+R_{\max}=\operatorname{round}(S_c)$. A uniform integer random
+defines $R_{\min}+R_{\max}=\mathrm{round}(S_c)$. A uniform integer random
 variable over an inclusive interval has mean $(R_{\min}+R_{\max})/2$. Hence
 
-$$ \mathbb E[R\mid S_c,s]=\frac{\operatorname{round}(S_c)}{2}. $$
+```math
+\mathbb{E}[R\mid S_c,s]=\frac{\mathrm{round}(S_c)}{2}.
+```
 
 For a fixed $S_c$, spread can change the range and variance, but not its mean.
 The mean remains sensitive to the generation roll $U$ and to rounding $S_c$.
@@ -183,13 +191,13 @@ The mean remains sensitive to the generation roll $U$ and to rounding $S_c$.
 For fixed equipment and probability factors, the continuous expected damage
 gain from one additional raw Attack point is
 
-$$
-\frac{\partial\mathbb E[D]}{\partial A}
+```math
+\frac{\partial\mathbb{E}[D]}{\partial A}
 \approx p_{\mathrm{land}}\,0.055(1+b_A)
 (1+b_{\mathrm{damage}}-b_{\mathrm{damageDebuff}})\mu_R
 [1+p_{\mathrm{crit}}(m-1)](1+b_{\mathrm{vsClass}})
 (1-\rho_d-b_{\mathrm{resistance}}-b_{\mathrm{defense}})\eta,
-$$
+```
 
 where $\rho_d$ belongs to the **defender**, $m$ is the critical multiplier, and
 $\eta=50/[50+\max(0,\ell_d-\ell_a)]$ is the level penalty. This approximation
@@ -244,33 +252,37 @@ equal-cost Attack/Endurance budget.** Assume fixed level, equipment, opponent,
 and critical statistics, with expected outgoing damage $kA$, incoming damage
 $d>0$, own HP $hE$, and fixed enemy HP $H_e$. The normalized exchange ratio is
 
-$$
-\mathcal R(A,E)=\frac{kA/H_e}{d/(hE)}=\frac{kh}{dH_e}AE.
-$$
+```math
+\mathcal{R}(A,E)=\frac{kA/H_e}{d/(hE)}=\frac{kh}{dH_e}AE.
+```
 
 Thus the product objective is mechanically justified for this ratio. Absorbing
 all fixed factors into a positive constant gives the product proxy
 
-$$
+```math
 F(A,E)=K\,a_cA\,e_cE,
 \qquad A+E=P,\quad A,E>0,
-$$
+```
 
 substitution gives $F(A)=Ka_ce_cA(P-A)$. Therefore
 
-$$
-F'(A)=Ka_ce_c(P-2A),\qquad F''(A)=-2Ka_ce_c<0,
-$$
+```math
+\frac{dF}{dA}=Ka_ce_c(P-2A),\qquad \frac{d^{2}F}{dA^{2}}=-2Ka_ce_c<0,
+```
 
 so the unique interior optimum is
 
-$$ A^*=E^*=\frac P2. $$
+```math
+A_{\mathrm{opt}}=E_{\mathrm{opt}}=\frac{P}{2}.
+```
 
 This is a global maximum: the second derivative is negative over the entire
 feasible interval. Equivalently,
 
-$$ AE=\frac{(A+E)^2-(A-E)^2}{4}
-=\frac{P^2}{4}-\frac{(A-E)^2}{4}\le\frac{P^2}{4}, $$
+```math
+AE=\frac{(A+E)^2-(A-E)^2}{4}
+=\frac{P^2}{4}-\frac{(A-E)^2}{4}\leq\frac{P^2}{4},
+```
 
 with equality only at $A=E$. The identity supplies a second proof independent of
 the stationary-point calculation. With integer points, the optimal pair is
@@ -290,12 +302,14 @@ Constant class multipliers change the attained value, but not this equal-cost
 allocation. If one stat point costs $c_A$ and the other $c_E$, with
 $c_AA+c_EE=P$, the corresponding result is
 
-$$ A^*=\frac{P}{2c_A},\qquad E^*=\frac{P}{2c_E}. $$
+```math
+A_{\mathrm{opt}}=\frac{P}{2c_A},\qquad E_{\mathrm{opt}}=\frac{P}{2c_E}.
+```
 
 This means equal spending, rather than necessarily equal raw stat points. With
 existing effective stats $A_0,E_0$ and $x+y=P$ additional equal-cost points,
 maximizing $(A_0+x)(E_0+y)$ gives
-$x^*=(P+E_0-A_0)/2$, clipped to $[0,P]$. The unconstrained solution equalizes
+$x_{\mathrm{opt}}=(P+E_0-A_0)/2$, clipped to $[0,P]$. The unconstrained solution equalizes
 the final effective stats.
 
 **Scope of the proof:** this is an attack–survival product, also proportional to
@@ -308,22 +322,33 @@ Against a fixed opponent, with fixed accuracy, mitigation, and critical factors,
 write outgoing expected damage as $kA$ and incoming expected damage as $d$.
 If our HP is $hE$, the measured HP-percentage margin has the continuous form
 
-$$
-M(A,E)=\alpha A-\frac{\beta}{E},\qquad
-\alpha=\frac{100k}{H_{\mathrm{enemy}}},\quad \beta=\frac{100d}{h}.
-$$
+```math
+M(A,E)=\alpha A-\frac{\beta}{E}.
+```
+
+```math
+\alpha=\frac{100k}{H_{\mathrm{enemy}}},\qquad \beta=\frac{100d}{h}.
+```
 
 With $A+E=P$:
 
-$$
-M(A)=\alpha A-\frac{\beta}{P-A},\qquad
-M'(A)=\alpha-\frac{\beta}{(P-A)^2},\qquad
-M''(A)=-\frac{2\beta}{(P-A)^3}<0.
-$$
+```math
+M(A)=\alpha A-\frac{\beta}{P-A}.
+```
+
+```math
+\frac{dM}{dA}=\alpha-\frac{\beta}{(P-A)^{2}}.
+```
+
+```math
+\frac{d^{2}M}{dA^{2}}=-\frac{2\beta}{(P-A)^{3}}<0.
+```
 
 The interior solution is therefore
 
-$$ E^*=\sqrt{\frac{\beta}{\alpha}},\qquad A^*=P-E^*. $$
+```math
+E_{\mathrm{opt}}=\sqrt{\frac{\beta}{\alpha}},\qquad A_{\mathrm{opt}}=P-E_{\mathrm{opt}}.
+```
 
 It must be clipped to the permitted stat bounds. This derivation assumes that
 changing HP does not cross a lethal-hit/Rapid-Fire threshold and that the other
@@ -332,7 +357,7 @@ universal optimum for the HP-margin objective**. The measured inventory run fixe
 both at 10,000; it does not optimize skill points.
 
 For example, take $P=20,000$, $\alpha=0.001$, and $\beta=40,000$. The margin
-optimum has $E^*\approx6,324.555$ and $A^*\approx13,675.445$. It scores about
+optimum has $E_{\mathrm{opt}}\approx6,324.555$ and $A_{\mathrm{opt}}\approx13,675.445$. It scores about
 **7.350889 pp**, whereas 10,000/10,000 scores **6 pp**. This is an algebraic
 counterexample, not a new inventory measurement. It disproves a universal
 50/50 claim for the net-margin objective while leaving the ratio theorem intact.
@@ -346,11 +371,11 @@ implementation; the proofs themselves are the derivative and identity arguments.
 
 The bundled client uses, without stat buffs,
 
-$$
+```math
 c(L)=\min\!\left(0.5,\frac{\lceil L\rceil}{40.38\ell}\right)
        +b_{\mathrm{crit}},\qquad
 u(T)=\min\!\left(0.4,\frac{\lceil T\rceil}{44.27\ell}\right),
-$$
+```
 
 where $\ell$ is character level, $L$ Luck, $T$ Toughness, and $u$ anti-crit.
 At level 200, integer stats reach the **base** caps at **4,038 Luck** and
@@ -365,31 +390,35 @@ critical-chance bonuses are added after the base cap.
 
 For a landed shot with critical multiplier $m$, expected critical scaling is
 
-$$ G=1+c(L)(1-u_{\mathrm{enemy}})(m-1). $$
+```math
+G=1+c(L)(1-u_{\mathrm{enemy}})(m-1).
+```
 
 Ignoring the ceilings inside an uncapped interval and defining
 $q=(1-u_{\mathrm{enemy}})(m-1)$ gives
 
-$$
+```math
 \frac{\partial\log F}{\partial L}
 =\frac{q}{40.38\ell\,[1+q\,c(L)]}.
-$$
+```
 
 For fixed enemy crit chance $c_e$ and multiplier $m_e$, let
 $r=c_e(m_e-1)$. The expected incoming critical factor is
 $J=1+r(1-u(T))$. For a product proxy containing survival $1/J$:
 
-$$
+```math
 \frac{\partial\log F}{\partial T}
 =\frac{r}{44.27\ell\,[1+r(1-u(T))]}.
-$$
+```
 
 Additional Luck or Toughness has zero marginal benefit **through these base
 formulas** beyond its cap. Before the cap, the correct choice depends on the
 opponent and the critical multiplier. An interior constrained allocation must
 equalize marginal gain per point cost:
 
-$$ \frac{1}{c_x}\frac{\partial\log F}{\partial x}=\lambda. $$
+```math
+\frac{1}{c_x}\frac{\partial\log F}{\partial x}=\lambda.
+```
 
 Bounds and caps must also be checked. There is no opponent-independent proof
 that one should always fill both caps before buying Attack or Endurance.
@@ -558,17 +587,19 @@ effects. Different item IDs can stack; identical IDs occur at most once.
 **Hit and dodge are separate checks.** Camouflage reductions are added before
 accuracy is clamped:
 
-$$
-p_{\mathrm{hit}}=\operatorname{clamp}(1.17+s_a^{\mathrm{accuracy}}-s_d^{\mathrm{camouflage}},0,1),
-\qquad p_{\mathrm{land}}=p_{\mathrm{hit}}\left[1-\operatorname{clamp}(0.101+s_d^{\mathrm{dodge}},0,1)\right].
-$$
+```math
+p_{\mathrm{hit}}=\mathrm{clamp}(1.17+s_a^{\mathrm{accuracy}}-s_d^{\mathrm{camouflage}},0,1),
+\qquad p_{\mathrm{land}}=p_{\mathrm{hit}}\left[1-\mathrm{clamp}(0.101+s_d^{\mathrm{dodge}},0,1)\right].
+```
 
 Epic Camouflage is −22 pp hit chance, Suit −33 pp, Vigilance +10 pp dodge.
 For 117% accuracy against all three, $p_{\mathrm{land}}=0.62\times0.799=0.49538$.
 
 **Critical chance after Toughness:**
 
-$$ p_{\mathrm{crit}}=(0.50+s_a^{\mathrm{critChance}})(1-0.40). $$
+```math
+p_{\mathrm{crit}}=(0.50+s_a^{\mathrm{critChance}})(1-0.40).
+```
 
 The SMG therefore has 30% effective crit; the Epic AK's intrinsic +3 pp gives
 31.8%. Critical damage multiplies the rolled hit by
@@ -576,12 +607,15 @@ $m=2+s_a^{\mathrm{critDamage}}$, not $2(1+s_a^{\mathrm{critDamage}})$.
 
 **HP and rounded damage:**
 
-$$
+```math
 H=\left\lceil E(\ell+1)3.85\right\rceil,
 \quad
-D_0=\operatorname{round}\!\left[0.055\lceil A\rceil(1+s_a^{\mathrm{damage}})R\,m\,(1+s_a^{\mathrm{vsRogue}})\right],
-$$
-$$ D=\operatorname{round}\!\left[\max\{2,D_0(1-0.25-s_d^{\mathrm{resistance}})\}\right]. $$
+D_0=\mathrm{round}\!\left[0.055\lceil A\rceil(1+s_a^{\mathrm{damage}})R\,m\,(1+s_a^{\mathrm{vsRogue}})\right],
+```
+
+```math
+D=\mathrm{round}\!\left[\max\{2,D_0(1-0.25-s_d^{\mathrm{resistance}})\}\right].
+```
 
 Here $m=1$ for a noncritical hit. Rogue mitigation is 25%; Epic Vest adds
 14 percentage points, giving 39% total reduction and a **0.61** damage factor.
@@ -590,12 +624,12 @@ Rogue, while the Epic MP8 adds +15% critical damage.
 
 The nominal Epic1 Rogue weapon range at level 200 is **922–1,033**, generated
 from $r=8.5\ell\times1.15$, $R_{\min}=\lfloor r/2.12\rfloor$ and
-$R_{\max}=\operatorname{round}(r)-R_{\min}$. All integer rolls and both critical
+$R_{\max}=\mathrm{round}(r)-R_{\min}$. All integer rolls and both critical
 branches are summed. Concrete game-generated weapons may differ from this
 nominal range; their individual random generation rolls are not inputs here.
 
 **Rapid Fire:** on a landed, nonlethal first hit, Epic Rapid Fire has 17%
-probability of adding $\operatorname{round}(DU)$ damage for
+probability of adding $\mathrm{round}(DU)$ damage for
 $U\sim\mathrm{Uniform}(0.1,0.2)$. The bonus has no separate hit, dodge, or crit
 roll. The code integrates the rounded bonus analytically. Before rounding, its
 expected increase on an eligible hit is $0.17\times0.15=2.55\%$.
@@ -613,23 +647,25 @@ revision is required to reproduce this offline run.
 
 For two different valid setups $i,j$, define
 
-$$ n_{ij}=100\frac{\mathbb E[D_{i\to j}]}{H_j}-100\frac{\mathbb E[D_{j\to i}]}{H_i}. $$
+```math
+n_{ij}=100\frac{\mathbb{E}[D_{i\to j}]}{H_j}-100\frac{\mathbb{E}[D_{j\to i}]}{H_i}.
+```
 
 Let $b_{ij}=1$ if $n_{ij}>10^{-10}$ percentage points and $0$ otherwise. A draw
-has $|n_{ij}|\le10^{-10}$. Self-play is excluded.
+has $|n_{ij}|\leq10^{-10}$. Self-play is excluded.
 
-$$
+```math
 \mathrm{WR}_i=\frac{\sum_{j\ne i}b_{ij}}{N-1},\qquad
-\overline n_i=\frac{\sum_{j\ne i}n_{ij}}{N-1}.
-$$
+\overline{n}_i=\frac{\sum_{j\ne i}n_{ij}}{N-1}.
+```
 
 Opponent strength is frozen from its **unweighted** full-field win rate:
 $w_j=\mathrm{WR}_j$. There is no recursive weighting.
 
-$$
+```math
 \mathrm{WWR}_i=\frac{\sum_{j\ne i}w_jb_{ij}}{\sum_{j\ne i}w_j},\qquad
-\overline n_i^{(w)}=\frac{\sum_{j\ne i}w_jn_{ij}}{\sum_{j\ne i}w_j}.
-$$
+\overline{n}_i^{(w)}=\frac{\sum_{j\ne i}w_jn_{ij}}{\sum_{j\ne i}w_j}.
+```
 
 A 99%-win-rate opponent has 99 times the weight of a 1% opponent. Draws remain
 in the denominator and contribute zero win credit. Signed losses remain in
