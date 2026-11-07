@@ -1,0 +1,948 @@
+{
+  "submachine": {
+    "winner_id": 56878,
+    "winner_items": [
+      "accuracy_submachine",
+      "bulletproof_vest",
+      "camouflage_suit",
+      "holo_sight",
+      "laser_sight",
+      "mp8",
+      "penetrating_power",
+      "soft_nosed_bullet_small",
+      "specialization_submachine",
+      "thermal_telescopic_sight",
+      "vigilance"
+    ],
+    "wins": 2933,
+    "ties": 8,
+    "losses": 5,
+    "counters": [
+      {
+        "opponent": {
+          "candidate_id": 51838,
+          "area": 94,
+          "wins": 2919,
+          "ties": 4,
+          "losses": 23,
+          "mean_net_hp_pp": 2.206379644318526,
+          "weighted_win_rate": 0.982585046477739,
+          "weighted_mean_net_hp_pp": 1.681727206844525,
+          "items": [
+            {
+              "id": "mp8",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_small",
+              "x": 6,
+              "y": 2
+            },
+            {
+              "id": "accuracy_submachine",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "id": "specialization_submachine",
+              "x": 6,
+              "y": 4
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "id": "camouflage",
+              "x": 3,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "rapid_fire",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "holo_sight",
+              "x": 10,
+              "y": 4
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 0
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 5,
+              "y": 0
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.794183824384571,
+        "opponent_damage_winner_hp_percent": 7.992935511906465,
+        "winner_net_hp_pp": -0.1987516875218942,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "laser_sight"
+        ],
+        "added_to_winner": [
+          "camouflage",
+          "rapid_fire"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 51950,
+          "area": 94,
+          "wins": 2919,
+          "ties": 4,
+          "losses": 23,
+          "mean_net_hp_pp": 2.2047323127891145,
+          "weighted_win_rate": 0.982585046477739,
+          "weighted_mean_net_hp_pp": 1.680617497784336,
+          "items": [
+            {
+              "id": "mp8",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_small",
+              "x": 6,
+              "y": 2
+            },
+            {
+              "id": "accuracy_submachine",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "id": "specialization_submachine",
+              "x": 6,
+              "y": 4
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 3,
+              "y": 2
+            },
+            {
+              "id": "rapid_fire",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "fast_reaction",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "holo_sight",
+              "x": 10,
+              "y": 4
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 0
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 5,
+              "y": 0
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.794183824384571,
+        "opponent_damage_winner_hp_percent": 7.992935511906465,
+        "winner_net_hp_pp": -0.1987516875218942,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "laser_sight"
+        ],
+        "added_to_winner": [
+          "fast_reaction",
+          "rapid_fire"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 52078,
+          "area": 94,
+          "wins": 2919,
+          "ties": 4,
+          "losses": 23,
+          "mean_net_hp_pp": 2.2047323127891145,
+          "weighted_win_rate": 0.982585046477739,
+          "weighted_mean_net_hp_pp": 1.680617497784336,
+          "items": [
+            {
+              "id": "mp8",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_small",
+              "x": 6,
+              "y": 2
+            },
+            {
+              "id": "accuracy_submachine",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "id": "specialization_submachine",
+              "x": 6,
+              "y": 4
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 3,
+              "y": 2
+            },
+            {
+              "id": "rapid_fire",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "medic",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "holo_sight",
+              "x": 10,
+              "y": 4
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 0
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 5,
+              "y": 0
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.794183824384571,
+        "opponent_damage_winner_hp_percent": 7.992935511906465,
+        "winner_net_hp_pp": -0.1987516875218942,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "laser_sight"
+        ],
+        "added_to_winner": [
+          "medic",
+          "rapid_fire"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 60014,
+          "area": 94,
+          "wins": 2919,
+          "ties": 4,
+          "losses": 23,
+          "mean_net_hp_pp": 2.2047323127891145,
+          "weighted_win_rate": 0.982585046477739,
+          "weighted_mean_net_hp_pp": 1.680617497784336,
+          "items": [
+            {
+              "id": "mp8",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_small",
+              "x": 6,
+              "y": 2
+            },
+            {
+              "id": "accuracy_submachine",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "id": "specialization_submachine",
+              "x": 6,
+              "y": 4
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 3,
+              "y": 2
+            },
+            {
+              "id": "rapid_fire",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "holo_sight",
+              "x": 10,
+              "y": 4
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 0
+            },
+            {
+              "id": "heartbeat_sensor",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 5,
+              "y": 0
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.794183824384571,
+        "opponent_damage_winner_hp_percent": 7.992935511906465,
+        "winner_net_hp_pp": -0.1987516875218942,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "laser_sight"
+        ],
+        "added_to_winner": [
+          "heartbeat_sensor",
+          "rapid_fire"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 55916,
+          "area": 93,
+          "wins": 2782,
+          "ties": 4,
+          "losses": 160,
+          "mean_net_hp_pp": 1.928327678852234,
+          "weighted_win_rate": 0.9066953768254609,
+          "weighted_mean_net_hp_pp": 1.434834778410045,
+          "items": [
+            {
+              "id": "mp8",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_small",
+              "x": 3,
+              "y": 0
+            },
+            {
+              "id": "specialization_submachine",
+              "x": 8,
+              "y": 4
+            },
+            {
+              "id": "vigilance",
+              "x": 6,
+              "y": 0
+            },
+            {
+              "id": "penetrating_power",
+              "x": 0,
+              "y": 2
+            },
+            {
+              "id": "rapid_fire",
+              "x": 3,
+              "y": 2
+            },
+            {
+              "id": "holo_sight",
+              "x": 6,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 0
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 4,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.794183824384571,
+        "opponent_damage_winner_hp_percent": 7.833076801668335,
+        "winner_net_hp_pp": -0.03889297728376473,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 78.30199999999999,
+        "removed_from_winner": [
+          "accuracy_submachine",
+          "laser_sight"
+        ],
+        "added_to_winner": [
+          "rapid_fire"
+        ]
+      }
+    ]
+  },
+  "rifle": {
+    "winner_id": 85548,
+    "winner_items": [
+      "ak_24_7",
+      "bulletproof_vest",
+      "camouflage_suit",
+      "holo_sight",
+      "penetrating_power",
+      "specialization_rifle",
+      "thermal_telescopic_sight",
+      "tracer_ammunition_large",
+      "vigilance"
+    ],
+    "wins": 2058,
+    "ties": 0,
+    "losses": 7,
+    "counters": [
+      {
+        "opponent": {
+          "candidate_id": 52764,
+          "area": 93,
+          "wins": 2043,
+          "ties": 1,
+          "losses": 21,
+          "mean_net_hp_pp": 2.3829170722297848,
+          "weighted_win_rate": 0.9814887303431831,
+          "weighted_mean_net_hp_pp": 1.9174183089207926,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "vigilance",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "camouflage",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "holo_sight",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.426601420932641,
+        "opponent_damage_winner_hp_percent": 8.003722782899818,
+        "winner_net_hp_pp": -0.5771213619671762,
+        "winner_land_chance_percent": 69.51299999999998,
+        "opponent_land_chance_percent": 78.30199999999999,
+        "removed_from_winner": [
+          "penetrating_power",
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "camouflage",
+          "soft_nosed_bullet_large"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 52788,
+          "area": 93,
+          "wins": 2027,
+          "ties": 1,
+          "losses": 37,
+          "mean_net_hp_pp": 2.362088368381712,
+          "weighted_win_rate": 0.9674924542539144,
+          "weighted_mean_net_hp_pp": 1.8503060018099615,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "camouflage",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "holo_sight",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 8.356088457344736,
+        "opponent_damage_winner_hp_percent": 8.727471625089777,
+        "winner_net_hp_pp": -0.37138316774504077,
+        "winner_land_chance_percent": 78.213,
+        "opponent_land_chance_percent": 78.30199999999999,
+        "removed_from_winner": [
+          "tracer_ammunition_large",
+          "vigilance"
+        ],
+        "added_to_winner": [
+          "camouflage",
+          "soft_nosed_bullet_large"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 85532,
+          "area": 93,
+          "wins": 2047,
+          "ties": 2,
+          "losses": 16,
+          "mean_net_hp_pp": 2.099516207795765,
+          "weighted_win_rate": 0.9831393429479621,
+          "weighted_mean_net_hp_pp": 1.623263673682436,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "tracer_ammunition_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "vigilance",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "camouflage",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "holo_sight",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 7.426601420932641,
+        "opponent_damage_winner_hp_percent": 7.797804333558782,
+        "winner_net_hp_pp": -0.37120291262614025,
+        "winner_land_chance_percent": 69.51299999999998,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "penetrating_power"
+        ],
+        "added_to_winner": [
+          "camouflage"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 52780,
+          "area": 93,
+          "wins": 2041,
+          "ties": 0,
+          "losses": 24,
+          "mean_net_hp_pp": 2.792459556960562,
+          "weighted_win_rate": 0.978319985134782,
+          "weighted_mean_net_hp_pp": 2.196852929374556,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "vigilance",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "holo_sight",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 8.53632347233637,
+        "opponent_damage_winner_hp_percent": 8.727471625089777,
+        "winner_net_hp_pp": -0.19114815275340646,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 78.30199999999999,
+        "removed_from_winner": [
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "soft_nosed_bullet_large"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 85556,
+          "area": 93,
+          "wins": 2025,
+          "ties": 2,
+          "losses": 38,
+          "mean_net_hp_pp": 2.0911866744452827,
+          "weighted_win_rate": 0.9626283129331136,
+          "weighted_mean_net_hp_pp": 1.5661510101304412,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "tracer_ammunition_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "camouflage",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "penetrating_power",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "holo_sight",
+              "x": 3,
+              "y": 3
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "camouflage_suit",
+              "x": 5,
+              "y": 5
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 6
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 8.356088457344736,
+        "opponent_damage_winner_hp_percent": 8.53632347233637,
+        "winner_net_hp_pp": -0.1802350149916343,
+        "winner_land_chance_percent": 78.213,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "vigilance"
+        ],
+        "added_to_winner": [
+          "camouflage"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 50286,
+          "area": 93,
+          "wins": 2054,
+          "ties": 5,
+          "losses": 6,
+          "mean_net_hp_pp": 2.584270538415873,
+          "weighted_win_rate": 0.9894726069422691,
+          "weighted_mean_net_hp_pp": 1.968924023809241,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "accuracy_rifle",
+              "x": 5,
+              "y": 2
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "penetrating_power",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "rapid_fire",
+              "x": 6,
+              "y": 5
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 0,
+              "y": 3
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 8.53632347233637,
+        "opponent_damage_winner_hp_percent": 8.609742477541612,
+        "winner_net_hp_pp": -0.07341900520524192,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight",
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "accuracy_rifle",
+          "rapid_fire",
+          "soft_nosed_bullet_large"
+        ]
+      },
+      {
+        "opponent": {
+          "candidate_id": 54380,
+          "area": 92,
+          "wins": 2057,
+          "ties": 5,
+          "losses": 3,
+          "mean_net_hp_pp": 2.6339855773932292,
+          "weighted_win_rate": 0.9923216231129472,
+          "weighted_mean_net_hp_pp": 2.0073857852250008,
+          "items": [
+            {
+              "id": "ak_24_7",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "soft_nosed_bullet_large",
+              "x": 5,
+              "y": 0
+            },
+            {
+              "id": "specialization_rifle",
+              "x": 8,
+              "y": 0
+            },
+            {
+              "id": "vigilance",
+              "x": 0,
+              "y": 5
+            },
+            {
+              "id": "penetrating_power",
+              "x": 3,
+              "y": 5
+            },
+            {
+              "id": "rapid_fire",
+              "x": 6,
+              "y": 5
+            },
+            {
+              "id": "bulletproof_vest",
+              "x": 9,
+              "y": 4
+            },
+            {
+              "id": "tactical_telescopic_sight",
+              "x": 0,
+              "y": 3
+            },
+            {
+              "id": "thermal_telescopic_sight",
+              "x": 4,
+              "y": 3
+            }
+          ]
+        },
+        "winner_damage_enemy_hp_percent": 8.53632347233637,
+        "opponent_damage_winner_hp_percent": 8.609742477541612,
+        "winner_net_hp_pp": -0.07341900520524192,
+        "winner_land_chance_percent": 79.89999999999999,
+        "opponent_land_chance_percent": 79.89999999999999,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight",
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "rapid_fire",
+          "soft_nosed_bullet_large",
+          "tactical_telescopic_sight"
+        ]
+      }
+    ]
+  }
+}

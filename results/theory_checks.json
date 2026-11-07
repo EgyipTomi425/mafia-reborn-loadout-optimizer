@@ -1,0 +1,28 @@
+{
+  "class_reference_arithmetic": [
+    {
+      "class": "Tactician",
+      "combat_percent_from_rounded_inputs": 84.77609999999999,
+      "value_from_rounded_inputs": 0.9207393768054019
+    },
+    {
+      "class": "Rogue",
+      "combat_percent_from_rounded_inputs": 100.0,
+      "value_from_rounded_inputs": 1.0
+    },
+    {
+      "class": "Bully",
+      "combat_percent_from_rounded_inputs": 102.7651,
+      "value_from_rounded_inputs": 1.0137312267065666
+    }
+  ],
+  "class_reference_reconstructed_with_vigilance_at_level_50": true,
+  "source_derived_class_mechanics_checked": true,
+  "allocation_square_identity_checked_for_budgets_2_to_250": true,
+  "balanced_allocation_product_checked": true,
+  "unequal_price_allocation_checked": true,
+  "single_exchange_margin_has_different_optimum_checked": true,
+  "level_200_no_buff_luck_cap": 4038,
+  "level_200_strict_binary_float_luck_saturation": 4039,
+  "level_200_no_buff_toughness_cap": 3542
+}

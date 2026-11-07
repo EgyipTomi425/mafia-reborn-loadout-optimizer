@@ -1,0 +1,2915 @@
+[
+  {
+    "id": "1911",
+    "level": 1,
+    "img": "/assets/img/item/weapon/1911.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "1911",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "liar",
+    "level": 1,
+    "img": "/assets/img/item/weapon/liar.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "Liar",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "luck_17",
+    "level": 1,
+    "img": "/assets/img/item/weapon/luck_17.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "Luck 17",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "model_500",
+    "level": 1,
+    "img": "/assets/img/item/weapon/model_500.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "Model 500",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "s30",
+    "level": 1,
+    "img": "/assets/img/item/weapon/s30.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "S30",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "snow_eagle",
+    "level": 1,
+    "img": "/assets/img/item/weapon/snow_eagle.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "Snow Eagle",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "amethyst_eagle",
+    "level": 1,
+    "img": "/assets/img/item/weapon/amethyst_eagle.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "Amethyst Eagle",
+    "size": [
+      3,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "scorpion",
+    "level": 1,
+    "img": "/assets/img/item/weapon/scorpion.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Scorpion",
+    "size": [
+      5,
+      3
+    ],
+    "droppable": false
+  },
+  {
+    "id": "usb",
+    "level": 1,
+    "img": "/assets/img/item/weapon/usb.svg",
+    "type": "weapon",
+    "kind": "pistol",
+    "name": "USB",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "pancake_hammerjack",
+    "level": 13,
+    "img": "/assets/img/item/weapon/pancake_hammerjack.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Pancake Hammerjack",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "mp8",
+    "level": 13,
+    "img": "/assets/img/item/weapon/mp8.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "MP8",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ak_24_7",
+    "level": 13,
+    "img": "/assets/img/item/weapon/ak_24_7.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "AK 24/7",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "m41",
+    "level": 13,
+    "img": "/assets/img/item/weapon/m41.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "M41",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "m5a2",
+    "level": 13,
+    "img": "/assets/img/item/weapon/m5a2.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "M5A2",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "nts244",
+    "level": 13,
+    "img": "/assets/img/item/weapon/nts244.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "NTs244",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "umb",
+    "level": 13,
+    "img": "/assets/img/item/weapon/umb.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "UMB",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "psk1",
+    "level": 13,
+    "img": "/assets/img/item/weapon/psk1.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "PSK1",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "bz_skorpid",
+    "level": 13,
+    "img": "/assets/img/item/weapon/bz_skorpid.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "BZ Skorpid",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "wingchester_1887",
+    "level": 13,
+    "img": "/assets/img/item/weapon/wingchester_1887.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Wingchester 1887",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "kpb_b_92",
+    "level": 13,
+    "img": "/assets/img/item/weapon/kpb_b_92.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "KPB B-92",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "bushwhacker_azr",
+    "level": 13,
+    "img": "/assets/img/item/weapon/bushwhacker_azr.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "Bushwhacker AZR",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "m17",
+    "level": 13,
+    "img": "/assets/img/item/weapon/m17.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "M17",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dragon_svd",
+    "level": 13,
+    "img": "/assets/img/item/weapon/dragon_svd.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "Dragon SVD",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "sawn_off_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/weapon/sawn_off_shotgun.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Sawn-off shotgun",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "mosid_nougat",
+    "level": 13,
+    "img": "/assets/img/item/weapon/mosid_nougat.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "Mosid-Nougat",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dti_viktor",
+    "level": 13,
+    "img": "/assets/img/item/weapon/dti_viktor.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "DTI Viktor",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "satyr_gau",
+    "level": 13,
+    "img": "/assets/img/item/weapon/satyr_gau.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "Satyr GAU",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "bobby_gun",
+    "level": 13,
+    "img": "/assets/img/item/weapon/bobby_gun.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "Bobby Gun",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "capo_vitos_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/weapon/capo_vitos_shotgun.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Capo Vito's shotgun",
+    "size": [
+      4,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "greening_a_5",
+    "level": 13,
+    "img": "/assets/img/item/weapon/greening_a_5.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Greening A-5",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "r780",
+    "level": 13,
+    "img": "/assets/img/item/weapon/r780.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "R780",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "redemption_rsas",
+    "level": 13,
+    "img": "/assets/img/item/weapon/redemption_rsas.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "Redemption RSAS",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "rpg_94",
+    "level": 13,
+    "img": "/assets/img/item/weapon/rpg_94.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "RPG-94",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "m70",
+    "level": 13,
+    "img": "/assets/img/item/weapon/m70.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "M70",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "dcr_2",
+    "level": 13,
+    "img": "/assets/img/item/weapon/dcr_2.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "DCR 2",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "trevor_dar_22",
+    "level": 13,
+    "img": "/assets/img/item/weapon/trevor_dar_22.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "Trevor DAR-22",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "the_butchers_machine_gun",
+    "level": 13,
+    "img": "/assets/img/item/weapon/the_butchers_machine_gun.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "The Butcher's Machine Gun",
+    "size": [
+      3,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "fun_12",
+    "level": 13,
+    "img": "/assets/img/item/weapon/fun_12.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Fun-12",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "eddy_frosts_m70",
+    "level": 13,
+    "img": "/assets/img/item/weapon/eddy_frosts_m70.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "Eddy Frost's M70",
+    "size": [
+      5,
+      3
+    ],
+    "droppable": false
+  },
+  {
+    "id": "mp55",
+    "level": 13,
+    "img": "/assets/img/item/weapon/mp55.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "MP55",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "jahs_peacemaker",
+    "level": 13,
+    "img": "/assets/img/item/weapon/jahs_peacemaker.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "USB",
+    "size": [
+      5,
+      3
+    ],
+    "droppable": false
+  },
+  {
+    "id": "g63",
+    "level": 13,
+    "img": "/assets/img/item/weapon/g63.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "G63",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "mini_r780",
+    "level": 13,
+    "img": "/assets/img/item/weapon/mini_r780.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Mini R780",
+    "size": [
+      4,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "ozzy",
+    "level": 13,
+    "img": "/assets/img/item/weapon/ozzy.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "Ozzy",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "waldo_mp",
+    "level": 13,
+    "img": "/assets/img/item/weapon/waldo_mp.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "Waldo MP",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "fm_p80",
+    "level": 13,
+    "img": "/assets/img/item/weapon/fm_p80.svg",
+    "type": "weapon",
+    "kind": "submachine",
+    "name": "FM P80",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "brad_m83",
+    "level": 13,
+    "img": "/assets/img/item/weapon/brad_m83.svg",
+    "type": "weapon",
+    "kind": "sniper",
+    "name": "Brad M83",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "farmas",
+    "level": 13,
+    "img": "/assets/img/item/weapon/farmas.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "Farmas",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "zog_660",
+    "level": 13,
+    "img": "/assets/img/item/weapon/zog_660.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "ZOG 660",
+    "size": [
+      5,
+      3
+    ]
+  },
+  {
+    "id": "f9000",
+    "level": 13,
+    "img": "/assets/img/item/weapon/f9000.svg",
+    "type": "weapon",
+    "kind": "rifle",
+    "name": "F9000",
+    "size": [
+      3,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "big_boss_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/weapon/big_boss_shotgun.svg",
+    "type": "weapon",
+    "kind": "shotgun",
+    "name": "Big Boss' Shotgun",
+    "size": [
+      4,
+      2
+    ],
+    "droppable": false
+  },
+  {
+    "id": "accuracy_all",
+    "level": 13,
+    "img": "/assets/img/item/skill/accuracy_all.svg",
+    "type": "skill",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "name": "Accuracy",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "accuracy_pistol",
+    "level": 1,
+    "img": "/assets/img/item/skill/accuracy.svg",
+    "imgIcon": "/assets/img/item/skill/accuracy_pistol.svg",
+    "type": "skill",
+    "weaponKind": [
+      "pistol"
+    ],
+    "name": "Accuracy",
+    "size": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "accuracy_submachine",
+    "level": 13,
+    "img": "/assets/img/item/skill/accuracy.svg",
+    "imgIcon": "/assets/img/item/skill/accuracy_submachine.svg",
+    "type": "skill",
+    "weaponKind": [
+      "submachine"
+    ],
+    "name": "Accuracy",
+    "size": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "accuracy_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/skill/accuracy.svg",
+    "imgIcon": "/assets/img/item/skill/accuracy_shotgun.svg",
+    "type": "skill",
+    "weaponKind": [
+      "shotgun"
+    ],
+    "name": "Accuracy",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "accuracy_rifle",
+    "level": 13,
+    "img": "/assets/img/item/skill/accuracy.svg",
+    "imgIcon": "/assets/img/item/skill/accuracy_rifle.svg",
+    "type": "skill",
+    "weaponKind": [
+      "rifle"
+    ],
+    "name": "Accuracy",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "accuracy_sniper",
+    "level": 13,
+    "img": "/assets/img/item/skill/accuracy.svg",
+    "imgIcon": "/assets/img/item/skill/accuracy_sniper.svg",
+    "type": "skill",
+    "weaponKind": [
+      "sniper"
+    ],
+    "name": "Accuracy",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "specialization_pistol",
+    "level": 5,
+    "img": "/assets/img/item/skill/specialization.svg",
+    "imgIcon": "/assets/img/item/skill/specialization_pistol.svg",
+    "type": "skill",
+    "weaponKind": [
+      "pistol"
+    ],
+    "name": "Specialization",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "specialization_submachine",
+    "level": 13,
+    "img": "/assets/img/item/skill/specialization.svg",
+    "imgIcon": "/assets/img/item/skill/specialization_submachine.svg",
+    "type": "skill",
+    "weaponKind": [
+      "submachine"
+    ],
+    "name": "Specialization",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "specialization_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/skill/specialization.svg",
+    "imgIcon": "/assets/img/item/skill/specialization_shotgun.svg",
+    "type": "skill",
+    "weaponKind": [
+      "shotgun"
+    ],
+    "name": "Specialization",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "specialization_rifle",
+    "level": 13,
+    "img": "/assets/img/item/skill/specialization.svg",
+    "imgIcon": "/assets/img/item/skill/specialization_rifle.svg",
+    "type": "skill",
+    "weaponKind": [
+      "rifle"
+    ],
+    "name": "Specialization",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "specialization_sniper",
+    "level": 13,
+    "img": "/assets/img/item/skill/specialization.svg",
+    "imgIcon": "/assets/img/item/skill/specialization_sniper.svg",
+    "type": "skill",
+    "weaponKind": [
+      "sniper"
+    ],
+    "name": "Specialization",
+    "size": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "vigilance",
+    "level": 10,
+    "img": "/assets/img/item/skill/blue.svg",
+    "imgIcon": "/assets/img/item/skill/vigilance.svg",
+    "type": "skill",
+    "name": "Vigilance",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "camouflage",
+    "level": 12,
+    "img": "/assets/img/item/skill/blue.svg",
+    "imgIcon": "/assets/img/item/skill/camouflage.svg",
+    "type": "skill",
+    "name": "Camouflage",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "penetrating_power",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "level": 14,
+    "img": "/assets/img/item/skill/red.svg",
+    "imgIcon": "/assets/img/item/skill/penetrating_power.svg",
+    "type": "skill",
+    "name": "Penetrating power",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "rapid_fire",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "level": 16,
+    "img": "/assets/img/item/skill/red.svg",
+    "imgIcon": "/assets/img/item/skill/rapid_fire.svg",
+    "type": "skill",
+    "name": "Rapid fire",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "fast_reaction",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "level": 18,
+    "img": "/assets/img/item/skill/red.svg",
+    "imgIcon": "/assets/img/item/skill/fast_reaction.svg",
+    "type": "skill",
+    "name": "Fast reaction",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "medic",
+    "level": 20,
+    "img": "/assets/img/item/skill/blue.svg",
+    "imgIcon": "/assets/img/item/skill/medic.svg",
+    "type": "skill",
+    "name": "Medic!",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "pasta",
+    "level": 1,
+    "img": "/assets/img/item/food/pasta_1.svg",
+    "imgGold": "/assets/img/item/food/pasta_1.svg",
+    "imgGold2": "/assets/img/item/food/pasta_2.svg",
+    "type": "food",
+    "name": "Pasta"
+  },
+  {
+    "id": "coffee",
+    "level": 1,
+    "img": "/assets/img/item/food/coffee_1.svg",
+    "imgGold": "/assets/img/item/food/coffee_1.svg",
+    "imgGold2": "/assets/img/item/food/coffee_2.svg",
+    "type": "food",
+    "name": "Coffee"
+  },
+  {
+    "id": "multivitamin_juice",
+    "level": 1,
+    "img": "/assets/img/item/food/multivitamin_juice_1.svg",
+    "imgGold": "/assets/img/item/food/multivitamin_juice_1.svg",
+    "imgGold2": "/assets/img/item/food/multivitamin_juice_2.svg",
+    "type": "food",
+    "name": "Multivaitamin juice"
+  },
+  {
+    "id": "carrot",
+    "level": 1,
+    "img": "/assets/img/item/food/carrot_1.svg",
+    "imgGold": "/assets/img/item/food/carrot_1.svg",
+    "imgGold2": "/assets/img/item/food/carrot_2.svg",
+    "type": "food",
+    "name": "Carrot"
+  },
+  {
+    "id": "energy_drink",
+    "level": 1,
+    "img": "/assets/img/item/food/energy_drink.svg",
+    "imgGold": "/assets/img/item/food/energy_drink.svg",
+    "type": "food",
+    "name": "Energy drink",
+    "droppable": false
+  },
+  {
+    "id": "power_bar",
+    "level": 1,
+    "img": "/assets/img/item/food/power_bar.svg",
+    "type": "food",
+    "name": "Power bar",
+    "droppable": false
+  },
+  {
+    "id": "riot_shield",
+    "level": 1,
+    "img": "/assets/img/item/accessory/riot_shield.svg",
+    "type": "accessory",
+    "name": "Riot shield",
+    "size": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "holo_sight",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "level": 10,
+    "img": "/assets/img/item/accessory/holo_sight.svg",
+    "type": "accessory",
+    "name": "Holographic visor",
+    "size": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "laser_sight",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun"
+    ],
+    "level": 11,
+    "img": "/assets/img/item/accessory/laser_sight.svg",
+    "type": "accessory",
+    "name": "Laser sight",
+    "size": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "bulletproof_vest",
+    "level": 12,
+    "img": "/assets/img/item/accessory/bulletproof_vest.svg",
+    "type": "accessory",
+    "name": "Bulletproof vest",
+    "size": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "camouflage_suit",
+    "level": 13,
+    "img": "/assets/img/item/accessory/camouflage_suit.svg",
+    "type": "accessory",
+    "name": "Camouflage suit",
+    "size": [
+      4,
+      3
+    ]
+  },
+  {
+    "id": "tactical_telescopic_sight",
+    "weaponKind": [
+      "rifle",
+      "sniper"
+    ],
+    "level": 14,
+    "img": "/assets/img/item/accessory/tactical_telescopic_sight.svg",
+    "type": "accessory",
+    "name": "Tactical telescopic sight",
+    "size": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "heartbeat_sensor",
+    "level": 17,
+    "img": "/assets/img/item/accessory/heartbeat_sensor.svg",
+    "type": "accessory",
+    "name": "Heartbeat sensor",
+    "size": [
+      3,
+      3
+    ]
+  },
+  {
+    "id": "thermal_telescopic_sight",
+    "weaponKind": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "level": 20,
+    "img": "/assets/img/item/accessory/thermal_telescopic_sight.svg",
+    "type": "accessory",
+    "name": "Thermal imaging telescopic sight",
+    "size": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "full_metal_jacket_small",
+    "level": 1,
+    "img": "/assets/img/item/consumable/full_metal_jacket_small_1.svg",
+    "imgGold": "/assets/img/item/consumable/full_metal_jacket_small_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "full_metal_jacket",
+    "weaponKind": [
+      "pistol",
+      "submachine"
+    ],
+    "name": "Full metal jacket bullet (small caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "full_metal_jacket_shotgun",
+    "level": 13,
+    "img": "/assets/img/item/consumable/full_metal_jacket_shotgun_1.svg",
+    "imgGold": "/assets/img/item/consumable/full_metal_jacket_shotgun_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "full_metal_jacket",
+    "weaponKind": [
+      "shotgun"
+    ],
+    "name": "Full metal jacket bullet (shotgun)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "full_metal_jacket_large",
+    "level": 13,
+    "img": "/assets/img/item/consumable/full_metal_jacket_large_1.svg",
+    "imgGold": "/assets/img/item/consumable/full_metal_jacket_large_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "full_metal_jacket",
+    "weaponKind": [
+      "rifle",
+      "sniper"
+    ],
+    "name": "Full metal jacket bullet (large caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "soft_nosed_bullet_small",
+    "img": "/assets/img/item/consumable/soft_nosed_bullet_small_1.svg",
+    "level": 1,
+    "imgGold": "/assets/img/item/consumable/soft_nosed_bullet_small_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "soft_nosed_bullet",
+    "weaponKind": [
+      "pistol",
+      "submachine"
+    ],
+    "name": "Soft nosed bullet (small caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "img": "/assets/img/item/consumable/soft_nosed_bullet_shotgun_1.svg",
+    "level": 13,
+    "imgGold": "/assets/img/item/consumable/soft_nosed_bullet_shotgun_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "soft_nosed_bullet",
+    "weaponKind": [
+      "shotgun"
+    ],
+    "name": "Soft nosed bullet (shotgun)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "soft_nosed_bullet_large",
+    "img": "/assets/img/item/consumable/soft_nosed_bullet_large_1.svg",
+    "level": 13,
+    "imgGold": "/assets/img/item/consumable/soft_nosed_bullet_large_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "soft_nosed_bullet",
+    "weaponKind": [
+      "rifle",
+      "sniper"
+    ],
+    "name": "Soft nosed bullet (large caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "tracer_ammunition_small",
+    "img": "/assets/img/item/consumable/tracer_ammunition_small_1.svg",
+    "level": 1,
+    "imgGold": "/assets/img/item/consumable/tracer_ammunition_small_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "tracer_ammunition",
+    "weaponKind": [
+      "pistol",
+      "submachine"
+    ],
+    "name": "Tracer ammunition (small caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "img": "/assets/img/item/consumable/tracer_ammunition_shotgun_1.svg",
+    "level": 13,
+    "imgGold": "/assets/img/item/consumable/tracer_ammunition_shotgun_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "tracer_ammunition",
+    "weaponKind": [
+      "shotgun"
+    ],
+    "name": "Tracer ammunition (shotgun)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "tracer_ammunition_large",
+    "img": "/assets/img/item/consumable/tracer_ammunition_large_1.svg",
+    "level": 13,
+    "imgGold": "/assets/img/item/consumable/tracer_ammunition_large_2.svg",
+    "type": "consumable",
+    "kind": "ammo",
+    "ammoKind": "tracer_ammunition",
+    "weaponKind": [
+      "rifle",
+      "sniper"
+    ],
+    "name": "Tracer ammunition (large caliber)",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "tnt",
+    "level": 1,
+    "type": "consumable",
+    "name": "TNT",
+    "size": [
+      2,
+      2
+    ],
+    "target": "enemy",
+    "img": "/assets/img/item/consumable/tnt.svg",
+    "imgGold": "/assets/img/item/consumable/dynamite.svg",
+    "nameGold": "Dynamite",
+    "imgLegendary": "/assets/img/item/consumable/dynamite_xxl.svg",
+    "nameLegendary": "Dynamite XXL"
+  },
+  {
+    "id": "smoke_grenade",
+    "level": 1,
+    "img": "/assets/img/item/consumable/smoke_grenade_1.svg",
+    "imgGold": "/assets/img/item/consumable/smoke_grenade_2.svg",
+    "type": "consumable",
+    "name": "Smoke Grenade",
+    "size": [
+      3,
+      2
+    ],
+    "target": "enemy"
+  },
+  {
+    "id": "flashbang",
+    "level": 1,
+    "img": "/assets/img/item/consumable/flashbang_1.svg",
+    "imgGold": "/assets/img/item/consumable/flashbang_2.svg",
+    "type": "consumable",
+    "name": "Flashbang",
+    "size": [
+      3,
+      2
+    ],
+    "target": "enemy"
+  },
+  {
+    "id": "wound_dressing",
+    "level": 1,
+    "img": "/assets/img/item/consumable/wound_dressing_1.svg",
+    "imgGold": "/assets/img/item/consumable/wound_dressing_2.svg",
+    "type": "consumable",
+    "name": "Wound Dressing",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "first_aid_kit",
+    "level": 1,
+    "img": "/assets/img/item/consumable/first_aid_kit_1.svg",
+    "imgGold": "/assets/img/item/consumable/first_aid_kit_2.svg",
+    "type": "consumable",
+    "name": "First aid kit",
+    "size": [
+      2,
+      3
+    ],
+    "target": "self"
+  },
+  {
+    "id": "blood_bag",
+    "level": 1,
+    "img": "/assets/img/item/consumable/blood_bag_1.svg",
+    "imgGold": "/assets/img/item/consumable/blood_bag_2.svg",
+    "type": "consumable",
+    "name": "Blood bag",
+    "size": [
+      2,
+      3
+    ],
+    "target": "self"
+  },
+  {
+    "id": "headache_pill",
+    "level": 1,
+    "img": "/assets/img/item/consumable/headache_pill_1.svg",
+    "imgGold": "/assets/img/item/consumable/headache_pill_2.svg",
+    "type": "consumable",
+    "name": "Headache pill",
+    "size": [
+      2,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "adrenalin",
+    "level": 1,
+    "img": "/assets/img/item/consumable/adrenalin_1.svg",
+    "imgGold": "/assets/img/item/consumable/adrenalin_2.svg",
+    "type": "consumable",
+    "name": "Adrenalin",
+    "size": [
+      3,
+      2
+    ],
+    "target": "self"
+  },
+  {
+    "id": "defibrillator",
+    "level": 1,
+    "img": "/assets/img/item/consumable/defibrillator_1.svg",
+    "imgGold": "/assets/img/item/consumable/defibrillator_2.svg",
+    "type": "consumable",
+    "name": "Defibrillator",
+    "size": [
+      2,
+      3
+    ],
+    "target": "self"
+  },
+  {
+    "id": "throwing_knife",
+    "level": 1,
+    "img": "/assets/img/item/consumable/throwing_knife_1.svg",
+    "imgGold": "/assets/img/item/consumable/throwing_knife_2.svg",
+    "type": "consumable",
+    "name": "Throwing knife",
+    "size": [
+      2,
+      2
+    ],
+    "target": "enemy"
+  },
+  {
+    "id": "fespa",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/fespa.svg",
+    "type": "equipment",
+    "name": "Fespa",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "hippie_minivan",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/hippie_minivan.svg",
+    "type": "equipment",
+    "name": "Hippie Minivan",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "daw_iwetta",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/daw_iwetta.svg",
+    "type": "equipment",
+    "name": "Daw Iwetta",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "fitz_350",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/fitz_350.svg",
+    "type": "equipment",
+    "name": "Fitz 350",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "scooter",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/scooter.svg",
+    "type": "equipment",
+    "name": "Scooter",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "vat",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/vat.svg",
+    "type": "equipment",
+    "name": "Vat",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "jeep",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/jeep.svg",
+    "type": "equipment",
+    "name": "Jeep",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "duomog",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/duomog.svg",
+    "type": "equipment",
+    "name": "Duomog",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "austin_mastin_pagoda",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/austin_mastin_pagoda.svg",
+    "type": "equipment",
+    "name": "Austin Mastin Pagoda",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "type_v",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/type_v.svg",
+    "type": "equipment",
+    "name": "Type V",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "ambulance",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/ambulance.svg",
+    "type": "equipment",
+    "name": "Ambulance",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "police_car",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/police_car.svg",
+    "type": "equipment",
+    "name": "Police Car",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "black_panther",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/black_panther.svg",
+    "type": "equipment",
+    "name": "Black Panther",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "royal_royce_ghost_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/royal_royce_ghost_2.svg",
+    "type": "equipment",
+    "name": "Royal Royce Ghost 2",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "truck",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/truck.svg",
+    "type": "equipment",
+    "name": "Truck",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "fire_truck",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/fire_truck.svg",
+    "type": "equipment",
+    "name": "Fire Truck",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "jetpack",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/jetpack.svg",
+    "type": "equipment",
+    "name": "Jetpack",
+    "kind": "vehicle",
+    "zone": "new_york"
+  },
+  {
+    "id": "lombargi_sofa",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/lombargi_sofa.svg",
+    "type": "equipment",
+    "name": "Lombargi Sofa",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "mercado_bonz_z_class",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/mercado_bonz_z_class.svg",
+    "type": "equipment",
+    "name": "Mercado Bonz Z-Class",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "feierei_008",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/feierei_008.svg",
+    "type": "equipment",
+    "name": "Feierei 008",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "haley_michaison_c_rod",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/haley_michaison_c_rod.svg",
+    "type": "equipment",
+    "name": "Haley Michaison C-Rod",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "bagotti_venom",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/bagotti_venom.svg",
+    "type": "equipment",
+    "name": "Bagotti Venom",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "apatchi_ha_46",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/apatchi_ha_46.svg",
+    "type": "equipment",
+    "name": "Apatchi HA-46",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "little_nellie",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/little_nellie.svg",
+    "type": "equipment",
+    "name": "Little Nellie",
+    "kind": "vehicle",
+    "zone": "miami"
+  },
+  {
+    "id": "austin_mastin_vancish",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/austin_mastin_vancish.svg",
+    "type": "equipment",
+    "name": "Austin Mastin Vancish",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "hummel_3",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/hummel_3.svg",
+    "type": "equipment",
+    "name": "Hummel 3",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "habayusa",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/habayusa.svg",
+    "type": "equipment",
+    "name": "Habayusa",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "huge_499",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/huge_499.svg",
+    "type": "equipment",
+    "name": "Huge 499",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "lombargi_murgelargo",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/lombargi_murgelargo.svg",
+    "type": "equipment",
+    "name": "Lombargi Murgelargo",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "pwnsche_3dt",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/pwnsche_3dt.svg",
+    "type": "equipment",
+    "name": "Pwnsche 3DT",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "mercado_bonz_lsl_omg",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/mercado_bonz_lsl_omg.svg",
+    "type": "equipment",
+    "name": "Mercado Bonz LSL-OMG",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "aprilbach_exodus",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/aprilbach_exodus.svg",
+    "type": "equipment",
+    "name": "Aprilbach Exodus",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "vard_palamino_ps500",
+    "level": 1,
+    "img": "/assets/img/item/equipment/vehicle/vard_palamino_ps500.svg",
+    "type": "equipment",
+    "name": "Vard Palamino PS500",
+    "kind": "vehicle",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "cardboard_box",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/cardboard_box.svg",
+    "type": "equipment",
+    "name": "Cardboard Box",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "corrugated_iron_shack",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/corrugated_iron_shack.svg",
+    "type": "equipment",
+    "name": "Corrugated Iron Shack",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "dosshouse",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/dosshouse.svg",
+    "type": "equipment",
+    "name": "Dosshouse",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "bungalow",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/bungalow.svg",
+    "type": "equipment",
+    "name": "Bungalow",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "townhouse",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/townhouse.svg",
+    "type": "equipment",
+    "name": "Townhouse",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "small_house",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/small_house.svg",
+    "type": "equipment",
+    "name": "Small House",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "bungalow_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/bungalow_2.svg",
+    "type": "equipment",
+    "name": "Bungalow",
+    "kind": "house",
+    "zone": "new_york"
+  },
+  {
+    "id": "bungalow_3",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/bungalow_3.svg",
+    "type": "equipment",
+    "name": "Bungalow",
+    "kind": "house",
+    "zone": "miami"
+  },
+  {
+    "id": "large_house",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/large_house.svg",
+    "type": "equipment",
+    "name": "Large House",
+    "kind": "house",
+    "zone": "miami"
+  },
+  {
+    "id": "large_house_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/large_house_2.svg",
+    "type": "equipment",
+    "name": "Large House",
+    "kind": "house",
+    "zone": "miami"
+  },
+  {
+    "id": "mansion",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/mansion.svg",
+    "type": "equipment",
+    "name": "Mansion",
+    "kind": "house",
+    "zone": "miami"
+  },
+  {
+    "id": "villa",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/villa.svg",
+    "type": "equipment",
+    "name": "Villa",
+    "kind": "house",
+    "zone": "miami"
+  },
+  {
+    "id": "mansion_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/mansion_2.svg",
+    "type": "equipment",
+    "name": "Mansion",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "villa_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/villa_2.svg",
+    "type": "equipment",
+    "name": "Villa",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "villa_3",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/villa_3.svg",
+    "type": "equipment",
+    "name": "Villa",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "villa_4",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/villa_4.svg",
+    "type": "equipment",
+    "name": "Villa",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "orangery",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/orangery.svg",
+    "type": "equipment",
+    "name": "Orangery",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "impresive_white_house",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/impresive_white_house.svg",
+    "type": "equipment",
+    "name": "Impressive White House",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "pompous_castle",
+    "level": 1,
+    "img": "/assets/img/item/equipment/house/pompous_castle.svg",
+    "type": "equipment",
+    "name": "Pompous Castle",
+    "kind": "house",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "rowdy",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/rowdy.svg",
+    "type": "equipment",
+    "name": "Rowdy",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "boxing_enthusiast",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/boxing_enthusiast.svg",
+    "type": "equipment",
+    "name": "Boxing Enthusiast",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "swindler",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/swindler.svg",
+    "type": "equipment",
+    "name": "Swindler",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "wrestler",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/wrestler.svg",
+    "type": "equipment",
+    "name": "Wrestler",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "muay_thai_boxer",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/muay_thai_boxer.svg",
+    "type": "equipment",
+    "name": "Muay Thai Boxer",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "dog_handler",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/dog_handler.svg",
+    "type": "equipment",
+    "name": "Dog Handler",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "archer",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/archer.svg",
+    "type": "equipment",
+    "name": "Archer",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "military_sniper",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/military_sniper.svg",
+    "type": "equipment",
+    "name": "Military Sniper",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "loyal_politician",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/loyal_politician.svg",
+    "type": "equipment",
+    "name": "Loyal Politician",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "corrupt_police",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/corrupt_police.svg",
+    "type": "equipment",
+    "name": "Corrupt Police",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "us_marine",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/us_marine.svg",
+    "type": "equipment",
+    "name": "US Marine",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "shaolin",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/shaolin.svg",
+    "type": "equipment",
+    "name": "Shaolin",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "corrupt_swat_member",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/corrupt_swat_member.svg",
+    "type": "equipment",
+    "name": "Corrupt SWAT Member",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "sniper",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/sniper.svg",
+    "type": "equipment",
+    "name": "Sniper",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "prosecutor",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/prosecutor.svg",
+    "type": "equipment",
+    "name": "Prosecutor",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "lawyers",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/lawyers.svg",
+    "type": "equipment",
+    "name": "Lawyers",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "assassin",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/assassin.svg",
+    "type": "equipment",
+    "name": "Assassin",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "judge",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/judge.svg",
+    "type": "equipment",
+    "name": "Judge",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "secret_agent",
+    "level": 1,
+    "img": "/assets/img/item/equipment/bodyguard/secret_agent.svg",
+    "type": "equipment",
+    "name": "Secret Agent",
+    "kind": "bodyguard",
+    "zone": "new_york"
+  },
+  {
+    "id": "star",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/star.svg",
+    "type": "equipment",
+    "name": "Star",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "rose",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/rose.svg",
+    "type": "equipment",
+    "name": "Rose",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "adhesive_tape",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/adhesive_tape.svg",
+    "type": "equipment",
+    "name": "Adhesive Tape",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "skull",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/skull.svg",
+    "type": "equipment",
+    "name": "Skull",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "toxic_product",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/toxic_product.svg",
+    "type": "equipment",
+    "name": "Toxic Product",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "ankeh",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/ankeh.svg",
+    "type": "equipment",
+    "name": "Ankeh",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "tribal",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/tribal.svg",
+    "type": "equipment",
+    "name": "Tribal",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "dragon",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/dragon.svg",
+    "type": "equipment",
+    "name": "Dragon",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "wolf",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/wolf.svg",
+    "type": "equipment",
+    "name": "Wolf",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "ace_of_spades",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/ace_of_spades.svg",
+    "type": "equipment",
+    "name": "Ace of Spades",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "hate",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/hate.svg",
+    "type": "equipment",
+    "name": "Hate",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "love",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/love.svg",
+    "type": "equipment",
+    "name": "Love",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "mom",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/mom.svg",
+    "type": "equipment",
+    "name": "Mom",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "flame_skull",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/flame_skull.svg",
+    "type": "equipment",
+    "name": "Flame Skull",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "barcode",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/barcode.svg",
+    "type": "equipment",
+    "name": "Barcode",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "scorpio",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/scorpio.svg",
+    "type": "equipment",
+    "name": "Scorpio",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "tribal_2",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/tribal_2.svg",
+    "type": "equipment",
+    "name": "Tribal",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "atomic",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/atomic.svg",
+    "type": "equipment",
+    "name": "Atomic",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "guns",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/guns.svg",
+    "type": "equipment",
+    "name": "Guns",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "spider_web",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/spider_web.svg",
+    "type": "equipment",
+    "name": "Spider Web",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "butterfly",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/butterfly.svg",
+    "type": "equipment",
+    "name": "Butterfly",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "blood",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tattoo/blood.svg",
+    "type": "equipment",
+    "name": "Blood",
+    "kind": "tattoo",
+    "zone": "new_york"
+  },
+  {
+    "id": "ladybug",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/ladybug.svg",
+    "type": "equipment",
+    "name": "Ladybug",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "four_leaf_clover",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/four_leaf_clover.svg",
+    "type": "equipment",
+    "name": "Four Leaf Clover",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "fly_swatter",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/fly_swatter.svg",
+    "type": "equipment",
+    "name": "Fly Swatter",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "lucky_piggy",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/lucky_piggy.svg",
+    "type": "equipment",
+    "name": "Lucky Piggy",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "horseshoe",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/horseshoe.svg",
+    "type": "equipment",
+    "name": "Horseshoe",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "wippo_lighter",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/wippo_lighter.svg",
+    "type": "equipment",
+    "name": "Wippo Lighter",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "dog_tag",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/dog_tag.svg",
+    "type": "equipment",
+    "name": "Dog Tag",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "dice",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/dice.svg",
+    "type": "equipment",
+    "name": "Dice",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "razor_blade",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/razor_blade.svg",
+    "type": "equipment",
+    "name": "Razor Blade",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "rabbit_s_foot",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/rabbit_s_foot.svg",
+    "type": "equipment",
+    "name": "Rabbit's Foot",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "daruma_doll",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/daruma_doll.svg",
+    "type": "equipment",
+    "name": "Daruma Doll",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "four_aces",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/four_aces.svg",
+    "type": "equipment",
+    "name": "Four Aces",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "8_ball",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/8_ball.svg",
+    "type": "equipment",
+    "name": "8 Ball",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "bloody_rag",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/bloody_rag.svg",
+    "type": "equipment",
+    "name": "Bloody Rag",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "horse_head",
+    "level": 1,
+    "img": "/assets/img/item/equipment/lucky_charm/horse_head.svg",
+    "type": "equipment",
+    "name": "Horse Head",
+    "kind": "lucky_charm",
+    "zone": "new_york"
+  },
+  {
+    "id": "mobile_phone",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/mobile_phone.svg",
+    "type": "equipment",
+    "name": "Mobile Phone",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "television",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/television.svg",
+    "type": "equipment",
+    "name": "Television",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "wristwatch",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/wristwatch.svg",
+    "type": "equipment",
+    "name": "Wristwatch",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "mp3_player",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/mp3_player.svg",
+    "type": "equipment",
+    "name": "MP3 Player",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "cigar",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/cigar.svg",
+    "type": "equipment",
+    "name": "Cigar",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "banknotes",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/banknotes.svg",
+    "type": "equipment",
+    "name": "Banknotes",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "ring",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/ring.svg",
+    "type": "equipment",
+    "name": "Ring",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "champagne",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/champagne.svg",
+    "type": "equipment",
+    "name": "Champagne",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "cocktail",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/cocktail.svg",
+    "type": "equipment",
+    "name": "Cocktail",
+    "kind": "luxury",
+    "zone": "new_york"
+  },
+  {
+    "id": "old_globe",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/old_globe.svg",
+    "type": "equipment",
+    "name": "Old Globe",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "smartphone",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/smartphone.svg",
+    "type": "equipment",
+    "name": "Smartphone",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "plasma_screen",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/plasma_screen.svg",
+    "type": "equipment",
+    "name": "Plasma Screen",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "oak_wine_barrel",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/oak_wine_barrel.svg",
+    "type": "equipment",
+    "name": "Oak Wine Barrel",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "dolex",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/dolex.svg",
+    "type": "equipment",
+    "name": "Dolex",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "silk_shawl",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/silk_shawl.svg",
+    "type": "equipment",
+    "name": "Silk Shawl",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "laptop",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/laptop.svg",
+    "type": "equipment",
+    "name": "Laptop",
+    "kind": "luxury",
+    "zone": "miami"
+  },
+  {
+    "id": "chandelier",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/chandelier.svg",
+    "type": "equipment",
+    "name": "Chandelier",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "portrait_of_dr_gachet",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/portrait_of_dr_gachet.svg",
+    "type": "equipment",
+    "name": "Portrait of Dr. Gachet",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "the_resistance_of_memory",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/the_resistance_of_memory.svg",
+    "type": "equipment",
+    "name": "The Resistance of Memory",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "aztec_mask",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/aztec_mask.svg",
+    "type": "equipment",
+    "name": "Aztec Mask",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "scream",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/scream.svg",
+    "type": "equipment",
+    "name": "Scream",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "crystal_skull",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/crystal_skull.svg",
+    "type": "equipment",
+    "name": "Crystal Skull",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "mona_lisa",
+    "level": 1,
+    "img": "/assets/img/item/equipment/luxury/mona_lisa.svg",
+    "type": "equipment",
+    "name": "Mona Lisa",
+    "kind": "luxury",
+    "zone": "hong_kong"
+  },
+  {
+    "id": "cockroach",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/cockroach.svg",
+    "type": "equipment",
+    "name": "Cockroach",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "mouse",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/mouse.svg",
+    "type": "equipment",
+    "name": "Mouse",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "gold_fish",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/gold_fish.svg",
+    "type": "equipment",
+    "name": "Gold Fish",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "rat",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/rat.svg",
+    "type": "equipment",
+    "name": "Rat",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "rabbit",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/rabbit.svg",
+    "type": "equipment",
+    "name": "Rabbit",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "cat",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/cat.svg",
+    "type": "equipment",
+    "name": "Cat",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "spider",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/spider.svg",
+    "type": "equipment",
+    "name": "Spider",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "snake",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/snake.svg",
+    "type": "equipment",
+    "name": "Snake",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "parrot",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/parrot.svg",
+    "type": "equipment",
+    "name": "Parrot",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "chihuahua",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/chihuahua.svg",
+    "type": "equipment",
+    "name": "Chihuahua",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "piranha",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/piranha.svg",
+    "type": "equipment",
+    "name": "Piranha",
+    "kind": "pet",
+    "zone": "new_york"
+  },
+  {
+    "id": "tiger",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/tiger.svg",
+    "type": "equipment",
+    "name": "Tiger",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "pitbull_terrier",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/pitbull_terrier.svg",
+    "type": "equipment",
+    "name": "Pitbull Terrier",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "german_shepherd",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/german_shepherd.svg",
+    "type": "equipment",
+    "name": "German Shepherd",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "pitbull",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/pitbull.svg",
+    "type": "equipment",
+    "name": "Pitbull",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "rottweiler",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/rottweiler.svg",
+    "type": "equipment",
+    "name": "Rottweiler",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "dobermann",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/dobermann.svg",
+    "type": "equipment",
+    "name": "Dobermann",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "falcon",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/falcon.svg",
+    "type": "equipment",
+    "name": "Falcon",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "great_dane",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/great_dane.svg",
+    "type": "equipment",
+    "name": "Great Dane",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "boxer",
+    "level": 1,
+    "img": "/assets/img/item/equipment/pet/boxer.svg",
+    "type": "equipment",
+    "name": "Boxer",
+    "kind": "pet",
+    "zone": "miami"
+  },
+  {
+    "id": "leather_mittens",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/leather_mittens.svg",
+    "type": "equipment",
+    "name": "Leather Mittens",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "morion",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/morion.svg",
+    "type": "equipment",
+    "name": "Morion",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "rain_boots",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/rain_boots.svg",
+    "type": "equipment",
+    "name": "Rain Boots",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "rope",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/rope.svg",
+    "type": "equipment",
+    "name": "Rope",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "scotch_tape",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/scotch_tape.svg",
+    "type": "equipment",
+    "name": "Scotch Tape",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "scooter_helmet",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/scooter_helmet.svg",
+    "type": "equipment",
+    "name": "Scooter Helmet",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "welding_goggles",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/welding_goggles.svg",
+    "type": "equipment",
+    "name": "Welding Goggles",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "flashlight",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/flashlight.svg",
+    "type": "equipment",
+    "name": "Flashlight",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "glasses",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/glasses.svg",
+    "type": "equipment",
+    "name": "Glasses",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "black_boots",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/black_boots.svg",
+    "type": "equipment",
+    "name": "Black Boots",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "cutting_pliers",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/cutting_pliers.svg",
+    "type": "equipment",
+    "name": "Cutting Pliers",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "gas_mask",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/gas_mask.svg",
+    "type": "equipment",
+    "name": "Gas Mask",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "helmet",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/helmet.svg",
+    "type": "equipment",
+    "name": "Helmet",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "fake_license_plates",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/fake_license_plates.svg",
+    "type": "equipment",
+    "name": "Fake License Plates",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "steel_coated_boots",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/steel_coated_boots.svg",
+    "type": "equipment",
+    "name": "Steel Coated Boots",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "thick_leather_gloves",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/thick_leather_gloves.svg",
+    "type": "equipment",
+    "name": "Thick Leather Gloves",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "night_vision_goggles",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/night_vision_goggles.svg",
+    "type": "equipment",
+    "name": "Night Vision Goggles",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "set_of_skeleton_keys",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/set_of_skeleton_keys.svg",
+    "type": "equipment",
+    "name": "Set of Skeleton Keys",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "motorcycle_mask",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/motorcycle_mask.svg",
+    "type": "equipment",
+    "name": "Motorcycle Mask",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "grappling_hook",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/grappling_hook.svg",
+    "type": "equipment",
+    "name": "Grappling Hook",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "evil_clown_mask",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/evil_clown_mask.svg",
+    "type": "equipment",
+    "name": "Evil Clown Mask",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "scream_mask",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/scream_mask.svg",
+    "type": "equipment",
+    "name": "Scream Mask",
+    "kind": "tool",
+    "zone": "new_york"
+  },
+  {
+    "id": "concrete_boots",
+    "level": 1,
+    "img": "/assets/img/item/equipment/tool/concrete_boots.svg",
+    "type": "equipment",
+    "name": "Concrete Boots",
+    "kind": "tool",
+    "zone": "new_york"
+  }
+]

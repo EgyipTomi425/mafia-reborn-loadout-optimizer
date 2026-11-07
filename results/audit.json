@@ -1,0 +1,24 @@
+[
+  {
+    "category": "submachine",
+    "area_candidates": 7852,
+    "distinct_geometries": 142,
+    "valid_setups": 2947,
+    "milp_checked": true,
+    "all_placements_checked": true,
+    "all_trade_rankings_checked": true,
+    "all_weighted_rankings_checked": true,
+    "all_four_winner_selections_checked": true
+  },
+  {
+    "category": "rifle",
+    "area_candidates": 9616,
+    "distinct_geometries": 81,
+    "valid_setups": 2066,
+    "milp_checked": true,
+    "all_placements_checked": true,
+    "all_trade_rankings_checked": true,
+    "all_weighted_rankings_checked": true,
+    "all_four_winner_selections_checked": true
+  }
+]

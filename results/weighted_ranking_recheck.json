@@ -1,0 +1,595 @@
+{
+  "method": "CPU all-pairs outcome matrix; weights independently derived from its row win counts; exact rational comparison of weighted win rates",
+  "additional_checks": {
+    "ratio_99_to_1_checked": true,
+    "uniform_weights_recover_unweighted_checked": true,
+    "synthetic_unique_winner_changes": true,
+    "synthetic_raw_winner_index": 1,
+    "synthetic_weighted_winner_index": 0,
+    "synthetic_raw_wins": [
+      4,
+      5,
+      3,
+      3,
+      3,
+      1,
+      2
+    ],
+    "synthetic_weighted_rates": [
+      0.7647058823529411,
+      0.75,
+      0.3888888888888889,
+      0.3333333333333333,
+      0.3888888888888889,
+      0.2,
+      0.21052631578947367
+    ],
+    "synthetic_pair_outcomes": [
+      [
+        0,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        -1,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1,
+        0
+      ]
+    ]
+  },
+  "categories": [
+    {
+      "category": "submachine",
+      "setups": 2947,
+      "unordered_pairs": 4340931,
+      "weights_derived_from_cpu_outcomes_only": true,
+      "max_weighted_win_rate_error_percentage_points": 0.0,
+      "max_weighted_mean_error_hp_pp": 2.3092638912203256e-14,
+      "objectives": {
+        "most_wins": {
+          "gpu_selected_id": 56878,
+          "cpu_selected_id": 56878,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.13577732518669228,
+          "next_distinct_primary_score_id": 52781,
+          "top_5": [
+            {
+              "id": 56878,
+              "win_rate_percent": 99.55872369314325,
+              "weighted_win_rate_percent": 99.12830099896057,
+              "mean_net_hp_pp": 2.3399010944842766,
+              "weighted_mean_net_hp_pp": 1.7881464395974105
+            },
+            {
+              "id": 52781,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.3189562066580485,
+              "weighted_mean_net_hp_pp": 1.7686202624946448
+            },
+            {
+              "id": 51759,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.2952933366169344,
+              "weighted_mean_net_hp_pp": 1.7474674369167393
+            },
+            {
+              "id": 88636,
+              "win_rate_percent": 99.28716904276986,
+              "weighted_win_rate_percent": 98.6115304188381,
+              "mean_net_hp_pp": 2.0334545985467236,
+              "weighted_mean_net_hp_pp": 1.5730711929919556
+            },
+            {
+              "id": 84606,
+              "win_rate_percent": 99.21928038017651,
+              "weighted_win_rate_percent": 98.46731240412316,
+              "mean_net_hp_pp": 2.123680188063779,
+              "weighted_mean_net_hp_pp": 1.5857502120206795
+            }
+          ]
+        },
+        "best_mean_trade": {
+          "gpu_selected_id": 56878,
+          "cpu_selected_id": 56878,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.020944887826228165,
+          "next_distinct_primary_score_id": 52781,
+          "top_5": [
+            {
+              "id": 56878,
+              "win_rate_percent": 99.55872369314325,
+              "weighted_win_rate_percent": 99.12830099896057,
+              "mean_net_hp_pp": 2.3399010944842766,
+              "weighted_mean_net_hp_pp": 1.7881464395974105
+            },
+            {
+              "id": 52781,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.3189562066580485,
+              "weighted_mean_net_hp_pp": 1.7686202624946448
+            },
+            {
+              "id": 51759,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.2952933366169344,
+              "weighted_mean_net_hp_pp": 1.7474674369167393
+            },
+            {
+              "id": 51838,
+              "win_rate_percent": 99.08350305498982,
+              "weighted_win_rate_percent": 98.2585046477739,
+              "mean_net_hp_pp": 2.20637964431853,
+              "weighted_mean_net_hp_pp": 1.6817272068445297
+            },
+            {
+              "id": 51950,
+              "win_rate_percent": 99.08350305498982,
+              "weighted_win_rate_percent": 98.2585046477739,
+              "mean_net_hp_pp": 2.204732312789119,
+              "weighted_mean_net_hp_pp": 1.680617497784341
+            }
+          ]
+        },
+        "best_weighted_win_rate": {
+          "gpu_selected_id": 56878,
+          "cpu_selected_id": 56878,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.2557944941904089,
+          "next_distinct_primary_score_id": 52781,
+          "top_5": [
+            {
+              "id": 56878,
+              "win_rate_percent": 99.55872369314325,
+              "weighted_win_rate_percent": 99.12830099896057,
+              "mean_net_hp_pp": 2.3399010944842766,
+              "weighted_mean_net_hp_pp": 1.7881464395974105
+            },
+            {
+              "id": 52781,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.3189562066580485,
+              "weighted_mean_net_hp_pp": 1.7686202624946448
+            },
+            {
+              "id": 51759,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.2952933366169344,
+              "weighted_mean_net_hp_pp": 1.7474674369167393
+            },
+            {
+              "id": 88636,
+              "win_rate_percent": 99.28716904276986,
+              "weighted_win_rate_percent": 98.6115304188381,
+              "mean_net_hp_pp": 2.0334545985467236,
+              "weighted_mean_net_hp_pp": 1.5730711929919556
+            },
+            {
+              "id": 84606,
+              "win_rate_percent": 99.21928038017651,
+              "weighted_win_rate_percent": 98.46731240412316,
+              "mean_net_hp_pp": 2.123680188063779,
+              "weighted_mean_net_hp_pp": 1.5857502120206795
+            }
+          ]
+        },
+        "best_weighted_mean_trade": {
+          "gpu_selected_id": 56878,
+          "cpu_selected_id": 56878,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.01952617710276572,
+          "next_distinct_primary_score_id": 52781,
+          "top_5": [
+            {
+              "id": 56878,
+              "win_rate_percent": 99.55872369314325,
+              "weighted_win_rate_percent": 99.12830099896057,
+              "mean_net_hp_pp": 2.3399010944842766,
+              "weighted_mean_net_hp_pp": 1.7881464395974105
+            },
+            {
+              "id": 52781,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.3189562066580485,
+              "weighted_mean_net_hp_pp": 1.7686202624946448
+            },
+            {
+              "id": 51759,
+              "win_rate_percent": 99.42294636795656,
+              "weighted_win_rate_percent": 98.87250650477016,
+              "mean_net_hp_pp": 2.2952933366169344,
+              "weighted_mean_net_hp_pp": 1.7474674369167393
+            },
+            {
+              "id": 51838,
+              "win_rate_percent": 99.08350305498982,
+              "weighted_win_rate_percent": 98.2585046477739,
+              "mean_net_hp_pp": 2.20637964431853,
+              "weighted_mean_net_hp_pp": 1.6817272068445297
+            },
+            {
+              "id": 51950,
+              "win_rate_percent": 99.08350305498982,
+              "weighted_win_rate_percent": 98.2585046477739,
+              "mean_net_hp_pp": 2.204732312789119,
+              "weighted_mean_net_hp_pp": 1.680617497784341
+            }
+          ]
+        }
+      },
+      "win_rate_ranking_changes": {
+        "changed_positions": 2822,
+        "largest_changes": [
+          {
+            "id": 52216,
+            "unweighted_rank": 1266,
+            "weighted_rank": 956
+          },
+          {
+            "id": 60152,
+            "unweighted_rank": 1267,
+            "weighted_rank": 957
+          },
+          {
+            "id": 60280,
+            "unweighted_rank": 1268,
+            "weighted_rank": 958
+          },
+          {
+            "id": 60392,
+            "unweighted_rank": 1269,
+            "weighted_rank": 959
+          },
+          {
+            "id": 60344,
+            "unweighted_rank": 1445,
+            "weighted_rank": 1145
+          }
+        ]
+      },
+      "mean_trade_ranking_changes": {
+        "changed_positions": 2876,
+        "largest_changes": [
+          {
+            "id": 54949,
+            "unweighted_rank": 1691,
+            "weighted_rank": 1887
+          },
+          {
+            "id": 55077,
+            "unweighted_rank": 1692,
+            "weighted_rank": 1888
+          },
+          {
+            "id": 63013,
+            "unweighted_rank": 1693,
+            "weighted_rank": 1889
+          },
+          {
+            "id": 54885,
+            "unweighted_rank": 1401,
+            "weighted_rank": 1595
+          },
+          {
+            "id": 53863,
+            "unweighted_rank": 1435,
+            "weighted_rank": 1614
+          }
+        ]
+      }
+    },
+    {
+      "category": "rifle",
+      "setups": 2066,
+      "unordered_pairs": 2133145,
+      "weights_derived_from_cpu_outcomes_only": true,
+      "max_weighted_win_rate_error_percentage_points": 0.0,
+      "max_weighted_mean_error_hp_pp": 2.842170943040401e-14,
+      "objectives": {
+        "most_wins": {
+          "gpu_selected_id": 85548,
+          "cpu_selected_id": 85548,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.04842615012107254,
+          "next_distinct_primary_score_id": 54380,
+          "top_5": [
+            {
+              "id": 85548,
+              "win_rate_percent": 99.66101694915255,
+              "weighted_win_rate_percent": 99.32587205340204,
+              "mean_net_hp_pp": 2.521557863024166,
+              "weighted_mean_net_hp_pp": 1.9127128737731909
+            },
+            {
+              "id": 54380,
+              "win_rate_percent": 99.61259079903148,
+              "weighted_win_rate_percent": 99.23216231129473,
+              "mean_net_hp_pp": 2.6339855773932372,
+              "weighted_mean_net_hp_pp": 2.0073857852250026
+            },
+            {
+              "id": 50286,
+              "win_rate_percent": 99.46731234866829,
+              "weighted_win_rate_percent": 98.94726069422691,
+              "mean_net_hp_pp": 2.584270538415881,
+              "weighted_mean_net_hp_pp": 1.9689240238092436
+            },
+            {
+              "id": 85532,
+              "win_rate_percent": 99.12832929782083,
+              "weighted_win_rate_percent": 98.31393429479621,
+              "mean_net_hp_pp": 2.0995162077957685,
+              "weighted_mean_net_hp_pp": 1.6232636736824353
+            },
+            {
+              "id": 54318,
+              "win_rate_percent": 98.93462469733656,
+              "weighted_win_rate_percent": 97.89679605203587,
+              "mean_net_hp_pp": 2.4758078279285827,
+              "weighted_mean_net_hp_pp": 1.8394353498505767
+            }
+          ]
+        },
+        "best_mean_trade": {
+          "gpu_selected_id": 52780,
+          "cpu_selected_id": 52780,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.158473979567348,
+          "next_distinct_primary_score_id": 54380,
+          "top_5": [
+            {
+              "id": 52780,
+              "win_rate_percent": 98.83777239709443,
+              "weighted_win_rate_percent": 97.8319985134782,
+              "mean_net_hp_pp": 2.7924595569605852,
+              "weighted_mean_net_hp_pp": 2.196852929374549
+            },
+            {
+              "id": 54380,
+              "win_rate_percent": 99.61259079903148,
+              "weighted_win_rate_percent": 99.23216231129473,
+              "mean_net_hp_pp": 2.6339855773932372,
+              "weighted_mean_net_hp_pp": 2.0073857852250026
+            },
+            {
+              "id": 50286,
+              "win_rate_percent": 99.46731234866829,
+              "weighted_win_rate_percent": 98.94726069422691,
+              "mean_net_hp_pp": 2.584270538415881,
+              "weighted_mean_net_hp_pp": 1.9689240238092436
+            },
+            {
+              "id": 85548,
+              "win_rate_percent": 99.66101694915255,
+              "weighted_win_rate_percent": 99.32587205340204,
+              "mean_net_hp_pp": 2.521557863024166,
+              "weighted_mean_net_hp_pp": 1.9127128737731909
+            },
+            {
+              "id": 54318,
+              "win_rate_percent": 98.93462469733656,
+              "weighted_win_rate_percent": 97.89679605203587,
+              "mean_net_hp_pp": 2.4758078279285827,
+              "weighted_mean_net_hp_pp": 1.8394353498505767
+            }
+          ]
+        },
+        "best_weighted_win_rate": {
+          "gpu_selected_id": 85548,
+          "cpu_selected_id": 85548,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.09370974210730632,
+          "next_distinct_primary_score_id": 54380,
+          "top_5": [
+            {
+              "id": 85548,
+              "win_rate_percent": 99.66101694915255,
+              "weighted_win_rate_percent": 99.32587205340204,
+              "mean_net_hp_pp": 2.521557863024166,
+              "weighted_mean_net_hp_pp": 1.9127128737731909
+            },
+            {
+              "id": 54380,
+              "win_rate_percent": 99.61259079903148,
+              "weighted_win_rate_percent": 99.23216231129473,
+              "mean_net_hp_pp": 2.6339855773932372,
+              "weighted_mean_net_hp_pp": 2.0073857852250026
+            },
+            {
+              "id": 50286,
+              "win_rate_percent": 99.46731234866829,
+              "weighted_win_rate_percent": 98.94726069422691,
+              "mean_net_hp_pp": 2.584270538415881,
+              "weighted_mean_net_hp_pp": 1.9689240238092436
+            },
+            {
+              "id": 85532,
+              "win_rate_percent": 99.12832929782083,
+              "weighted_win_rate_percent": 98.31393429479621,
+              "mean_net_hp_pp": 2.0995162077957685,
+              "weighted_mean_net_hp_pp": 1.6232636736824353
+            },
+            {
+              "id": 52764,
+              "win_rate_percent": 98.93462469733656,
+              "weighted_win_rate_percent": 98.14887303431831,
+              "mean_net_hp_pp": 2.3829170722297848,
+              "weighted_mean_net_hp_pp": 1.9174183089207855
+            }
+          ]
+        },
+        "best_weighted_mean_trade": {
+          "gpu_selected_id": 52780,
+          "cpu_selected_id": 52780,
+          "gpu_selected_is_cpu_optimum": true,
+          "primary_metric_ties_within_1e_minus_12": 1,
+          "gap_to_next_distinct_primary_score_pp": 0.18946714414954657,
+          "next_distinct_primary_score_id": 54380,
+          "top_5": [
+            {
+              "id": 52780,
+              "win_rate_percent": 98.83777239709443,
+              "weighted_win_rate_percent": 97.8319985134782,
+              "mean_net_hp_pp": 2.7924595569605852,
+              "weighted_mean_net_hp_pp": 2.196852929374549
+            },
+            {
+              "id": 54380,
+              "win_rate_percent": 99.61259079903148,
+              "weighted_win_rate_percent": 99.23216231129473,
+              "mean_net_hp_pp": 2.6339855773932372,
+              "weighted_mean_net_hp_pp": 2.0073857852250026
+            },
+            {
+              "id": 50286,
+              "win_rate_percent": 99.46731234866829,
+              "weighted_win_rate_percent": 98.94726069422691,
+              "mean_net_hp_pp": 2.584270538415881,
+              "weighted_mean_net_hp_pp": 1.9689240238092436
+            },
+            {
+              "id": 52764,
+              "win_rate_percent": 98.93462469733656,
+              "weighted_win_rate_percent": 98.14887303431831,
+              "mean_net_hp_pp": 2.3829170722297848,
+              "weighted_mean_net_hp_pp": 1.9174183089207855
+            },
+            {
+              "id": 85548,
+              "win_rate_percent": 99.66101694915255,
+              "weighted_win_rate_percent": 99.32587205340204,
+              "mean_net_hp_pp": 2.521557863024166,
+              "weighted_mean_net_hp_pp": 1.9127128737731909
+            }
+          ]
+        }
+      },
+      "win_rate_ranking_changes": {
+        "changed_positions": 1934,
+        "largest_changes": [
+          {
+            "id": 55768,
+            "unweighted_rank": 1490,
+            "weighted_rank": 1347
+          },
+          {
+            "id": 63704,
+            "unweighted_rank": 1491,
+            "weighted_rank": 1348
+          },
+          {
+            "id": 63832,
+            "unweighted_rank": 1492,
+            "weighted_rank": 1349
+          },
+          {
+            "id": 73297,
+            "unweighted_rank": 1420,
+            "weighted_rank": 1279
+          },
+          {
+            "id": 24083,
+            "unweighted_rank": 1410,
+            "weighted_rank": 1278
+          }
+        ]
+      },
+      "mean_trade_ranking_changes": {
+        "changed_positions": 1984,
+        "largest_changes": [
+          {
+            "id": 73241,
+            "unweighted_rank": 874,
+            "weighted_rank": 710
+          },
+          {
+            "id": 49767,
+            "unweighted_rank": 625,
+            "weighted_rank": 783
+          },
+          {
+            "id": 53861,
+            "unweighted_rank": 618,
+            "weighted_rank": 764
+          },
+          {
+            "id": 53799,
+            "unweighted_rank": 828,
+            "weighted_rank": 971
+          },
+          {
+            "id": 53813,
+            "unweighted_rank": 829,
+            "weighted_rank": 972
+          }
+        ]
+      }
+    }
+  ]
+}

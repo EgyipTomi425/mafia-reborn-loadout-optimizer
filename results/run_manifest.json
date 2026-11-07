@@ -1,0 +1,126 @@
+{
+  "status": "complete",
+  "input_sha256": {
+    "CMakeLists.txt": "4891ee91cc4a3ed4f3e2627cff5173b6a5fcaf1b320253e3475ea456aa9ca1cf",
+    "assets/png/accessory_bulletproof_vest.png": "27aede99e43414395c8ca3a58fc3bd9372fc6134589654fce23dc54bd94a6531",
+    "assets/png/accessory_camouflage_suit.png": "24fa7a834fb01e3466814f7293b1b07d226d588646f77445819ba57b7476dcb6",
+    "assets/png/accessory_holo_sight.png": "14dce5dcf06d6d6928d698f62c86ee5e42d44ee37cb2461149f43ebd1ee86ad6",
+    "assets/png/accessory_laser_sight.png": "ca852d81b3fb9a83b0a8d85ef254a62928837c4c010f55a2d2074736b07e3774",
+    "assets/png/accessory_thermal_telescopic_sight.png": "5775ac363e9096116966dfb127acf44bcadf1f6081178bcbf9777a3526fb26e2",
+    "assets/png/consumable_soft_nosed_bullet_large_2.png": "df3e51045c94db7b084b053c79b0d55ffbc353be7827b7d7ba2b367cccb7df80",
+    "assets/png/consumable_soft_nosed_bullet_small_2.png": "f587fc2d9b798ff8722d9554b0183c0b5cbff069c6c74511ab24800b319ad4b6",
+    "assets/png/consumable_tracer_ammunition_large_2.png": "1eab6052fe768f2154def080f7bc86c47cfe07bd01f7ee490f44d6f302e6f03e",
+    "assets/png/skill_accuracy.png": "3453671d5a9ab6dba14f6a99b140eaec4348ba8bfe2bc509983e3ed7d66f524f",
+    "assets/png/skill_accuracy_submachine.png": "143a54a2d94c0d54363759a35d61c881ca98e85923baf2de2b365bd872d5266e",
+    "assets/png/skill_blue.png": "177dae7fb50966a41aa88d3a3f4dc2c50535602598c91cfec409649f302b8d26",
+    "assets/png/skill_camouflage.png": "2c76c56cba00fdea20b25bf3838ff9835084cc2f1808c07deccae294a3f17c16",
+    "assets/png/skill_penetrating_power.png": "84922533bd613b4b27422ead6018eb67888ec9175951809955fb58f61359b018",
+    "assets/png/skill_red.png": "64395990cc1f765bb5e6f78b5bebf75da192069ba01838171f075182586a9dd4",
+    "assets/png/skill_specialization.png": "500b239c474b73fa6caea03c628ad96fd30f00fab296aee253776c8b144d7235",
+    "assets/png/skill_specialization_rifle.png": "432c3c7a3b41a15fc14e496f4a566c9255d006cd18d1cce92f0093edd71a63a3",
+    "assets/png/skill_specialization_submachine.png": "967c3da6fbad0316836e5bdde17044461c04cc7d59d0dca540fd66c2a289b960",
+    "assets/png/skill_vigilance.png": "c04002dd078720bdbb1250a362afa23a7a1305a000afe38ea975e98bc76504f6",
+    "assets/png/weapon_ak_24_7.png": "fc78dc10b7cb30323c12651caed0657040f50958860b8bb538b50b143d17d850",
+    "assets/png/weapon_mp8.png": "0ac5d1ce181004fabf343560919e3e6c606190fed4ef38f5086b1c3ea930e839",
+    "data/catalog.json": "5394a88e18fe812075ae7e2ee34041c931353322d14e4089c8cb6cfb46f1ef2c",
+    "data/class_reference.json": "2d974e45911887f40a1fedaad3a227a9da9e79b431c798a3a0baea4303ff6563",
+    "data/client/ItemImg-DP5zsOkH.js": "0b04d47be2c522c7d0d2a11eb415c94da8f96ee6be8dcd502a55323a7c17d3a0",
+    "data/client/computeFight-PcsHNWeo.js": "f4107167c8a4848c554458ab044320a47110865c128a37f2c23bb5856adff687",
+    "data/client/generateWeaponStats-CtMnMigh.js": "ec8e26bcc72175df804f25e3dca62d64622f1f106523ade2af3672d01c1813dd",
+    "data/client/getCharacterStats-B626gGkX.js": "a9c2438844b0bc05db9dbedb31c3e36507c19398650c2d7af551fb7b3ce642bb",
+    "data/client/getDefaultWeapon-D9rrY_Ti.js": "a536807c6becc460ed2b8b71155b224bfd9a6bebd59aa1e8aee1aa9f9e378e1d",
+    "data/client/shops-Jw99SdUE.js": "a6f2e4f0de16bbf8607a9e4449bc0b45111d7eeeba5358b47adc393c44d339d5",
+    "data/variants.json": "7d82c3a410450da38d009daeaec203ef9121658d81f35cf99c74d19e80ebc61c",
+    "requirements.txt": "91e77724e3bb7ebe1958be7f87693283540126e97f8f06f1ca4bed055d520592",
+    "src/main.cu": "9a0e729d6fa5911543bc19093ddef57207886cb9c267b450f73c90ab9f388391",
+    "src/model.hpp": "bde109f8ce6ad9447c64482a476c773138bba2b2073b41a9316973acf54a2c9a",
+    "src/packing.cuh": "fcf91572eda6cbaf4c85c9907cdb4914dcede7c8c6343e02285f672da738e72a",
+    "tests/audit_results.py": "99e01299a7bbd0feadf696898befaaf42921b9a5448ef53a46910693deb926e7",
+    "tests/check_theory.py": "866ae191af0bf751ae8c480bc691f5a51c3dacf22d9a69d3a7fef55d3f06b8f4",
+    "tests/recheck_weighted_ranking.py": "fcb0e62267328bc517629116e6dc5b12eb2394ef477bfad560c34e3cf466bfe6",
+    "tools/analyze_counters.py": "d711ee53b44f5294689da6566cd262ab690adc720d5f1dcc4b438bc22be14082",
+    "tools/analyze_defensive_core.py": "5eebf918e85aa678069af2488950945402a2a2969a32f5628d89d2dc58323862",
+    "tools/analyze_findings.py": "100934ed465d1caff6eee2dc5fc3ab95fff59e413aca8ce58a16ed07a8c5dce8",
+    "tools/class_math.py": "d143f7b68b7a5db5f76efb5804b8ad1bb7723b407d922ce36eac8a4a01713138",
+    "tools/export_items.py": "f5a27f856d8d3b3d28e883ccd0aa8e10e07530bdeb698f046c75692adc5b4ce1",
+    "tools/render_results.py": "7c4e1b7cc94f7257d11df82cd4898e5e50eb4affe775590f943727eb91ccf608",
+    "tools/reproduce.py": "b03c056c4b4a56b373069dcca2527e256e269c0310b1e5558b0962907ba47f1f",
+    "tools/verify_ammunition.py": "d0e3550f3320f563f4fa0bda12929af337d9f8792a628113b88226c0913af599",
+    "tools/verify_rapid_fire.py": "79e5c7538ed40afa8f80aaa15d05b2079d92f0c35eddddef8f6a0e86051d2fe6"
+  },
+  "python_version": "3.13.12",
+  "python_packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "Pillow": "12.2.0"
+  },
+  "scenario": {
+    "level": 200,
+    "attack": 10000,
+    "endurance": 10000,
+    "base_crit": 0.5,
+    "anti_crit": 0.4,
+    "ammo": "None or one compatible Gold1 Tracer/Soft-Nosed",
+    "area": [
+      92,
+      96
+    ],
+    "riot_shield": false
+  },
+  "steps": [
+    {
+      "name": "theory",
+      "returncode": 0
+    },
+    {
+      "name": "ammunition",
+      "returncode": 0
+    },
+    {
+      "name": "rapid_fire",
+      "returncode": 0
+    },
+    {
+      "name": "configure",
+      "returncode": 0
+    },
+    {
+      "name": "build",
+      "returncode": 0
+    },
+    {
+      "name": "self_test",
+      "returncode": 0
+    },
+    {
+      "name": "search",
+      "returncode": 0
+    },
+    {
+      "name": "audit",
+      "returncode": 0
+    },
+    {
+      "name": "weighted_recheck",
+      "returncode": 0
+    },
+    {
+      "name": "counters",
+      "returncode": 0
+    },
+    {
+      "name": "defensive_core",
+      "returncode": 0
+    },
+    {
+      "name": "findings",
+      "returncode": 0
+    },
+    {
+      "name": "figure",
+      "returncode": 0
+    }
+  ],
+  "figure": "results/loadout_comparison.png",
+  "figure_sha256": "c468c7cda71d09c93f2123a8916449a982ff067d2ccd3622e29bf0fea4185308"
+}

@@ -1,0 +1,156 @@
+{
+  "submachine": {
+    "correlations": {
+      "wins vs mean_net_hp_pp": 0.9982190390517605,
+      "wins vs weighted_win_rate": 0.9972317493514775,
+      "mean_net_hp_pp vs weighted_mean_net_hp_pp": 0.9983244310929884
+    },
+    "best_different_gear": {
+      "most_wins": {
+        "winner_id": 56878,
+        "rival_id": 52781,
+        "wins": 2929,
+        "win_rate_percent": 99.42294636795656,
+        "mean_net_hp_pp": 2.3189562066580507,
+        "weighted_win_rate_percent": 98.87250650477016,
+        "weighted_mean_net_hp_pp": 1.76862026249465,
+        "removed_from_winner": [
+          "accuracy_submachine",
+          "camouflage_suit"
+        ],
+        "added_to_winner": [
+          "accuracy_all"
+        ]
+      },
+      "best_mean_trade": {
+        "winner_id": 56878,
+        "rival_id": 52781,
+        "wins": 2929,
+        "win_rate_percent": 99.42294636795656,
+        "mean_net_hp_pp": 2.3189562066580507,
+        "weighted_win_rate_percent": 98.87250650477016,
+        "weighted_mean_net_hp_pp": 1.76862026249465,
+        "removed_from_winner": [
+          "accuracy_submachine",
+          "camouflage_suit"
+        ],
+        "added_to_winner": [
+          "accuracy_all"
+        ]
+      },
+      "best_weighted_win_rate": {
+        "winner_id": 56878,
+        "rival_id": 52781,
+        "wins": 2929,
+        "win_rate_percent": 99.42294636795656,
+        "mean_net_hp_pp": 2.3189562066580507,
+        "weighted_win_rate_percent": 98.87250650477016,
+        "weighted_mean_net_hp_pp": 1.76862026249465,
+        "removed_from_winner": [
+          "accuracy_submachine",
+          "camouflage_suit"
+        ],
+        "added_to_winner": [
+          "accuracy_all"
+        ]
+      },
+      "best_weighted_mean_trade": {
+        "winner_id": 56878,
+        "rival_id": 52781,
+        "wins": 2929,
+        "win_rate_percent": 99.42294636795656,
+        "mean_net_hp_pp": 2.3189562066580507,
+        "weighted_win_rate_percent": 98.87250650477016,
+        "weighted_mean_net_hp_pp": 1.76862026249465,
+        "removed_from_winner": [
+          "accuracy_submachine",
+          "camouflage_suit"
+        ],
+        "added_to_winner": [
+          "accuracy_all"
+        ]
+      }
+    }
+  },
+  "rifle": {
+    "correlations": {
+      "wins vs mean_net_hp_pp": 0.998089462967626,
+      "wins vs weighted_win_rate": 0.9987833817842157,
+      "mean_net_hp_pp vs weighted_mean_net_hp_pp": 0.9977778031634867
+    },
+    "best_different_gear": {
+      "most_wins": {
+        "winner_id": 85548,
+        "rival_id": 54380,
+        "wins": 2057,
+        "win_rate_percent": 99.61259079903148,
+        "mean_net_hp_pp": 2.6339855773932292,
+        "weighted_win_rate_percent": 99.23216231129473,
+        "weighted_mean_net_hp_pp": 2.0073857852250008,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight",
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "rapid_fire",
+          "soft_nosed_bullet_large",
+          "tactical_telescopic_sight"
+        ]
+      },
+      "best_mean_trade": {
+        "winner_id": 52780,
+        "rival_id": 54380,
+        "wins": 2057,
+        "win_rate_percent": 99.61259079903148,
+        "mean_net_hp_pp": 2.6339855773932292,
+        "weighted_win_rate_percent": 99.23216231129473,
+        "weighted_mean_net_hp_pp": 2.0073857852250008,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight"
+        ],
+        "added_to_winner": [
+          "rapid_fire",
+          "tactical_telescopic_sight"
+        ]
+      },
+      "best_weighted_win_rate": {
+        "winner_id": 85548,
+        "rival_id": 54380,
+        "wins": 2057,
+        "win_rate_percent": 99.61259079903148,
+        "mean_net_hp_pp": 2.6339855773932292,
+        "weighted_win_rate_percent": 99.23216231129473,
+        "weighted_mean_net_hp_pp": 2.0073857852250008,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight",
+          "tracer_ammunition_large"
+        ],
+        "added_to_winner": [
+          "rapid_fire",
+          "soft_nosed_bullet_large",
+          "tactical_telescopic_sight"
+        ]
+      },
+      "best_weighted_mean_trade": {
+        "winner_id": 52780,
+        "rival_id": 54380,
+        "wins": 2057,
+        "win_rate_percent": 99.61259079903148,
+        "mean_net_hp_pp": 2.6339855773932292,
+        "weighted_win_rate_percent": 99.23216231129473,
+        "weighted_mean_net_hp_pp": 2.0073857852250008,
+        "removed_from_winner": [
+          "camouflage_suit",
+          "holo_sight"
+        ],
+        "added_to_winner": [
+          "rapid_fire",
+          "tactical_telescopic_sight"
+        ]
+      }
+    }
+  }
+}

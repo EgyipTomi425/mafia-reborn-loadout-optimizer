@@ -1,0 +1,207 @@
+{
+  "scope": "Source-derived class constants; nominal Epic1 generation with both generation random factors set to 1; no target-specific weapon bonuses.",
+  "reference_reconstruction_matches_displayed_values": true,
+  "reference_context": {
+    "level": 50,
+    "weapon_tier": "epic1",
+    "vigilance_on_all_classes": true,
+    "example_raw_attack": 1000,
+    "example_raw_endurance": 1000,
+    "common_base_crit": 0.5,
+    "common_anti_crit": 0.4,
+    "vigilance_bonus": 0.1,
+    "vest": false,
+    "camouflage": false,
+    "weapon_example": "same generic SMG category for all classes; shared hit/crit factors cancel"
+  },
+  "source_sha256": {
+    "getDefaultWeapon-D9rrY_Ti.js": "a536807c6becc460ed2b8b71155b224bfd9a6bebd59aa1e8aee1aa9f9e378e1d",
+    "generateWeaponStats-CtMnMigh.js": "ec8e26bcc72175df804f25e3dca62d64622f1f106523ade2af3672d01c1813dd",
+    "computeFight-PcsHNWeo.js": "f4107167c8a4848c554458ab044320a47110865c128a37f2c23bb5856adff687"
+  },
+  "wrong_context_checks": {
+    "removing_vigilance_does_not_reproduce_end_coefficients": true,
+    "using_level_200_does_not_reproduce_attack_coefficients": true
+  },
+  "generic_epic_weapon_bonuses_checked_against_client": true,
+  "scenario_comparisons": [
+    {
+      "level": 50,
+      "vigilance_bonus": 0.0,
+      "classes": [
+        {
+          "class": "tactician",
+          "attack": 2.032719836400818,
+          "endurance": 0.4189208710199022,
+          "combat_percent": 85.15487644044639,
+          "value": 0.9227939988992472
+        },
+        {
+          "class": "rogue",
+          "attack": 1.0,
+          "endurance": 1.0,
+          "combat_percent": 100.0,
+          "value": 1.0
+        },
+        {
+          "class": "bully",
+          "attack": 0.6073619631901841,
+          "endurance": 1.6954266855256954,
+          "combat_percent": 102.97376801659132,
+          "value": 1.0147599125733697
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "vigilance_bonus": 0.1,
+      "classes": [
+        {
+          "class": "tactician",
+          "attack": 2.032719836400818,
+          "endurance": 0.41723455474963317,
+          "combat_percent": 84.81209558714424,
+          "value": 0.9209348271574066
+        },
+        {
+          "class": "rogue",
+          "attack": 1.0,
+          "endurance": 1.0,
+          "combat_percent": 100.0,
+          "value": 1.0
+        },
+        {
+          "class": "bully",
+          "attack": 0.6073619631901841,
+          "endurance": 1.69309553240332,
+          "combat_percent": 102.83218264290102,
+          "value": 1.014062042692167
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "vigilance_bonus": 0.0,
+      "classes": [
+        {
+          "class": "tactician",
+          "attack": 2.0081841432225063,
+          "endurance": 0.4189208710199022,
+          "combat_percent": 84.12702504471285,
+          "value": 0.9172078556396737
+        },
+        {
+          "class": "rogue",
+          "attack": 1.0,
+          "endurance": 1.0,
+          "combat_percent": 100.0,
+          "value": 1.0
+        },
+        {
+          "class": "bully",
+          "attack": 0.6015345268542199,
+          "endurance": 1.6954266855256954,
+          "combat_percent": 101.98576890937176,
+          "value": 1.009880036981481
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "vigilance_bonus": 0.1,
+      "classes": [
+        {
+          "class": "tactician",
+          "attack": 2.0081841432225063,
+          "endurance": 0.41723455474963317,
+          "combat_percent": 83.7883816852716,
+          "value": 0.9153599384136909
+        },
+        {
+          "class": "rogue",
+          "attack": 1.0,
+          "endurance": 1.0,
+          "combat_percent": 100.0,
+          "value": 1.0
+        },
+        {
+          "class": "bully",
+          "attack": 0.6015345268542199,
+          "endurance": 1.69309553240332,
+          "combat_percent": 101.84554200032245,
+          "value": 1.0091855230844449
+        }
+      ]
+    }
+  ],
+  "per_point_at_level_200": [
+    {
+      "class": "tactician",
+      "hp_multiplier": 2.0,
+      "base_dodge_percent": 7.1,
+      "dodge_with_epic_vigilance_percent": 17.1,
+      "base_reduction_percent": 10.0,
+      "reduction_with_epic_vest_percent": 24.0,
+      "continuous_hp_per_endurance": 402.0,
+      "hp_at_10000_endurance": 4020000,
+      "exact_next_endurance_hp": 402,
+      "effective_hp_per_endurance_without_vigilance": 480.8037316110513,
+      "effective_hp_per_endurance_with_vigilance": 538.8017691998392,
+      "weapon_per_level": 17.0,
+      "weapon_base": 14.0,
+      "epic_spread": 0.15,
+      "nominal_epic_sum": 3926.1,
+      "nominal_weapon_min": 1826,
+      "nominal_weapon_max": 2100,
+      "mean_roll": 1963.0,
+      "continuous_damage_per_attack": 107.965,
+      "rounded_mean_damage_gain_at_attack_10000": 107.96363636363637
+    },
+    {
+      "class": "rogue",
+      "hp_multiplier": 3.85,
+      "base_dodge_percent": 10.1,
+      "dodge_with_epic_vigilance_percent": 20.1,
+      "base_reduction_percent": 25.0,
+      "reduction_with_epic_vest_percent": 39.0,
+      "continuous_hp_per_endurance": 773.85,
+      "hp_at_10000_endurance": 7738500,
+      "exact_next_endurance_hp": 774,
+      "effective_hp_per_endurance_without_vigilance": 1147.7196885428255,
+      "effective_hp_per_endurance_with_vigilance": 1291.3642052565708,
+      "weapon_per_level": 8.5,
+      "weapon_base": 0.0,
+      "epic_spread": 0.12,
+      "nominal_epic_sum": 1955.0,
+      "nominal_weapon_min": 922,
+      "nominal_weapon_max": 1033,
+      "mean_roll": 977.5,
+      "continuous_damage_per_attack": 53.7625,
+      "rounded_mean_damage_gain_at_attack_10000": 53.767857142857146
+    },
+    {
+      "class": "bully",
+      "hp_multiplier": 4.4,
+      "base_dodge_percent": 9.1,
+      "dodge_with_epic_vigilance_percent": 19.1,
+      "base_reduction_percent": 50.0,
+      "reduction_with_epic_vest_percent": 64.0,
+      "continuous_hp_per_endurance": 884.4,
+      "hp_at_10000_endurance": 8844000,
+      "exact_next_endurance_hp": 885,
+      "effective_hp_per_endurance_without_vigilance": 1945.874587458746,
+      "effective_hp_per_endurance_with_vigilance": 2186.4029666254637,
+      "weapon_per_level": 5.1,
+      "weapon_base": 3.0,
+      "epic_spread": 0.09,
+      "nominal_epic_sum": 1176.45,
+      "nominal_weapon_min": 562,
+      "nominal_weapon_max": 614,
+      "mean_roll": 588.0,
+      "continuous_damage_per_attack": 32.34,
+      "rounded_mean_damage_gain_at_attack_10000": 32.339622641509436
+    }
+  ],
+  "luck_gain_pp_per_point_before_cap_at_level_200": 0.012382367508667657,
+  "anti_crit_gain_pp_per_point_before_cap_at_level_200": 0.0112943302462164
+}

@@ -1,0 +1,44 @@
+{
+  "basis": "supplied local client snapshot, 2026-11-07",
+  "live_verification": "Verification is against the bundled offline client snapshot; live server behavior is outside this run.",
+  "item": {
+    "id": "rapid_fire",
+    "name": "Rapid fire",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 16,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/red.svg",
+    "effects": {
+      "doubleShotChanceBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  "mean_extra_damage_fraction_on_nonlethal_hit_before_rounding": 0.025500000000000002,
+  "sources": [
+    {
+      "path": "data/client/ItemImg-DP5zsOkH.js",
+      "sha256": "0b04d47be2c522c7d0d2a11eb415c94da8f96ee6be8dcd502a55323a7c17d3a0",
+      "definition_excerpt": "rapid_fire:{id:`rapid_fire`,weaponKind:h,level:16,img:`/assets/img/item/skill/red.svg`,imgIcon:`/assets/img/item/skill/rapid_fire.svg`,type:`skill`,name:`Rapid fire`,size:[3,3]},fast_reaction:{id:`fast_reaction`,weaponKind:h,level:18,i",
+      "tiers_excerpt": "if(e==`rapid_fire`)switch(t){case`cash`:return{doubleShotChanceBuffPerc:.05};case`gold1`:return{doubleShotChanceBuffPerc:.08};case`gold2`:return{doubleShotChanceBuffPerc:.11};case`gold3`:return{doubleShotChanceBuffPerc:.14};case`epic1`:return{doubleShotChanceBuffPerc:.17}}if(e==`fast_reaction`)switch(t){case`"
+    },
+    {
+      "path": "data/client/computeFight-PcsHNWeo.js",
+      "sha256": "f4107167c8a4848c554458ab044320a47110865c128a37f2c23bb5856adff687",
+      "combat_excerpt": "let u=b(t).doubleShotChanceBuffPerc??0,d=l>0&&!c.isMiss&&!c.isDodged&&n.life>l&&u>0&&r.prob(u)?Math.max(1,Math.round(l*r.float(.1,.2))):0;d>0&&e.debug(`combat.attack.rapid_fire`,()=>({a"
+    }
+  ]
+}

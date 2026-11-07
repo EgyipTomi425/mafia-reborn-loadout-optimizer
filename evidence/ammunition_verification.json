@@ -1,0 +1,65 @@
+{
+  "basis": "local 2026-11-07 client snapshot",
+  "selected_ammunition": [
+    {
+      "weapon_category": "submachine",
+      "id": "soft_nosed_bullet_small",
+      "tier": "gold1",
+      "compatible_weapons": [
+        "pistol",
+        "submachine"
+      ],
+      "effects": {
+        "fightThrowChance": 1,
+        "damageBuffPerc": 0.11,
+        "critDamageBuffPerc": 0.21
+      }
+    },
+    {
+      "weapon_category": "submachine",
+      "id": "tracer_ammunition_small",
+      "tier": "gold1",
+      "compatible_weapons": [
+        "pistol",
+        "submachine"
+      ],
+      "effects": {
+        "fightThrowChance": 1,
+        "damageBuffPerc": 0.11,
+        "accuracyBuffPerc": 0.11
+      }
+    },
+    {
+      "weapon_category": "rifle",
+      "id": "soft_nosed_bullet_large",
+      "tier": "gold1",
+      "compatible_weapons": [
+        "rifle",
+        "sniper"
+      ],
+      "effects": {
+        "fightThrowChance": 1,
+        "damageBuffPerc": 0.11,
+        "critDamageBuffPerc": 0.21
+      }
+    },
+    {
+      "weapon_category": "rifle",
+      "id": "tracer_ammunition_large",
+      "tier": "gold1",
+      "compatible_weapons": [
+        "rifle",
+        "sniper"
+      ],
+      "effects": {
+        "fightThrowChance": 1,
+        "damageBuffPerc": 0.11,
+        "accuracyBuffPerc": 0.11
+      }
+    }
+  ],
+  "shop_pool_excerpt": "var j=[`tracer_ammunition_small`,`tracer_ammunition_shotgun`,`tracer_ammunition_large`,`soft_nosed_bullet_small`,`soft_nosed_bullet_shotgun`,`soft_nosed_bullet_large`]",
+  "shop_generation_excerpt": "function P({level:e,rnd:t}){let n=t.draw(j),r=t.draw(M);return[v({id:n,quantity:250,level:e,tier:`cash`,rnd:t}),v({id:n,quantity:250,level:e,tier:`gold1`,rnd:t}),v({id:r,quantity:N[r],level:e,tier:`cash`,rnd:t}),v({id:r,quantity:N[r],level:e,tier:`gold1`,rnd:t})].map((e,t)=>({index:t,item:e}))}",
+  "shop_source_sha256": "a6f2e4f0de16bbf8607a9e4449bc0b45111d7eeeba5358b47adc393c44d339d5",
+  "scope": "No Epic ammo. No FMJ. None or one caliber-compatible Gold1 Tracer/Soft-Nosed."
+}

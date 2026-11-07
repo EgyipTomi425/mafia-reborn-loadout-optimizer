@@ -1,0 +1,11 @@
+{
+  "basis": "User-supplied comparison, reproduced to its displayed precision by the bundled client at level 50 with nominal Epic1 weapons and Epic Vigilance on every class. This reconstructed context is separate from the level-200 inventory run.",
+  "reconstructed_context": {"level": 50, "weapon_tier": "epic1", "epic_vigilance_bonus": 0.10, "vest": false, "camouflage": false},
+  "combat_definition": "100 * attack * endurance",
+  "value_definition": "sqrt(attack * endurance)",
+  "classes": [
+    {"class": "Tactician", "attack": 2.033, "endurance": 0.417, "combat_percent": 84.8, "value": 0.921},
+    {"class": "Rogue", "attack": 1.000, "endurance": 1.000, "combat_percent": 100.0, "value": 1.000},
+    {"class": "Bully", "attack": 0.607, "endurance": 1.693, "combat_percent": 102.8, "value": 1.014}
+  ]
+}

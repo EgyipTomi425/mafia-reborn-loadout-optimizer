@@ -1,0 +1,65 @@
+{
+  "method": "Every caliber-compatible ammo variant is ranked against the entire valid field; direct head-to-head contributes one opponent outcome.",
+  "categories": {
+    "submachine": [
+      {
+        "id": 56878,
+        "ammo": [
+          "soft_nosed_bullet_small"
+        ],
+        "opponents": 2946,
+        "wins": 2933,
+        "ties": 8,
+        "losses": 5,
+        "win_rate_percent": 99.55872369314325,
+        "mean_net_hp_pp": 2.339901094484279,
+        "weighted_win_rate_percent": 99.12830099896057,
+        "weighted_mean_net_hp_pp": 1.788146439597416
+      },
+      {
+        "id": 89646,
+        "ammo": [
+          "tracer_ammunition_small"
+        ],
+        "opponents": 2946,
+        "wins": 2906,
+        "ties": 12,
+        "losses": 28,
+        "win_rate_percent": 98.64222674813306,
+        "mean_net_hp_pp": 1.996207500919758,
+        "weighted_win_rate_percent": 97.3272228417025,
+        "weighted_mean_net_hp_pp": 1.4593975451033712
+      }
+    ],
+    "rifle": [
+      {
+        "id": 85548,
+        "ammo": [
+          "tracer_ammunition_large"
+        ],
+        "opponents": 2065,
+        "wins": 2058,
+        "ties": 0,
+        "losses": 7,
+        "win_rate_percent": 99.66101694915254,
+        "mean_net_hp_pp": 2.521557863024135,
+        "weighted_win_rate_percent": 99.32587205340204,
+        "weighted_mean_net_hp_pp": 1.9127128737731875
+      },
+      {
+        "id": 52780,
+        "ammo": [
+          "soft_nosed_bullet_large"
+        ],
+        "opponents": 2065,
+        "wins": 2041,
+        "ties": 0,
+        "losses": 24,
+        "win_rate_percent": 98.83777239709443,
+        "mean_net_hp_pp": 2.792459556960562,
+        "weighted_win_rate_percent": 97.8319985134782,
+        "weighted_mean_net_hp_pp": 2.196852929374556
+      }
+    ]
+  }
+}

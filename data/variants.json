@@ -1,0 +1,3837 @@
+[
+  {
+    "id": "1911",
+    "name": "1911",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/1911.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "1911",
+    "name": "1911",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/1911.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "liar",
+    "name": "Liar",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/liar.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "liar",
+    "name": "Liar",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/liar.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "luck_17",
+    "name": "Luck 17",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/luck_17.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "luck_17",
+    "name": "Luck 17",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/luck_17.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "model_500",
+    "name": "Model 500",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/model_500.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "model_500",
+    "name": "Model 500",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/model_500.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "s30",
+    "name": "S30",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/s30.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "s30",
+    "name": "S30",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/s30.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "snow_eagle",
+    "name": "Snow Eagle",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/snow_eagle.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "snow_eagle",
+    "name": "Snow Eagle",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/snow_eagle.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "amethyst_eagle",
+    "name": "Amethyst Eagle",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/amethyst_eagle.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "amethyst_eagle",
+    "name": "Amethyst Eagle",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/amethyst_eagle.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "scorpion",
+    "name": "Scorpion",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 1,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/scorpion.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "scorpion",
+    "name": "Scorpion",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 1,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/scorpion.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "usb",
+    "name": "USB",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/usb.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "usb",
+    "name": "USB",
+    "type": "weapon",
+    "kind": "pistol",
+    "tier": "epic2",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/usb.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "pancake_hammerjack",
+    "name": "Pancake Hammerjack",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/pancake_hammerjack.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "pancake_hammerjack",
+    "name": "Pancake Hammerjack",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/pancake_hammerjack.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "mp8",
+    "name": "MP8",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mp8.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "mp8",
+    "name": "MP8",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mp8.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "ak_24_7",
+    "name": "AK 24/7",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/ak_24_7.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "ak_24_7",
+    "name": "AK 24/7",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/ak_24_7.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "m41",
+    "name": "M41",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m41.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "m41",
+    "name": "M41",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m41.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "m5a2",
+    "name": "M5A2",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m5a2.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "m5a2",
+    "name": "M5A2",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m5a2.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "nts244",
+    "name": "NTs244",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/nts244.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "nts244",
+    "name": "NTs244",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/nts244.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "umb",
+    "name": "UMB",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/umb.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "umb",
+    "name": "UMB",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/umb.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "psk1",
+    "name": "PSK1",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/psk1.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "psk1",
+    "name": "PSK1",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/psk1.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "bz_skorpid",
+    "name": "BZ Skorpid",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bz_skorpid.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "bz_skorpid",
+    "name": "BZ Skorpid",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bz_skorpid.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "wingchester_1887",
+    "name": "Wingchester 1887",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/wingchester_1887.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "wingchester_1887",
+    "name": "Wingchester 1887",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/wingchester_1887.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "kpb_b_92",
+    "name": "KPB B-92",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/kpb_b_92.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "kpb_b_92",
+    "name": "KPB B-92",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/kpb_b_92.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "bushwhacker_azr",
+    "name": "Bushwhacker AZR",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bushwhacker_azr.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "bushwhacker_azr",
+    "name": "Bushwhacker AZR",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bushwhacker_azr.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "m17",
+    "name": "M17",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m17.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "m17",
+    "name": "M17",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m17.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "dragon_svd",
+    "name": "Dragon SVD",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dragon_svd.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "dragon_svd",
+    "name": "Dragon SVD",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dragon_svd.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "sawn_off_shotgun",
+    "name": "Sawn-off shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/sawn_off_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "sawn_off_shotgun",
+    "name": "Sawn-off shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/sawn_off_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "mosid_nougat",
+    "name": "Mosid-Nougat",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mosid_nougat.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "mosid_nougat",
+    "name": "Mosid-Nougat",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mosid_nougat.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "dti_viktor",
+    "name": "DTI Viktor",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dti_viktor.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "dti_viktor",
+    "name": "DTI Viktor",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dti_viktor.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "satyr_gau",
+    "name": "Satyr GAU",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/satyr_gau.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "satyr_gau",
+    "name": "Satyr GAU",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/satyr_gau.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "bobby_gun",
+    "name": "Bobby Gun",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bobby_gun.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "bobby_gun",
+    "name": "Bobby Gun",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/bobby_gun.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "capo_vitos_shotgun",
+    "name": "Capo Vito's shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/capo_vitos_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "capo_vitos_shotgun",
+    "name": "Capo Vito's shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/capo_vitos_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "greening_a_5",
+    "name": "Greening A-5",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/greening_a_5.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "greening_a_5",
+    "name": "Greening A-5",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/greening_a_5.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "r780",
+    "name": "R780",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/r780.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "r780",
+    "name": "R780",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/r780.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "redemption_rsas",
+    "name": "Redemption RSAS",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/redemption_rsas.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "redemption_rsas",
+    "name": "Redemption RSAS",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/redemption_rsas.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "rpg_94",
+    "name": "RPG-94",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/rpg_94.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "rpg_94",
+    "name": "RPG-94",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/rpg_94.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "m70",
+    "name": "M70",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m70.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "m70",
+    "name": "M70",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/m70.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "dcr_2",
+    "name": "DCR 2",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dcr_2.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "dcr_2",
+    "name": "DCR 2",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/dcr_2.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "trevor_dar_22",
+    "name": "Trevor DAR-22",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/trevor_dar_22.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "trevor_dar_22",
+    "name": "Trevor DAR-22",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/trevor_dar_22.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "the_butchers_machine_gun",
+    "name": "The Butcher's Machine Gun",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/the_butchers_machine_gun.svg",
+    "effects": {
+      "critChanceBuffPerc": 0.05,
+      "stunChancePerc": 0.04
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "the_butchers_machine_gun",
+    "name": "The Butcher's Machine Gun",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/the_butchers_machine_gun.svg",
+    "effects": {
+      "critChanceBuffPerc": 0.05,
+      "stunChancePerc": 0.04
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "fun_12",
+    "name": "Fun-12",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/fun_12.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "fun_12",
+    "name": "Fun-12",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/fun_12.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "eddy_frosts_m70",
+    "name": "Eddy Frost's M70",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/eddy_frosts_m70.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critDamageBuffPerc": 0.15,
+      "healOnAttackChancePerc": 0.04,
+      "healOnAttackPerc": 0.08
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "eddy_frosts_m70",
+    "name": "Eddy Frost's M70",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/eddy_frosts_m70.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critDamageBuffPerc": 0.15,
+      "healOnAttackChancePerc": 0.04,
+      "healOnAttackPerc": 0.08
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "mp55",
+    "name": "MP55",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mp55.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "mp55",
+    "name": "MP55",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mp55.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "jahs_peacemaker",
+    "name": "USB",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/jahs_peacemaker.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "jahs_peacemaker",
+    "name": "USB",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/jahs_peacemaker.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "g63",
+    "name": "G63",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/g63.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "g63",
+    "name": "G63",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/g63.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "mini_r780",
+    "name": "Mini R780",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mini_r780.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "mini_r780",
+    "name": "Mini R780",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/mini_r780.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "ozzy",
+    "name": "Ozzy",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/ozzy.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "ozzy",
+    "name": "Ozzy",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/ozzy.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "waldo_mp",
+    "name": "Waldo MP",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/waldo_mp.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "waldo_mp",
+    "name": "Waldo MP",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/waldo_mp.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "fm_p80",
+    "name": "FM P80",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/fm_p80.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "fm_p80",
+    "name": "FM P80",
+    "type": "weapon",
+    "kind": "submachine",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/fm_p80.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.15
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "brad_m83",
+    "name": "Brad M83",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/brad_m83.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "brad_m83",
+    "name": "Brad M83",
+    "type": "weapon",
+    "kind": "sniper",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/brad_m83.svg",
+    "effects": {
+      "damageVsRoguePerc": -0.15,
+      "damageVsBullyPerc": 0.15,
+      "critChanceBuffPerc": 0.05
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "farmas",
+    "name": "Farmas",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/farmas.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "farmas",
+    "name": "Farmas",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/farmas.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "zog_660",
+    "name": "ZOG 660",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/zog_660.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "zog_660",
+    "name": "ZOG 660",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 5,
+    "height": 3,
+    "cells": 15,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/zog_660.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "f9000",
+    "name": "F9000",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/f9000.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "f9000",
+    "name": "F9000",
+    "type": "weapon",
+    "kind": "rifle",
+    "tier": "epic2",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/f9000.svg",
+    "effects": {
+      "damageVsTacticianPerc": -0.15,
+      "damageVsRoguePerc": 0.15,
+      "critChanceBuffPerc": 0.03
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "big_boss_shotgun",
+    "name": "Big Boss' Shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/big_boss_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.17,
+    "damageMultiplier": 1.15
+  },
+  {
+    "id": "big_boss_shotgun",
+    "name": "Big Boss' Shotgun",
+    "type": "weapon",
+    "kind": "shotgun",
+    "tier": "epic2",
+    "level": 13,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [],
+    "droppable": false,
+    "image": "https://mafiareborn.com/assets/img/item/weapon/big_boss_shotgun.svg",
+    "effects": {
+      "damageVsBullyPerc": -0.15,
+      "damageVsTacticianPerc": 0.15,
+      "critDamageBuffPerc": 0.25
+    },
+    "dynamic": true,
+    "weaponAccuracy": 1.25,
+    "damageMultiplier": 1.1875
+  },
+  {
+    "id": "accuracy_all",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy_all.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.13
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "accuracy_pistol",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 2,
+    "cells": 4,
+    "compatibleWeapons": [
+      "pistol"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "accuracy_submachine",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 2,
+    "height": 2,
+    "cells": 4,
+    "compatibleWeapons": [
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "accuracy_shotgun",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "accuracy_rifle",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "rifle"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "accuracy_sniper",
+    "name": "Accuracy",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/accuracy.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "specialization_pistol",
+    "name": "Specialization",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 5,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "pistol"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/specialization.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.14,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "specialization_submachine",
+    "name": "Specialization",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/specialization.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.14,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "specialization_shotgun",
+    "name": "Specialization",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/specialization.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.14,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "specialization_rifle",
+    "name": "Specialization",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "rifle"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/specialization.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.14,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "specialization_sniper",
+    "name": "Specialization",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 4,
+    "cells": 16,
+    "compatibleWeapons": [
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/specialization.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.14,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "vigilance",
+    "name": "Vigilance",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 10,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/blue.svg",
+    "effects": {
+      "dodgeBuffPerc": 0.1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "camouflage",
+    "name": "Camouflage",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 12,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/blue.svg",
+    "effects": {
+      "hitChanceReductionPerc": 0.22
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "penetrating_power",
+    "name": "Penetrating power",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 14,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/red.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.42
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "rapid_fire",
+    "name": "Rapid fire",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 16,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/red.svg",
+    "effects": {
+      "doubleShotChanceBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "fast_reaction",
+    "name": "Fast reaction",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 18,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/red.svg",
+    "effects": {
+      "firstBlowBuffPerc": 0.38
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "medic",
+    "name": "Medic!",
+    "type": "skill",
+    "kind": "",
+    "tier": "epic1",
+    "level": 20,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/skill/blue.svg",
+    "effects": {
+      "healBuffPerc": 0.14
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "riot_shield",
+    "name": "Riot shield",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/riot_shield.svg",
+    "effects": {
+      "explosionResistancePerc": 0.33
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "holo_sight",
+    "name": "Holographic visor",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 10,
+    "width": 2,
+    "height": 3,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/holo_sight.svg",
+    "effects": {
+      "critDamageBuffPerc": 0.29
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "laser_sight",
+    "name": "Laser sight",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 11,
+    "width": 2,
+    "height": 3,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/laser_sight.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.15
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "bulletproof_vest",
+    "name": "Bulletproof vest",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 12,
+    "width": 3,
+    "height": 4,
+    "cells": 12,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/bulletproof_vest.svg",
+    "effects": {
+      "damageResistancePerc": 0.14
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "camouflage_suit",
+    "name": "Camouflage suit",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 13,
+    "width": 4,
+    "height": 3,
+    "cells": 12,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/camouflage_suit.svg",
+    "effects": {
+      "hitChanceReductionPerc": 0.33
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tactical_telescopic_sight",
+    "name": "Tactical telescopic sight",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 14,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/tactical_telescopic_sight.svg",
+    "effects": {
+      "accuracyBuffPerc": 0.15
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "heartbeat_sensor",
+    "name": "Heartbeat sensor",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 17,
+    "width": 3,
+    "height": 3,
+    "cells": 9,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/heartbeat_sensor.svg",
+    "effects": {
+      "firstBlowBuffPerc": 0.32
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "thermal_telescopic_sight",
+    "name": "Thermal imaging telescopic sight",
+    "type": "accessory",
+    "kind": "",
+    "tier": "epic1",
+    "level": 20,
+    "width": 4,
+    "height": 2,
+    "cells": 8,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine",
+      "shotgun",
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/accessory/thermal_telescopic_sight.svg",
+    "effects": {
+      "damageBuffPerc": 0.14
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_small",
+    "name": "Full metal jacket bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_small",
+    "name": "Full metal jacket bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_small",
+    "name": "Full metal jacket bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_small",
+    "name": "Full metal jacket bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_shotgun",
+    "name": "Full metal jacket bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_shotgun",
+    "name": "Full metal jacket bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_shotgun",
+    "name": "Full metal jacket bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_shotgun",
+    "name": "Full metal jacket bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_large",
+    "name": "Full metal jacket bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_large",
+    "name": "Full metal jacket bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_large",
+    "name": "Full metal jacket bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "full_metal_jacket_large",
+    "name": "Full metal jacket bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/full_metal_jacket_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_small",
+    "name": "Soft nosed bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "critDamageBuffPerc": 0.07
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_small",
+    "name": "Soft nosed bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "critDamageBuffPerc": 0.21
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_small",
+    "name": "Soft nosed bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "critDamageBuffPerc": 0.35
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_small",
+    "name": "Soft nosed bullet (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "critDamageBuffPerc": 0.49
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "name": "Soft nosed bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "critDamageBuffPerc": 0.07
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "name": "Soft nosed bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "critDamageBuffPerc": 0.21
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "name": "Soft nosed bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "critDamageBuffPerc": 0.35
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "name": "Soft nosed bullet (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "critDamageBuffPerc": 0.49
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_large",
+    "name": "Soft nosed bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "critDamageBuffPerc": 0.07
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_large",
+    "name": "Soft nosed bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "critDamageBuffPerc": 0.21
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_large",
+    "name": "Soft nosed bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "critDamageBuffPerc": 0.35
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "soft_nosed_bullet_large",
+    "name": "Soft nosed bullet (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/soft_nosed_bullet_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "critDamageBuffPerc": 0.49
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_small",
+    "name": "Tracer ammunition (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "accuracyBuffPerc": 0.03
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_small",
+    "name": "Tracer ammunition (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "accuracyBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_small",
+    "name": "Tracer ammunition (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "accuracyBuffPerc": 0.19
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_small",
+    "name": "Tracer ammunition (small caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "pistol",
+      "submachine"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_small_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "accuracyBuffPerc": 0.27
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "name": "Tracer ammunition (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "accuracyBuffPerc": 0.03
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "name": "Tracer ammunition (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "accuracyBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "name": "Tracer ammunition (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "accuracyBuffPerc": 0.19
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "name": "Tracer ammunition (shotgun)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "shotgun"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_shotgun_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "accuracyBuffPerc": 0.27
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_large",
+    "name": "Tracer ammunition (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "cash",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.05,
+      "accuracyBuffPerc": 0.03
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_large",
+    "name": "Tracer ammunition (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "gold1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.11,
+      "accuracyBuffPerc": 0.11
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_large",
+    "name": "Tracer ammunition (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "epic1",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.17,
+      "accuracyBuffPerc": 0.19
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tracer_ammunition_large",
+    "name": "Tracer ammunition (large caliber)",
+    "type": "consumable",
+    "kind": "ammo",
+    "tier": "legendary",
+    "level": 13,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [
+      "rifle",
+      "sniper"
+    ],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tracer_ammunition_large_1.svg",
+    "effects": {
+      "fightThrowChance": 1,
+      "damageBuffPerc": 0.23,
+      "accuracyBuffPerc": 0.27
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "tnt",
+    "name": "TNT",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 2,
+    "cells": 4,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/tnt.svg",
+    "effects": {
+      "fightThrowChance": 0.4,
+      "damagePerc": 0.4
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "smoke_grenade",
+    "name": "Smoke Grenade",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/smoke_grenade_1.svg",
+    "effects": {
+      "roundThrowChance": 0.2,
+      "accuracyDebuffPerc": 0.34,
+      "accuracyDebuffRounds": 4
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "flashbang",
+    "name": "Flashbang",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/flashbang_1.svg",
+    "effects": {
+      "roundThrowChance": 0.17,
+      "stunRounds": 1
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "wound_dressing",
+    "name": "Wound Dressing",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/wound_dressing_1.svg",
+    "effects": {
+      "afterHitThrowChance": 0.25,
+      "healPerc": 0.17
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "first_aid_kit",
+    "name": "First aid kit",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 3,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/first_aid_kit_1.svg",
+    "effects": {
+      "throwOnLifeBelowPerc": 0.75,
+      "healPerc": 0.19
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "blood_bag",
+    "name": "Blood bag",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 3,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/blood_bag_1.svg",
+    "effects": {
+      "throwOnLifeBelowPerc": 0.5,
+      "healPerc": 0.29
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "headache_pill",
+    "name": "Headache pill",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 2,
+    "cells": 4,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/headache_pill_1.svg",
+    "effects": {
+      "afterCritThrowChance": 1,
+      "healPerc": 0.16
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "adrenalin",
+    "name": "Adrenalin",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 3,
+    "height": 2,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/adrenalin_1.svg",
+    "effects": {
+      "roundThrowChance": 0.9,
+      "defenseBuffPerc": 0.18,
+      "defenseBuffRounds": 3
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "defibrillator",
+    "name": "Defibrillator",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 3,
+    "cells": 6,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/defibrillator_1.svg",
+    "effects": {
+      "throwOnLifeBelowPerc": 0.25,
+      "healPerc": 0.39
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  },
+  {
+    "id": "throwing_knife",
+    "name": "Throwing knife",
+    "type": "consumable",
+    "kind": "",
+    "tier": "epic1",
+    "level": 1,
+    "width": 2,
+    "height": 2,
+    "cells": 4,
+    "compatibleWeapons": [],
+    "droppable": true,
+    "image": "https://mafiareborn.com/assets/img/item/consumable/throwing_knife_1.svg",
+    "effects": {
+      "fightThrowChance": 0.27,
+      "damageDebuffPerc": 0.17,
+      "damageDebuffRounds": 10
+    },
+    "dynamic": false,
+    "weaponAccuracy": null,
+    "damageMultiplier": null
+  }
+]
