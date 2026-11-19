@@ -1,0 +1,63 @@
+{
+  "browser": "Chromium",
+  "checks": [
+    "lookup requests exactly one slice; descending counter order and pagination",
+    "per-enemy full defensive core search; exact outgoing/incoming detail",
+    "matrix rows load on demand; zero diagonal; cell inspection",
+    "save/open inventory round trip",
+    "drag/drop editing and partial inventory gating",
+    "AK category isolation and alternative global sorts",
+    "screenshot upload, explicit crop, identity review, tier confirmation, and import",
+    "clipboard paste and manual crop fallback for unrecognizable images",
+    "390px mobile layout without horizontal page overflow",
+    "no page errors and no off-site runtime or screenshot requests"
+  ],
+  "recognition_fixtures": [
+    {
+      "category": "rifle",
+      "selection": "most_wins",
+      "layout": "game",
+      "jpeg": false,
+      "cell_pixels": 50,
+      "items_correct": 9,
+      "warehouse_excluded": true
+    },
+    {
+      "category": "rifle",
+      "selection": "best_mean_trade",
+      "layout": "caption",
+      "jpeg": true,
+      "cell_pixels": 36,
+      "items_correct": 9,
+      "warehouse_excluded": true
+    },
+    {
+      "category": "submachine",
+      "selection": "most_wins",
+      "layout": "caption",
+      "jpeg": true,
+      "cell_pixels": 42,
+      "items_correct": 11,
+      "warehouse_excluded": true
+    }
+  ],
+  "data_validation": {
+    "parquet_matchup_files": 5013,
+    "matrix_entries": 12953165,
+    "all_rows_decoded_with_browser_reader": true,
+    "all_scores_recomputed_and_verified": true,
+    "max_matchup_bytes": 16086,
+    "per_lookup_matchup_requests": 1
+  },
+  "files": {
+    "tools/export_web_data.py": "d6b366f53a255ced20156acd36c45dc6a371193133c75f3b71b2f9bfc268a43d",
+    "docs/app.js": "8cb94c2dc4a71fb22342fee79f576a821345e1f5ac789772d7d8fd991a65619b",
+    "docs/model.js": "322ec880f1d9e36a2479de68ac1e683f5a3230ebf595d214d0d026d6203e1d5f",
+    "docs/screenshot.js": "8dcf533230be077af84e7b5f0c3dcfca65f8a0a8f05acfa3448bb4d2b2854306",
+    "docs/style.css": "126cf44eaee928639a59d369fd357a9927bc315bee5503de1f4eb43297ce9f4c",
+    "docs/index.html": "1f5fd0bc20b9767f05a6cc068b6c4c9147a781a0ead6160d43220be97bb7a6a4",
+    "docs/data/manifest.json": "33a97d3ecc47ed7767c0a9efe58f89057f9b44eb8bec1faffcc0beabb51e8acd",
+    "tests/web_data.mjs": "65f6f6c4e259698a12dad19390ce919916168a1fa94d99e9bbed49ad4b630ec9",
+    "tests/web_browser.py": "1213483a1c64223015eff1df2ca0a472c4ab2e2762f5d558ecf86e62a1c1c9be"
+  }
+}

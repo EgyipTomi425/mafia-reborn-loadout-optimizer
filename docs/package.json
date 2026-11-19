@@ -1,0 +1,1 @@
+{"name":"mafia-reborn-loadout-lab","private":true,"type":"module","scripts":{"test":"node ../tests/web_data.mjs"}}

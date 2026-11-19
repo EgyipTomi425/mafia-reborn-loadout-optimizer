@@ -1,5 +1,9 @@
 # Mafia Reborn: combat-inventory optimization
 
+> **[Open Loadout Lab — interactive inventory and counter explorer](https://EgyipTomi425.github.io/mafia-reborn-loadout-optimizer/)**
+>
+> Build an enemy inventory, rank all counters, inspect matchup margins, or import a screenshot locally. Rogue only; SMG and AK stay separate.
+
 A reproducible C++/CUDA study of **one-exchange expected HP advantage**. The CPU
 enumerates item sets, CUDA proves whether each inventory fits, and every valid
 set is compared with every other valid set in its weapon category. This
@@ -767,6 +771,7 @@ synthetic tournament whose unique winner changes under weighting.
 | `tools/` | Input export, complete reproduction, counter-analysis, rendering |
 | `tests/` | Theory checks and two independent numerical/packing audits |
 | `results/` | This run's results only |
+| `docs/` | GitHub Pages inventory explorer, original icons, and small Parquet lookups |
 
 The main result files are:
 
@@ -787,3 +792,101 @@ The main result files are:
 Raw logs and build products are ignored by Git. There are no archived result
 trees or alternative figures in the repository. No remote publication is part
 of the reproduction command.
+
+## 11. Interactive GitHub Pages explorer
+
+The **[Loadout Lab](https://EgyipTomi425.github.io/mafia-reborn-loadout-optimizer/)**
+serves the current experiment through a static, browser-based inventory editor.
+Drag items into the 12 × 8 enemy grid, or select an item and tap a cell. A valid
+inventory occupies 92–96 cells. Lookup uses the **unordered item set**, so a
+physical rearrangement does not create a different combat setup.
+
+The results rank **every other valid setup in the same category** by its expected
+HP margin against that enemy, with 20 results per page. Alternative sorting uses
+ordinary or opponent-strength-weighted global win rate and average trade. A
+candidate's item effects, expected outgoing/incoming HP damage, and landed hit
+chances can be inspected. The optional Camo + Suit + Vigilance filter finds the
+strongest complete defensive-core opponent **for the currently selected enemy**.
+The matrix view compares the displayed top 10 candidates plus that enemy.
+
+### Small, precomputed Parquet lookups
+
+GitHub Pages serves files; it does not execute database queries. The export
+therefore materializes one small **Parquet matrix row per setup**, partitioned
+into directories of at most 100 files. An enemy query fetches only its own row:
+
+```text
+docs/data/<category>/loadouts.parquet
+docs/data/<category>/matchups/<row_index // 100, padded to 3 digits>/<candidate_id>.parquet
+```
+
+The category catalogue contains identities, canonical placements, global scores,
+and preintegrated combat profiles; it is about **142 KB for SMG** and **88 KB
+for AK**. One enemy slice is **4.6–16.1 KB**, covering every opposing candidate.
+No visitor downloads the complete matchup matrix. Matrix inspection fetches only
+the additional displayed rows. Browser caches are bounded. There is no GitHub
+API token, application server, database service, or runtime CDN dependency.
+
+The published data contains **5,013 loadouts and 12,953,165 double-precision matrix
+entries**, including zero diagonal entries. Row `i`, list index `j` stores setup
+`i`'s net HP advantage against setup `j`. Counter lookup negates the enemy's row;
+it does not mistake enemy advantage for candidate advantage. All scores are
+recomputed from the existing saved setups and checked against the current
+rankings before export. Parquet uses lossless Snappy compression. Existing CSV
+files remain research audit artifacts; the explorer does not read CSV.
+
+### Screenshot import and its limits
+
+Upload a PNG/JPEG/WebP, use the clipboard button, or paste an image while the
+import dialog is open. Processing stays **entirely on the device**. The importer
+suggests 12 × 8 inventory regions even in a full-screen screenshot. The user must
+confirm the **equipped enemy grid**, excluding warehouse/storage panels; only
+that confirmed crop is used for item recognition. The crop can be drawn or
+adjusted numerically if automatic detection is ambiguous.
+
+Recognition excludes the colored outer frame and compares the artwork with
+local game templates, allowing scale/layout differences and adjustable
+similarity tolerance. Red Epic borders and neutral borders are both supported.
+Similar ammo icons and low-confidence matches are explicitly flagged for review;
+a similarity score is **not** a calibrated probability. Items can be corrected
+or omitted before import, and missing items can be added manually. The importer
+identifies item artwork, **not its tier or rolled stats**: the user must confirm
+the experiment's Epic1 gear / Gold1 ammo assumption. Other tiers and arbitrary
+weapon rolls are outside the saved experiment.
+
+Browser tests exercise generated full-screen examples with a separate warehouse,
+neutral/red/gold borders, scaling and JPEG compression. These checks establish
+behavior on those fixtures, not universal recognition accuracy on every game
+screenshot. Occluded items, modified artwork, ambiguous inventory regions, and
+very small images may require manual cropping or correction.
+
+### Rebuild, test, and publish the explorer
+
+No CUDA rerun is needed when exporting the current, verified saved setups:
+
+```bash
+python -m pip install -r requirements-web.txt
+python tools/export_web_data.py
+node tests/web_data.mjs
+python -m http.server 8000 --directory docs
+```
+
+Open `http://localhost:8000`. The complete experiment remains reproducible using
+the earlier C++/CUDA instructions. After a new experiment, rerun the export to
+replace the published slices; obsolete generated files are removed.
+
+Optional browser integration tests (including inventory editing, pagination,
+network request boundaries, matrix signs, and screenshot import):
+
+```bash
+python -m pip install playwright==1.56.0
+python -m playwright install chromium
+python tests/web_browser.py
+```
+
+GitHub Pages publishes the **`docs/` directory on `main`**. A `.nojekyll` marker
+keeps the static application and Parquet files intact. Push source and regenerated
+data as one commit; GitHub's Pages build publishes the matching snapshot. The
+browser Parquet reader is vendored as Hyparquet 1.33.1, with its MIT license in
+[`docs/vendor/hyparquet/LICENSE`](docs/vendor/hyparquet/LICENSE). Game artwork
+remains the property of its respective owners.

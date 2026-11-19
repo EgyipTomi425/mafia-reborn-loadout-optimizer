@@ -4,3 +4,7 @@
 *.py[cod]
 /results/*.log
 .DS_Store
+
+/.local-tools/
+
+/.web-test/
