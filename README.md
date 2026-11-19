@@ -905,3 +905,9 @@ Aliases with different physical sizes (the 4 × 2 named weapons) are excluded.
 FMJ remains outside the experiment and is not substituted for another ammo type.
 The mapping and its reproducible exporter are in
 `docs/data/recognition-aliases.json` and `tools/export_recognition_aliases.py`.
+
+Already-cropped images close to the inventory's 3:2 aspect ratio default to the
+whole image. Full-screen images require an explicit crop selection; the first
+automatic candidate is not silently chosen. The import dialog also provides a
+**Use entire image** button. Dark brown/red tile borders and smaller item art
+are accepted during template comparison.

@@ -110,6 +110,8 @@ def main():
         page.locator('#item-search').fill('specialization_shotgun');assert page.locator('.palette-item[data-id="specialization_rifle"]').count()==1
         page.locator('#item-search').fill('')
         report['checks'].append('Shotgun/Sniper alias names resolve to canonical AK library items')
+        assert page.evaluate("async()=>{const {findGridCandidates}=await import('./screenshot.js');const c=document.createElement('canvas');c.width=720;c.height=480;const first=findGridCandidates(c)[0];return first.wholeImage&&first.x===0&&first.y===0&&first.w===720&&first.h===480;}")
+        report['checks'].append('already-cropped 12x8 screenshots default to the full image')
         # Recognition fixtures: frames, layouts, scale, compression, warehouse.
         scenarios=[('rifle','most_wins','game',False,50,None),('rifle','best_mean_trade','caption',True,36,None),('submachine','most_wins','caption',True,42,None),('rifle','most_wins','game',True,50,'shotgun'),('rifle','best_mean_trade','caption',True,42,'sniper')]
         fixture_path=None

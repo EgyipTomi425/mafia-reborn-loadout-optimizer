@@ -2,9 +2,9 @@ import { allowed } from './model.js';
 const $ = id => document.getElementById(id);
 const canvas = (w,h) => { const c=document.createElement('canvas');c.width=w;c.height=h;return c; };
 const framePixel = (r,g,b) => (r>110 && r>g*1.22 && r>b*1.05) || (r>130 && g>90 && r>b*1.35 && g>b*1.08) || (Math.min(r,g,b)>110 && Math.max(r,g,b)-Math.min(r,g,b)<35);
-function frameMask(image) {
+function frameMask(image,dark=false) {
   const {data,width,height}=image,mask=new Uint8Array(width*height);
-  for(let i=0;i<mask.length;i++)mask[i]=framePixel(data[i*4],data[i*4+1],data[i*4+2])?1:0;
+  for(let i=0;i<mask.length;i++)mask[i]=(framePixel(data[i*4],data[i*4+1],data[i*4+2])||(dark&&data[i*4]>40&&data[i*4]>data[i*4+1]*1.25&&data[i*4]>data[i*4+2]*1.2))?1:0;
   return mask;
 }
 function lineSegments(mask,w,h,vertical=false) {
@@ -34,7 +34,8 @@ export function findGridCandidates(source) {
   c.getContext('2d').drawImage(source,0,0,c.width,c.height);
   const {width:w,height:h}=c,mask=frameMask(c.getContext('2d').getImageData(0,0,w,h));
   const segments=[...lineSegments(mask,w,h),...lineSegments(mask,w,h,true)];
-  if(!segments.length)return [];
+  const wholeImage=Math.abs(source.width/source.height-1.5)<.035 ? [{x:0,y:0,w:source.width,h:source.height,score:1,alignment:96,wholeImage:true}] : [];
+  if(!segments.length)return wholeImage;
   const histogram=new Map();
   for(const s of segments)for(let cells=2;cells<=(s.vertical?4:5);cells++)for(const padding of [0,2,4]) {
     const size=(s.length+padding)/cells;
@@ -80,7 +81,7 @@ export function findGridCandidates(source) {
     if(selected.some(s=>Math.abs(s.x-p.x)<p.w*.12&&Math.abs(s.y-p.y)<p.h*.12&&Math.abs(s.w-p.w)<p.w*.18))continue;
     selected.push(p);if(selected.length===6)break;
   }
-  return selected;
+  return [...wholeImage,...selected.filter(p=>!wholeImage.length||p.w<source.width*.9)].slice(0,6);
 }
 
 function descriptor(context,x,y,w,h) {
@@ -129,10 +130,10 @@ function rectangleFrame(mask,width,height,x,y,w,h,allSides=false) {
 
 export async function recognizeGrid(source,crop,itemList,tolerance=45,aliases=[]) {
   const target=canvas(720,480),ctx=target.getContext('2d',{willReadFrequently:true});ctx.drawImage(source,crop.x,crop.y,crop.w,crop.h,0,0,720,480);
-  const mask=frameMask(ctx.getImageData(0,0,720,480)),templates=[];
+  const mask=frameMask(ctx.getImageData(0,0,720,480),true),templates=[];
   for(const item of [...itemList,...aliases.filter(a=>itemList.some(i=>i.id===a.target))]) {
     const art=await loadArt(item),variants=[];
-    for(const mode of ['game','caption'])for(const scale of [.8,1,1.13]){
+    for(const mode of ['game','caption'])for(const scale of [.55,.7,.8,1,1.13]){
       const c=canvas(item.width*60,item.height*60),cx=c.getContext('2d');cx.fillStyle='#23323d';cx.fillRect(0,0,c.width,c.height);drawArt(cx,art,0,0,c.width,c.height,mode,scale);variants.push(descriptor(cx,0,0,c.width,c.height));
     }
     templates.push({item,variants});
@@ -188,7 +189,8 @@ export class ScreenshotImporter {
     this.source?.close?.();this.source=bitmap;$('screenshot-status').textContent='Looking for equipped inventory regions…';$('recognition-review').hidden=true;$('crop-stage').hidden=false;
     await new Promise(r=>setTimeout(r,20));this.candidates=findGridCandidates(bitmap);
     this.crop=null;$('crop-candidates').replaceChildren();this.candidates.forEach((c,i)=>{const b=document.createElement('button');b.textContent=`Candidate ${i+1}`;b.onclick=()=>this.setCrop(c);$('crop-candidates').append(b);});
-    if(this.candidates.length)this.setCrop(this.candidates[0]);else this.draw();
+    if(this.candidates[0]?.wholeImage)this.setCrop(this.candidates[0]);else this.draw();
+    const whole=document.createElement('button');whole.textContent='Use entire image';whole.onclick=()=>this.setCrop({x:0,y:0,w:this.source.width,h:this.source.height});$('crop-candidates').prepend(whole);
     $('screenshot-status').textContent=this.candidates.length?`Found ${this.candidates.length} possible regions. Select the enemy’s equipped inventory, not its warehouse, then confirm with Recognize selected grid.`:'No reliable grid found. Drag around the enemy’s equipped inventory, or set the crop coordinates.';
   }
   setCrop(crop){this.crop={x:Math.round(crop.x),y:Math.round(crop.y),w:Math.round(crop.w),h:Math.round(crop.h)};for(const k of ['x','y','w','h'])$('crop-'+k).value=this.crop[k];this.draw();}
