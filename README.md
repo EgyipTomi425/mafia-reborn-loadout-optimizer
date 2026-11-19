@@ -1,4 +1,4 @@
-# Mafia Reborn: combat-inventory optimization
+# Mafia Reborn: combat-inventory optimization (Interactive viewer doesnt work yet!)
 
 > **[Open Loadout Lab — interactive inventory and counter explorer](https://EgyipTomi425.github.io/mafia-reborn-loadout-optimizer/)**
 >
