@@ -8,6 +8,10 @@ import { allowed, validate, signature, expectedShot, EPSILON, Database } from '.
 const root=fileURLToPath(new URL('../',import.meta.url)),data=path.join(root,'docs/data');
 const manifest=JSON.parse(await readFile(path.join(data,'manifest.json'),'utf8')),items=new Map(manifest.items.map(i=>[i.id,i]));
 async function read(file){const b=await readFile(path.join(data,file));return parquetReadObjects({file:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength)});}
+const aliases=JSON.parse(await readFile(path.join(data,'recognition-aliases.json'),'utf8'));
+for(const a of aliases){const target=items.get(a.target);assert(target);assert.equal(a.width,target.width);assert.equal(a.height,target.height);assert(!a.id.startsWith('full_metal'));}
+assert.equal(aliases.find(a=>a.id==='soft_nosed_bullet_shotgun').target,'soft_nosed_bullet_large');
+assert.equal(aliases.find(a=>a.id==='tracer_ammunition_shotgun').target,'tracer_ammunition_large');
 let count=0,entriesCount=0,maxFile=0;
 for(const [kind,config] of Object.entries(manifest.categories)){
  const rows=await read(config.loadouts);for(const row of rows)for(const [k,v]of Object.entries(row))if(typeof v==='bigint')row[k]=Number(v);

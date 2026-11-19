@@ -20,13 +20,14 @@ FIXTURE = r'''async ({setup,category,mode='game',jpeg=false,cell=50})=>{
   const {findGridCandidates,recognizeGrid,loadArt,drawArt}=await import('./screenshot.js');
   const {allowed}=await import('./model.js');
   const manifest=await(await fetch('data/manifest.json')).json();
-  const items=new Map(manifest.items.map(x=>[x.id,x]));
+  const aliases=await(await fetch('data/recognition-aliases.json')).json();
+  const items=new Map([...manifest.items,...aliases].map(x=>[x.id,x]));
   const c=document.createElement('canvas');c.width=1600;c.height=1100;
   const ctx=c.getContext('2d');ctx.fillStyle='#111820';ctx.fillRect(0,0,c.width,c.height);
   const crop={x:120,y:180,w:12*cell,h:8*cell};ctx.fillStyle='#0d151a';ctx.fillRect(crop.x,crop.y,crop.w,crop.h);
   ctx.fillStyle='#fff';ctx.font='24px sans-serif';ctx.fillText('OPPONENT EQUIPPED INVENTORY',120,155);ctx.fillText('WAREHOUSE',900,155);
   for(let i=0;i<setup.items.length;i++){
-    const p=setup.items[i],item=items.get(p.id),x=crop.x+p.x*cell,y=crop.y+p.y*cell,w=item.width*cell,h=item.height*cell;
+    const p=setup.items[i],item=items.get(setup.art_ids?.[p.id]||p.id),x=crop.x+p.x*cell,y=crop.y+p.y*cell,w=item.width*cell,h=item.height*cell;
     ctx.fillStyle='#23323d';ctx.fillRect(x+2,y+2,w-4,h-4);
     ctx.strokeStyle=['#ff5260','#e8b561','#bbbbbb'][i%3];ctx.lineWidth=3;ctx.strokeRect(x+3,y+3,w-6,h-6);
     drawArt(ctx,await loadArt(item),x,y,w,h,mode,1);
@@ -38,7 +39,7 @@ FIXTURE = r'''async ({setup,category,mode='game',jpeg=false,cell=50})=>{
   }
   const blob=await new Promise(r=>c.toBlob(r,jpeg?'image/jpeg':'image/png',.78));
   const image=await createImageBitmap(blob),candidates=findGridCandidates(image);
-  const match=await recognizeGrid(image,crop,[...items.values()].filter(i=>allowed(i,category)));
+  const match=await recognizeGrid(image,crop,[...items.values()].filter(i=>!i.target&&allowed(i,category)),45,aliases);
   return{crop,candidates,found:match.matches.map(p=>({id:p.options[0].id,x:p.x,y:p.y})),filled:match.filled,
          expected:setup.items.map(x=>({id:x.id,x:x.x,y:x.y})),image:await new Promise(resolve=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.readAsDataURL(blob);})};
 }'''
@@ -105,11 +106,17 @@ def main():
         page.locator('#sort').select_option('mean_net_hp_pp');assert page.locator('#counter-rows tr button').first.inner_text()=='#52780'
         page.locator('#sort').select_option('weighted_win_rate');assert page.locator('#counter-rows tr button').first.inner_text()=='#54380'
         report['checks'].append('AK category isolation and alternative global sorts')
+        page.locator('#item-search').fill('scorpion');assert page.locator('.palette-item[data-id="ak_24_7"]').count()==1
+        page.locator('#item-search').fill('specialization_shotgun');assert page.locator('.palette-item[data-id="specialization_rifle"]').count()==1
+        page.locator('#item-search').fill('')
+        report['checks'].append('Shotgun/Sniper alias names resolve to canonical AK library items')
         # Recognition fixtures: frames, layouts, scale, compression, warehouse.
-        scenarios=[('rifle','most_wins','game',False,50),('rifle','best_mean_trade','caption',True,36),('submachine','most_wins','caption',True,42)]
+        scenarios=[('rifle','most_wins','game',False,50,None),('rifle','best_mean_trade','caption',True,36,None),('submachine','most_wins','caption',True,42,None),('rifle','most_wins','game',True,50,'shotgun'),('rifle','best_mean_trade','caption',True,42,'sniper')]
         fixture_path=None
-        for category,key,mode,jpeg,cell in scenarios:
+        for category,key,mode,jpeg,cell,alias_kind in scenarios:
           setup=json.loads((ROOT/'results'/f'{category}_results.json').read_text())[key]
+          if alias_kind:
+            setup['art_ids']={'ak_24_7':'scorpion' if alias_kind=='shotgun' else 'psk1','specialization_rifle':'specialization_'+alias_kind,'soft_nosed_bullet_large':'soft_nosed_bullet_shotgun','tracer_ammunition_large':'tracer_ammunition_shotgun'}
           result=page.evaluate(FIXTURE,{'setup':setup,'category':category,'mode':mode,'jpeg':jpeg,'cell':cell})
           assert {x['id'] for x in result['found']}=={x['id'] for x in result['expected']},result
           assert 'accuracy_all' not in {x['id'] for x in result['found']},'Warehouse item leaked into equipped inventory'
@@ -117,7 +124,7 @@ def main():
           assert any(abs(c['x']-crop['x'])<12 and abs(c['y']-crop['y'])<12 and abs(c['w']-crop['w'])<18 for c in result['candidates']), 'No correct automatic crop candidate'
           path=OUTPUT/f'{category}-{key}.{"jpg" if jpeg else "png"}';path.write_bytes(base64.b64decode(result['image'].split(',')[1]))
           if category=='rifle' and key=='most_wins':fixture_path=path;fixture_crop=crop
-          report['recognition_fixtures'].append({'category':category,'selection':key,'layout':mode,'jpeg':jpeg,'cell_pixels':cell,'items_correct':len(result['found']),'warehouse_excluded':True})
+          report['recognition_fixtures'].append({'category':category,'selection':key,'layout':mode,'jpeg':jpeg,'cell_pixels':cell,'items_correct':len(result['found']),'warehouse_excluded':True,'temporary_alias':alias_kind})
         # Exercise the actual file upload / crop / review / apply UI.
         page.locator('#screenshot-open').click();page.locator('#screenshot-file').set_input_files(fixture_path)
         page.wait_for_function("document.querySelector('#screenshot-status').textContent.includes('regions')")

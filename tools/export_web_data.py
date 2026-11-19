@@ -108,6 +108,8 @@ def export_category(kind):
 
 CATALOG = {r['id']: r for r in json.loads((ROOT / 'data/catalog.json').read_text())}
 if __name__ == '__main__':
+    from export_recognition_aliases import export as export_aliases
+    export_aliases()
     OUT.mkdir(parents=True, exist_ok=True)
     categories, ids = {}, set()
     for kind in ('submachine', 'rifle'):

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "scorpion",
+    "target": "ak_24_7",
+    "name": "Scorpion",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_scorpion.svg",
+    "overlay": null
+  },
+  {
+    "id": "pancake_hammerjack",
+    "target": "ak_24_7",
+    "name": "Pancake Hammerjack",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_pancake_hammerjack.svg",
+    "overlay": null
+  },
+  {
+    "id": "m41",
+    "target": "ak_24_7",
+    "name": "M41",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_m41.svg",
+    "overlay": null
+  },
+  {
+    "id": "nts244",
+    "target": "ak_24_7",
+    "name": "NTs244",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_nts244.svg",
+    "overlay": null
+  },
+  {
+    "id": "psk1",
+    "target": "ak_24_7",
+    "name": "PSK1",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_psk1.svg",
+    "overlay": null
+  },
+  {
+    "id": "wingchester_1887",
+    "target": "ak_24_7",
+    "name": "Wingchester 1887",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_wingchester_1887.svg",
+    "overlay": null
+  },
+  {
+    "id": "dragon_svd",
+    "target": "ak_24_7",
+    "name": "Dragon SVD",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_dragon_svd.svg",
+    "overlay": null
+  },
+  {
+    "id": "sawn_off_shotgun",
+    "target": "ak_24_7",
+    "name": "Sawn-off shotgun",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_sawn_off_shotgun.svg",
+    "overlay": null
+  },
+  {
+    "id": "mosid_nougat",
+    "target": "ak_24_7",
+    "name": "Mosid-Nougat",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_mosid_nougat.svg",
+    "overlay": null
+  },
+  {
+    "id": "greening_a_5",
+    "target": "ak_24_7",
+    "name": "Greening A-5",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_greening_a_5.svg",
+    "overlay": null
+  },
+  {
+    "id": "r780",
+    "target": "ak_24_7",
+    "name": "R780",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_r780.svg",
+    "overlay": null
+  },
+  {
+    "id": "redemption_rsas",
+    "target": "ak_24_7",
+    "name": "Redemption RSAS",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_redemption_rsas.svg",
+    "overlay": null
+  },
+  {
+    "id": "rpg_94",
+    "target": "ak_24_7",
+    "name": "RPG-94",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_rpg_94.svg",
+    "overlay": null
+  },
+  {
+    "id": "dcr_2",
+    "target": "ak_24_7",
+    "name": "DCR 2",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_dcr_2.svg",
+    "overlay": null
+  },
+  {
+    "id": "fun_12",
+    "target": "ak_24_7",
+    "name": "Fun-12",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_fun_12.svg",
+    "overlay": null
+  },
+  {
+    "id": "jahs_peacemaker",
+    "target": "ak_24_7",
+    "name": "USB",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_jahs_peacemaker.svg",
+    "overlay": null
+  },
+  {
+    "id": "brad_m83",
+    "target": "ak_24_7",
+    "name": "Brad M83",
+    "width": 5,
+    "height": 3,
+    "image": "icons/weapon_brad_m83.svg",
+    "overlay": null
+  },
+  {
+    "id": "specialization_shotgun",
+    "target": "specialization_rifle",
+    "name": "Specialization",
+    "width": 4,
+    "height": 4,
+    "image": "icons/skill_specialization.svg",
+    "overlay": "icons/skill_specialization_shotgun.svg"
+  },
+  {
+    "id": "specialization_sniper",
+    "target": "specialization_rifle",
+    "name": "Specialization",
+    "width": 4,
+    "height": 4,
+    "image": "icons/skill_specialization.svg",
+    "overlay": "icons/skill_specialization_sniper.svg"
+  },
+  {
+    "id": "soft_nosed_bullet_shotgun",
+    "target": "soft_nosed_bullet_large",
+    "name": "Soft nosed bullet (shotgun)",
+    "width": 3,
+    "height": 2,
+    "image": "icons/consumable_soft_nosed_bullet_shotgun_2.svg",
+    "overlay": null
+  },
+  {
+    "id": "tracer_ammunition_shotgun",
+    "target": "tracer_ammunition_large",
+    "name": "Tracer ammunition (shotgun)",
+    "width": 3,
+    "height": 2,
+    "image": "icons/consumable_tracer_ammunition_shotgun_2.svg",
+    "overlay": null
+  }
+]

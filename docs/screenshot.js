@@ -127,10 +127,10 @@ function rectangleFrame(mask,width,height,x,y,w,h,allSides=false) {
   return allSides ? Math.min(...selected) : selected.reduce((a,b)=>a+b,0)/selected.length;
 }
 
-export async function recognizeGrid(source,crop,itemList,tolerance=45) {
+export async function recognizeGrid(source,crop,itemList,tolerance=45,aliases=[]) {
   const target=canvas(720,480),ctx=target.getContext('2d',{willReadFrequently:true});ctx.drawImage(source,crop.x,crop.y,crop.w,crop.h,0,0,720,480);
   const mask=frameMask(ctx.getImageData(0,0,720,480)),templates=[];
-  for(const item of itemList) {
+  for(const item of [...itemList,...aliases.filter(a=>itemList.some(i=>i.id===a.target))]) {
     const art=await loadArt(item),variants=[];
     for(const mode of ['game','caption'])for(const scale of [.8,1,1.13]){
       const c=canvas(item.width*60,item.height*60),cx=c.getContext('2d');cx.fillStyle='#23323d';cx.fillRect(0,0,c.width,c.height);drawArt(cx,art,0,0,c.width,c.height,mode,scale);variants.push(descriptor(cx,0,0,c.width,c.height));
@@ -144,7 +144,12 @@ export async function recognizeGrid(source,crop,itemList,tolerance=45) {
     const border=rectangleFrame(mask,720,480,x*60,y*60,w*60,h*60);
     if(border<.55)continue;
     const patch=descriptor(ctx,x*60,y*60,w*60,h*60);
-    const options=templates.filter(t=>t.item.width===w&&t.item.height===h).map(t=>({id:t.item.id,score:Math.max(...t.variants.map(v=>similarity(patch,v)))})).sort((a,b)=>b.score-a.score);
+    const byTarget=new Map();
+    for(const t of templates.filter(t=>t.item.width===w&&t.item.height===h)){
+      const id=t.item.target||t.item.id,score=Math.max(...t.variants.map(v=>similarity(patch,v)));
+      if(!byTarget.has(id)||byTarget.get(id).score<score)byTarget.set(id,{id,score});
+    }
+    const options=[...byTarget.values()].sort((a,b)=>b.score-a.score);
     if(!options.length||options[0].score<minimum)continue;
     possible.push({x,y,w,h,options,score:options[0].score,border,uncertain:options[0].score<.82||(options.length>1&&options[0].score-options[1].score<.06)});
   }
@@ -160,8 +165,8 @@ export async function recognizeGrid(source,crop,itemList,tolerance=45) {
 }
 
 export class ScreenshotImporter {
-  constructor({items,category,onApply,onError}) {
-    Object.assign(this,{items,category,onApply,onError});this.source=null;this.crop=null;this.candidates=[];this.matches=[];
+  constructor({items,aliases=[],category,onApply,onError}) {
+    Object.assign(this,{items,aliases,category,onApply,onError});this.source=null;this.crop=null;this.candidates=[];this.matches=[];
     const safe=fn=>(...args)=>Promise.resolve().then(()=>fn(...args)).catch(onError);
     $('screenshot-open').onclick=()=>$('screenshot-dialog').showModal();$('screenshot-close').onclick=()=>$('screenshot-dialog').close();
     $('screenshot-file').onchange=safe(async e=>{await this.read(e.target.files[0]);e.target.value='';});
@@ -191,7 +196,7 @@ export class ScreenshotImporter {
   async recognize(){const c=this.crop;if(!c||c.w<60||c.h<40||c.x<0||c.y<0||c.x+c.w>this.source.width+1||c.y+c.h>this.source.height+1)throw new Error('Select a complete inventory region inside the screenshot.');if(Math.abs(c.w/c.h-1.5)>.13)throw new Error('The inventory must have a 12 × 8 grid (3:2 aspect ratio). Adjust the crop to the grid edges.');
     if(this.crop.x<0||this.crop.y<0||this.crop.w<120||this.crop.h<80||this.crop.x+this.crop.w>this.source.width+2||this.crop.y+this.crop.h>this.source.height+2)throw new Error('Keep the crop inside the screenshot and use at least 10 pixels per inventory cell.');
     $('recognize').disabled=true;$('screenshot-status').textContent='Comparing item artwork inside the confirmed crop…';$('recognition-review').hidden=true;await new Promise(r=>setTimeout(r,20));
-    try{const list=[...this.items.values()].filter(i=>allowed(i,this.category()));const result=await recognizeGrid(this.source,c,list,Number($('tolerance').value));this.matches=result.matches;this.importCategory=this.category();$('recognition-items').replaceChildren();
+    try{const list=[...this.items.values()].filter(i=>allowed(i,this.category()));const result=await recognizeGrid(this.source,c,list,Number($('tolerance').value),this.aliases);this.matches=result.matches;this.importCategory=this.category();$('recognition-items').replaceChildren();
       for(const p of result.matches){const row=document.createElement('div');row.className='recognition-row'+(p.uncertain?' uncertain':'');const thumb=canvas(p.w*30,p.h*30);thumb.getContext('2d').drawImage(result.preview,p.x*60,p.y*60,p.w*60,p.h*60,0,0,thumb.width,thumb.height);const box=document.createElement('div'),select=document.createElement('select');select.setAttribute('aria-label',`Item at column ${p.x+1}, row ${p.y+1}`);const omit=document.createElement('option');omit.value='';omit.textContent='Omit this match';select.append(omit);for(const item of list.filter(i=>i.width===p.w&&i.height===p.h)){const o=document.createElement('option');o.value=item.id;const score=p.options.find(x=>x.id===item.id)?.score;o.textContent=`${item.name}${score==null?'':` · similarity ${(100*score).toFixed(0)}/100`}`;select.append(o);}select.value=p.options[0].id;p.selection=select;const label=document.createElement('small');label.textContent=`Cell ${p.x+1}, ${p.y+1} · ${p.uncertain?'Review carefully':'Strong artwork match'} · similarity is not a calibrated probability`;box.append(select,label);row.append(thumb,box);$('recognition-items').append(row);}
       $('recognition-review').hidden=false;$('confirm-tier').checked=false;$('apply-recognition').disabled=true;$('screenshot-status').textContent=`Recognized ${result.matches.length} possible items across ${result.filled}/96 cells. Review identities and the gear-tier assumption before applying. Missing items can be added manually.`;
     }finally{$('recognize').disabled=false;}

@@ -7,6 +7,7 @@
     "save/open inventory round trip",
     "drag/drop editing and partial inventory gating",
     "AK category isolation and alternative global sorts",
+    "Shotgun/Sniper alias names resolve to canonical AK library items",
     "screenshot upload, explicit crop, identity review, tier confirmation, and import",
     "clipboard paste and manual crop fallback for unrecognizable images",
     "390px mobile layout without horizontal page overflow",
@@ -20,7 +21,8 @@
       "jpeg": false,
       "cell_pixels": 50,
       "items_correct": 9,
-      "warehouse_excluded": true
+      "warehouse_excluded": true,
+      "temporary_alias": null
     },
     {
       "category": "rifle",
@@ -29,7 +31,8 @@
       "jpeg": true,
       "cell_pixels": 36,
       "items_correct": 9,
-      "warehouse_excluded": true
+      "warehouse_excluded": true,
+      "temporary_alias": null
     },
     {
       "category": "submachine",
@@ -38,7 +41,28 @@
       "jpeg": true,
       "cell_pixels": 42,
       "items_correct": 11,
-      "warehouse_excluded": true
+      "warehouse_excluded": true,
+      "temporary_alias": null
+    },
+    {
+      "category": "rifle",
+      "selection": "most_wins",
+      "layout": "game",
+      "jpeg": true,
+      "cell_pixels": 50,
+      "items_correct": 9,
+      "warehouse_excluded": true,
+      "temporary_alias": "shotgun"
+    },
+    {
+      "category": "rifle",
+      "selection": "best_mean_trade",
+      "layout": "caption",
+      "jpeg": true,
+      "cell_pixels": 42,
+      "items_correct": 9,
+      "warehouse_excluded": true,
+      "temporary_alias": "sniper"
     }
   ],
   "data_validation": {
@@ -50,14 +74,16 @@
     "per_lookup_matchup_requests": 1
   },
   "files": {
-    "tools/export_web_data.py": "d6b366f53a255ced20156acd36c45dc6a371193133c75f3b71b2f9bfc268a43d",
-    "docs/app.js": "8cb94c2dc4a71fb22342fee79f576a821345e1f5ac789772d7d8fd991a65619b",
-    "docs/model.js": "322ec880f1d9e36a2479de68ac1e683f5a3230ebf595d214d0d026d6203e1d5f",
-    "docs/screenshot.js": "8dcf533230be077af84e7b5f0c3dcfca65f8a0a8f05acfa3448bb4d2b2854306",
-    "docs/style.css": "126cf44eaee928639a59d369fd357a9927bc315bee5503de1f4eb43297ce9f4c",
-    "docs/index.html": "1f5fd0bc20b9767f05a6cc068b6c4c9147a781a0ead6160d43220be97bb7a6a4",
+    "docs/app.js": "606a1c2a2f38d128e9dbbf10753f70083ee03e93e75773ec5b3ecb88ddd931a7",
     "docs/data/manifest.json": "33a97d3ecc47ed7767c0a9efe58f89057f9b44eb8bec1faffcc0beabb51e8acd",
-    "tests/web_data.mjs": "65f6f6c4e259698a12dad19390ce919916168a1fa94d99e9bbed49ad4b630ec9",
-    "tests/web_browser.py": "1213483a1c64223015eff1df2ca0a472c4ab2e2762f5d558ecf86e62a1c1c9be"
+    "docs/data/recognition-aliases.json": "82b9effd74c53c67cba723ccfc5ed4af95a42aca9891272f61ee86edd5024e8b",
+    "docs/index.html": "825fcfbdbfc33b0f912d8b1786dfcda44cfbf33ed5abd4dce223db36c9290c41",
+    "docs/model.js": "322ec880f1d9e36a2479de68ac1e683f5a3230ebf595d214d0d026d6203e1d5f",
+    "docs/screenshot.js": "8410d9b36d6770a4df4aa4d1617f57844e0604d12b4cd305f223937c9a802127",
+    "docs/style.css": "126cf44eaee928639a59d369fd357a9927bc315bee5503de1f4eb43297ce9f4c",
+    "tests/web_browser.py": "7c66a35a46a49efb1cba0ac8bf9748f13079ed9843138564dc0b2ddb7874e3ad",
+    "tests/web_data.mjs": "ed5b46320bf74d32501aba31c621813756ab586dc425910ffdf46a33d3b30f8a",
+    "tools/export_recognition_aliases.py": "89caee67d5f924ddc27afeedb228e0bb9d730c107b9d06d7fc039a1da63b11b3",
+    "tools/export_web_data.py": "962c38e8f2579bb8b321e2e073cd6e2cdea2cf30d8b0b3174b5a92e3288ef09c"
   }
 }

@@ -3,7 +3,7 @@ import { ScreenshotImporter } from './screenshot.js';
 
 const $ = id => document.getElementById(id);
 const state = { category: 'submachine', layout: [], selected: null, data: null, enemy: null, page: 0, rows: [], sequence: 0 };
-let db, manifest, items, importer, toastTimer;
+let db, manifest, items, importer, toastTimer, aliases = [];
 function toast(message) { $('toast').textContent = message; $('toast').hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => $('toast').hidden = true, 5000); }
 function failure(error) { console.error(error); toast(error.message || String(error)); }
 function safe(fn) { return (...args) => Promise.resolve().then(() => fn(...args)).catch(failure); }
@@ -16,7 +16,7 @@ function art(item) {
 function renderPalette() {
   const query = $('item-search').value.trim().toLowerCase(); $('palette').replaceChildren();
   for (const item of items.values()) {
-    if (!allowed(item, state.category) || !item.name.toLowerCase().includes(query)) continue;
+    if (!allowed(item, state.category) || ![item.name,...aliases.filter(a=>a.target===item.id).map(a=>`${a.name} ${a.id}`)].some(name=>name.toLowerCase().includes(query))) continue;
     const button = document.createElement('button'); button.className = 'palette-item'; button.dataset.id = item.id;
     button.title = `${item.name}: ${item.effects}`; button.draggable = true; button.setAttribute('aria-pressed', state.selected === item.id);
     button.classList.toggle('selected', state.selected === item.id); button.disabled = state.layout.some(p => p.id === item.id);
@@ -150,7 +150,7 @@ async function matrix() {
 function saveLayout(){const blob=new Blob([JSON.stringify({schema_version:1,category:state.category,scenario:manifest.scenario,items:state.layout},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`mafia-reborn-${state.category}-inventory.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 async function openLayout(file){if(!file)return;if(file.size>25000)throw new Error('Inventory file is too large.');const data=JSON.parse(await file.text());if(data.schema_version!==1||!['rifle','submachine'].includes(data.category)||!Array.isArray(data.items)||data.items.length>25)throw new Error('Not a supported saved inventory.');const result=validate(data.items,items,data.category,false);if(result.errors.length)throw new Error(result.errors[0]);if(state.category!==data.category){$('category').value=data.category;await categoryChanged();}state.layout=data.items.map(p=>({id:p.id,x:p.x,y:p.y}));changed();}
 async function main(){
-  const response=await fetch('data/manifest.json');if(!response.ok)throw new Error('Cannot read the experiment manifest.');manifest=await response.json();items=new Map(manifest.items.map(i=>[i.id,i]));db=new Database(manifest);
+  const response=await fetch('data/manifest.json');if(!response.ok)throw new Error('Cannot read the experiment manifest.');manifest=await response.json();items=new Map(manifest.items.map(i=>[i.id,i]));db=new Database(manifest);const aliasResponse=await fetch('data/recognition-aliases.json');if(!aliasResponse.ok)throw new Error('Cannot load weapon recognition aliases.');aliases=await aliasResponse.json();
   $('inventory').style.gridTemplateColumns='repeat(12,minmax(0,1fr))';$('inventory').style.gridTemplateRows='repeat(8,minmax(0,1fr))';$('inventory').tabIndex=0;
   document.querySelectorAll('.axis-x').forEach(el=>{el.style.display='grid';el.style.gridTemplateColumns='repeat(12,1fr)';el.style.textAlign='center';el.style.fontSize='.75rem';el.style.color='var(--muted)';el.style.marginBottom='8px';for(let i=1;i<=12;i++){const span=document.createElement('span');span.textContent=i;el.append(span);}});
   const point=e=>{const r=$('inventory').getBoundingClientRect();return{x:Math.min(11,Math.floor((e.clientX-r.left)/r.width*12)),y:Math.min(7,Math.floor((e.clientY-r.top)/r.height*8))};};
@@ -162,7 +162,7 @@ async function main(){
   $('load-winner').onclick=()=>loadWinner('most_wins');$('load-average').onclick=()=>loadWinner('best_mean_trade');$('evaluate').onclick=safe(evaluate);
   $('sort').onchange=$('core-only').onchange=()=>{state.page=0;renderTable();};$('previous').onclick=()=>{state.page--;renderTable();};$('next').onclick=()=>{state.page++;renderTable();};$('show-matrix').onclick=safe(matrix);
   $('export-layout').onclick=saveLayout;$('layout-file').onchange=safe(async e=>{await openLayout(e.target.files[0]);e.target.value='';});
-  importer=new ScreenshotImporter({items,category:()=>state.category,onApply:layout=>{state.layout=layout;state.selected=null;changed();toast('Reviewed items imported. Check the inventory and fill any missing cells.');},onError:failure});
+  importer=new ScreenshotImporter({items,aliases,category:()=>state.category,onApply:layout=>{state.layout=layout;state.selected=null;changed();toast('Reviewed items imported. Check the inventory and fill any missing cells.');},onError:failure});
   $('data-links').textContent = 'A compact loadout catalogue loads once per category. Each enemy lookup fetches only its own small Parquet matchup slice; the complete matrix is never downloaded. GitHub Pages serves these precomputed slices directly, with no backend.';
   await categoryChanged();loadWinner('most_wins');
 }

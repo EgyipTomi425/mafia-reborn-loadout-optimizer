@@ -890,3 +890,18 @@ data as one commit; GitHub's Pages build publishes the matching snapshot. The
 browser Parquet reader is vendored as Hyparquet 1.33.1, with its MIT license in
 [`docs/vendor/hyparquet/LICENSE`](docs/vendor/hyparquet/LICENSE). Game artwork
 remains the property of its respective owners.
+
+### Temporary Shotgun / Sniper recognition aliases
+
+For inventory lookup only, 5 × 3 Shotguns and Sniper Rifles are treated as the
+AK 24/7, and their 4 × 4 specializations as Rifle Specialization. Shotgun
+Soft-Nosed and Tracer ammo map to the corresponding large-caliber AK ammo;
+the ammo type is preserved. Search the Rifle / Shotgun / Sniper library by an
+alias name, or import its artwork from a screenshot. The resulting canonical
+AK item set uses the existing AK matrix, scores, and counters. This is an
+explicit approximation, not a simulation of Shotgun/Sniper combat mechanics.
+
+Aliases with different physical sizes (the 4 × 2 named weapons) are excluded.
+FMJ remains outside the experiment and is not substituted for another ammo type.
+The mapping and its reproducible exporter are in
+`docs/data/recognition-aliases.json` and `tools/export_recognition_aliases.py`.
