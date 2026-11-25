@@ -9,6 +9,262 @@ enumerates item sets, CUDA proves whether each inventory fits, and every valid
 set is compared with every other valid set in its weapon category. This
 repository contains the current experiment and its verified results.
 
+# Class Balance & Equipment Rework Suggestion
+
+The main problems with the current class balance are **the Tactician's relatively low base combat value and equipment that disproportionately benefits certain classes.**
+
+## TL;DR – Complete proposed changes
+
+| Stat | Tactician | Rogue | Bully |
+|---|---:|---:|---:|
+| Damage scaling buff | +9.9748% | +8.4400% | +6.9059% |
+| Damage per level (`perLevel`) | 17 → 18.6957 | 8.5 → 9.2174 | 5.1 → 5.4522 |
+| HP scaling | 2 → 2.5 | 3.85 → 4 | 4.4 → 5 |
+| Base dodge | 7.1% → 10% | 10.1% → 10% | 9.1% → 10% |
+| Base DR | 10% | 25% → 30% | 50% |
+| Epic spread | 15% | 12% | 9% |
+| Fixed base damage | 14 | 0 | 3 |
+| Total DR with Epic Vest | 24% → 23.5% | 39% → 40.5% | 64% → 57.5% |
+
+**These damage scaling changes also make Epic weapon levels easy to estimate: round the minimum damage to the nearest multiple of 10 for Tactician, 5 for Rogue or 3 for Bully, then divide by that number (allowing for fixed base damage and random rolls).** **HP would also be easier to calculate with simpler scaling values (2.5, 4 and 5), while base damage reduction would follow a consistent 20-percentage-point progression across the classes (10%, 30% and 50%).**
+
+- Bulletproof Vest: additive +14 percentage points → multiplicative 15% incoming damage reduction.
+- Class base dodge: standardized to 10% for all classes. Any changes to the Vigilance item itself can be addressed separately.
+
+## TL;DR – Class balance improvement
+
+Current vs. proposed class strength with all three Epic items equipped (Rogue = 100%):
+
+```text
+Tactician
+Current   █████                          89.6507%
+Proposed  ██████████████                 99.2966%
+
+Rogue
+Current   ███████████████               100.0000%
+Proposed  ███████████████               100.0000%
+
+Bully
+Current   ██████████████████████        107.1234%
+Proposed  █████████████████             101.7421%
+```
+
+The bars start at 85% to make the differences easier to see.
+
+## 1. Current class balance
+
+**Rogue is the 100% reference in each column.** The numbers compare the classes' damage and survivability with identical equipment, using the game's damage and HP scaling. All columns include an Epic weapon. The relative comparison uses damage scaling rather than the small fixed base damage constants.
+
+| Class | Weapon only | + Vest | + Vigilance | All three | After proposed changes |
+|---|---:|---:|---:|---:|---:|
+| Tactician | 91.5337% | 89.8317% | 91.3493% | 89.6507% | **99.2966%** |
+| Rogue | 100.0000% | 100.0000% | 100.0000% | 100.0000% | **100.0000%** |
+| Bully | 100.8591% | 107.1971% | 100.7897% | 107.1234% | **101.7421%** |
+
+The first four columns show the current balance. The last column shows the proposed balance, with or without the reworked 15% Vest and Vigilance, using the current Vigilance bonus. Each item would give the same proportional benefit to every class, so the relative values do not change.
+
+**Without class-dependent equipment effects, Rogue and Bully are already fairly well balanced, while Tactician is significantly weaker than both.** Bully has only a 0.8591% VALUE advantage over Rogue, while Tactician is 8.4663% below Rogue. **Equalizing equipment benefits alone would therefore not solve Tactician's underlying weakness.**
+
+## 2. Bulletproof Vest rework
+
+The current Epic Bulletproof Vest adds 14 percentage points of damage reduction. The higher a class's base damage reduction, the more effective HP it gains from the Vest. In other words, the same item is worth much more to Bully.
+
+| **Class** | **Base DR** | **DR with Vest** | **DR with Reworked Vest** | **Current EHP Bonus** | **Notes** |
+|---|---:|---:|---:|---:|---|
+| Tactician | 10% | 24% | 23.5% | +18.4211% | No base DR change needed |
+| Rogue | 25% | 39% | 36.25% | +22.9508% | **Increasing base DR to 30% is recommended (40.5% total DR with the reworked Vest).** |
+| Bully | 50% | 64% | 57.5% | +38.8889% | No base DR change needed |
+
+**Bully receives more than twice the effective HP bonus of Tactician from the very same item.** Beyond being a strong meta item, the Vest's current implementation substantially amplifies Bully's strength. Its VALUE advantage over Rogue rises from 0.8591% to 7.1971%, and its advantage over Tactician rises from 10.1880% to 19.3310%. **With the current Vest, Bully significantly dominates the other classes in this power comparison.**
+
+**Proposal:** Replace the additive 14 percentage points with a multiplicative 15% reduction of incoming damage.
+
+Instead of adding the Vest bonus to base damage reduction, multiply the remaining damage by the Vest's own reduction factor:
+
+- Current: `Damage taken = Damage × (1 − Base DR − 0.14)`
+- Proposed: `Damage taken = Damage × (1 − Base DR) × (1 − 0.15)`
+
+For example, Bully would take `Damage × 0.50 × 0.85 = Damage × 0.425`, resulting in 57.5% total damage reduction instead of 64%.
+
+Increasing Rogue's base damage reduction from 25% to 30% would bring its total damage reduction with the reworked Vest to 40.5%, further improving the overall class balance.
+
+**Every class would receive the same +17.6471% effective HP and approximately +8.4652% VALUE.** The Vest would remain a strong defensive item without artificially favoring Bully.
+
+The Vest occupies 12 inventory cells, while many skills occupy 9. To compare their value per inventory space, the table also shows the effective HP bonus scaled to 9 cells (`EHP bonus × 9 / 12`).
+
+| Class | Current Vest EHP (12 cells) | Current EHP per 9 cells | Reworked Vest EHP (12 cells) | Reworked EHP per 9 cells |
+|---|---:|---:|---:|---:|
+| Tactician | +18.4211% | +13.8158% | **+17.6471%** | **+13.2353%** |
+| Rogue | +22.9508% | +17.2131% | **+17.6471%** | **+13.2353%** |
+| Bully | +38.8889% | +29.1667% | **+17.6471%** | **+13.2353%** |
+
+The 9-cell values are a simple space-adjusted comparison, not a change to the Vest's actual size or in-game bonus. The proposed 15% reduction also applies after Rogue's recommended base DR increase.
+
+**This fixes both the class-dependent advantage and reduces the Vest's dominance as a meta item.** With this item reform alone, Rogue and Bully would remain close to their original near-balanced relationship, while Tactician would still need a separate class buff.
+
+## 3. Class base dodge rework
+
+Epic Vigilance adds 10 percentage points of dodge chance. Classes that already have more dodge get a bigger survivability boost from the same item.
+
+| Class | Base dodge | Dodge with Vigilance | Effective HP bonus |
+|---|---:|---:|---:|
+| Tactician | 7.1% | 17.1% | +12.0627% |
+| Rogue | 10.1% | 20.1% | +12.5156% |
+| Bully | 9.1% | 19.1% | +12.3609% |
+
+This imbalance is much smaller than the Vest's, but **Vigilance still favors Rogue and benefits Tactician the least.** **The underlying Rogue–Bully balance is already close; Tactician remains considerably weaker than both.**
+
+**Proposal:** Standardize base dodge to 10% for all classes. This change targets the classes’ innate dodge chance, not the Vigilance item itself. **With the current Epic Vigilance bonus, every class would then have 20% dodge, gaining exactly +12.5% effective HP and approximately +6.0660% VALUE from the item.** Any future changes to Vigilance can be considered separately.
+
+## 4. Weapon damage adjustments
+
+The goal is to bring Epic weapon minimum damage per level to 10 for Tactician, 5 for Rogue and 3 for Bully, without changing their existing damage spreads or fixed base damage.
+
+| Class | Old scaling | Proposed scaling | Scaling buff |
+|---|---:|---:|---:|
+| Tactician | 17 | 18.6957 | +9.9748% |
+| Rogue | 8.5 | 9.2174 | +8.4400% |
+| Bully | 5.1 | 5.4522 | +6.9059% |
+
+The new scaling values are rounded upwards to four decimal places. The displayed percentage buffs are calculated from these rounded values and also rounded upwards to four decimal places.
+
+| Class | Epic spread | Min/level | Max/level | Average/level |
+|---|---:|---:|---:|---:|
+| Tactician | 15% | 10 | 11.50 | 10.750 |
+| Rogue | 12% | 5 | 5.60 | 5.300 |
+| Bully | 9% | 3 | 3.27 | 3.135 |
+
+These are the target damage ranges per level, before fixed base damage and random rolls.
+
+**Example: level 100 Epic 1 weapons**
+
+Here is what a typical level 100 Epic weapon would look like, including fixed base damage:
+
+| Class | Current range | Proposed range | Current mean | Proposed mean |
+|---|---:|---:|---:|---:|
+| Tactician | 916–1055 | 1007–1159 | 985.5 | 1083 |
+| Rogue | 461–516 | 500–560 | 488.5 | 530 |
+| Bully | 282–308 | 301–329 | 295 | 315 |
+
+## 5. Complete proposed changes
+
+| Stat | Tactician | Rogue | Bully |
+|---|---:|---:|---:|
+| Damage scaling buff | +9.9748% | +8.4400% | +6.9059% |
+| Damage per level (`perLevel`) | 17 → 18.6957 | 8.5 → 9.2174 | 5.1 → 5.4522 |
+| HP scaling | 2 → 2.5 | 3.85 → 4 | 4.4 → 5 |
+| Base dodge | 7.1% → 10% | 10.1% → 10% | 9.1% → 10% |
+| Base DR | 10% | 25% → 30% | 50% |
+| Epic spread | 15% | 12% | 9% |
+| Fixed base damage | 14 | 0 | 3 |
+| Total DR with Epic Vest | 24% → 23.5% | 39% → 40.5% | 64% → 57.5% |
+
+- Bulletproof Vest: additive +14 percentage points → multiplicative 15% incoming damage reduction.
+- Class base dodge: standardized to 10% for all classes. Any changes to the Vigilance item itself can be addressed separately.
+
+## 6. Class balance improvement
+
+Current vs. proposed class strength with all three Epic items equipped (Rogue = 100%):
+
+```text
+Tactician
+Current   █████                          89.6507%
+Proposed  ██████████████                 99.2966%
+
+Rogue
+Current   ███████████████               100.0000%
+Proposed  ███████████████               100.0000%
+
+Bully
+Current   ██████████████████████        107.1234%
+Proposed  █████████████████             101.7421%
+```
+
+The bars start at 85% to make the differences easier to see.
+
+With only Epic weapons equipped, the strongest class currently has a 10.19% relative VALUE advantage over the weakest. With all three items equipped, that advantage rises to 19.49%. **After the proposed changes, it falls to just 2.46% regardless of whether everyone equips Vest or Vigilance.**
+
+**The proposal closes 75.83% of the original weapon-only balance gap and 87.36% of the gap with all three items equipped.**
+
+Although the relative balance is the same with or without the reworked Vest, the actual power of each class changes. Compared with its own current strength using the same equipment:
+
+| Class | VALUE change (weapon only) | VALUE change (all three items) |
+|---|---:|---:|
+| Tactician | +19.1209% | +18.9624% |
+| Rogue | +9.8082% | +7.4062% |
+| Bully | +10.7695% | +2.0107% |
+
+The goal is not necessarily perfect mathematical equality. **A small remaining VALUE advantage for the tankier class may be reasonable because less tanky, high-damage classes can have more volatile fight outcomes.** Favorable critical hits, damage rolls, dodge rolls or initiative may allow them to win some fights against stronger opponents. Conversely, unfavorable rolls can hurt them as well.
+
+A small gap is a reasonable starting point, and actual fights can show whether further adjustments are needed.
+
+## Conclusion
+
+The changes preserve the identities of all three classes: Tactician as the high-damage class, Rogue as the balanced class, and Bully as the tank. They address Tactician's underlying disadvantage and remove the equipment mechanics that artificially exaggerate class differences. **The resulting theoretical VALUE gap is only around 2.46%, regardless of whether everyone equips Vest and Vigilance.**
+
+These are theoretical power estimates, not duel win rates.
+
+
+## 7. Optional item balance suggestions – more creativity, less meta
+
+These suggestions are separate from the class balance changes above. **They can be ignored without affecting the main proposal.** However, it would be more interesting if creativity and situational builds mattered more than simply equipping the same meta items in every fight.
+
+**A few general balancing principles:**
+
+- **Inventory space is not the whole story.** Larger items are harder to fit into a build, even when their bonus per tile is similar. Their footprint and shape should also be considered when balancing them.
+- **Prefer clean, round numbers in item descriptions** whenever possible. Values such as 8%, 10%, 15%, 30% and 50% are easier to remember, compare and build around.
+- **Gamble-based items should generally have a slightly lower expected bonus than comparable reliable items.** Their appeal should come from the chance of a high-impact roll that can swing a fight, rather than also offering the best average value. This is a design preference, not a mathematical rule for every random effect.
+
+The reworked Vest is a useful reference: it occupies 12 tiles and provides **+17.6471% effective HP**, equivalent to **+13.2353% per 9 tiles** using a simple space-adjusted comparison. For critical damage items, assume maximum opposing Toughness (40% anti-crit), leaving 30% effective critical chance from a 50% base chance, with a 2× base critical damage multiplier. For Vigilance, both columns assume the proposed 10% class base dodge.
+
+### Suggested Epic item adjustments
+
+| Item | Tiles | Current effect | Proposed effect | Current effective bonus | Proposed effective bonus | Proposed bonus per 9 tiles |
+|---|---:|---|---|---:|---:|---:|
+| Bulletproof Vest (reference) | 12 | +14 pp additive DR | 15% multiplicative DR | Class-dependent (see Section 2) | +17.6471% EHP | +13.2353% EHP |
+| Vigilance | 9 | +10 pp dodge | **+8 pp dodge** | +12.5000% EHP | +9.7561% EHP | +9.7561% EHP |
+| Rapid Fire | 9 | 17% chance for 10–20% extra damage | **30% chance for 30% extra damage** | +2.5500% DMG | +9.0000% DMG | +9.0000% DMG |
+| Thermal Imaging Telescopic Sight (green) | 8 | +14% damage | **+10% damage** | +14.0000% DMG | +10.0000% DMG | +11.2500% DMG |
+| Penetrating Power | 9 | +42 pp critical damage | +42 pp critical damage | +9.6923% DMG | +9.6923% DMG | +9.6923% DMG |
+| Holographic Visor | 6 | +29 pp critical damage | +29 pp critical damage | +6.6923% DMG | +6.6923% DMG | +10.0385% DMG |
+| **Medic!** | 9 | +14 pp max HP per heal | **+50% healing per item (multiplicative)** | Item-dependent* | **6 / 9 extra healing tiles** | **6 / 9 extra healing tiles** |
+
+EHP means effective HP; DMG means average effective damage. The tile-adjusted bonus is the item's bonus multiplied by 9 and divided by its inventory size. These are comparable offensive or defensive bonuses, not direct VALUE increases or duel win rates. Rapid Fire's damage estimate excludes the lethal-hit restriction, and the scope and crit calculations assume no other damage or critical damage bonuses.
+
+**Vigilance, Rapid Fire and Penetrating Power would all be worth around 9–10% effective HP or damage per 9 tiles.** The Thermal Sight would remain competitive without being as dominant as before. The 15% Vest would still be a strong defensive choice, but the gap between it and alternative items would be smaller.
+
+### Rifle and Sniper Accuracy skills
+
+The 3×3 weapon-specific Accuracy skills for assault rifles (including AK) and sniper rifles currently provide only +10 percentage points of accuracy. **They should provide at least +15 percentage points to have a reasonable chance of being useful.** Even then, their 9-tile footprint makes them difficult to justify against the 8-tile Tactical Telescopic Sight, which already provides +15 percentage points of accuracy, where both can be equipped. The actual damage benefit depends on the opponent's hit-chance reduction and the 100% accuracy cap.
+
+### Medic! – healing-focused builds (3×3 / 9 tiles)
+
+**With a multiplicative 50% healing bonus, Medic would be worth 6 / 9 extra healing tiles when using two / three 6-tile healing items.** In other words, it would provide the healing equivalent of one / one and a half additional healing items of the same average strength.
+
+This comparison does not require a specific healing amount: it simply multiplies the occupied healing-item tiles (12 / 18) by 50%. Actual healing still depends on triggering and overhealing.
+
+*The current +14 percentage-point bonus is additive in the client code, so its actual tile-equivalent value depends on the healing items used. The proposed multiplicative effect is a rework and is not necessarily stronger in every setup.*
+
+**Healing items are already strong on their own. The idea is to make Medic more appealing, not to buff the healing items themselves.** It could be fun to test a dedicated healing build as an alternative to the standard meta.
+
+## 8. Optional new item idea – Randuin (3×3 / 9 tiles)
+
+**Reduce the total damage taken from critical hits by 20%.** Normal hits are unaffected. For example, a critical hit that would deal 1,000 damage would deal 800 instead.
+
+Randuin would offer an alternative for players who prefer not to invest heavily in Toughness (TN). **It should outperform an average 9-tile item when the player has no TN and faces a high-crit opponent, but become less valuable as effective enemy crit chance falls.**
+
+| Enemy effective crit chance | EHP bonus (no crit damage items, 2× crit) | EHP bonus (2 crit damage items, 2.71× crit) |
+|---:|---:|---:|
+| 50% | +15.3846% | +17.1086% |
+| 40% | +12.9032% | +14.7764% |
+| 30% | +10.1695% | +12.0409% |
+
+The two-item example assumes Epic Penetrating Power (+42 percentage points) and Holographic Visor (+29 percentage points), with no other critical damage bonuses. The listed crit chances are the actual chances after any anti-crit effects. Since Randuin occupies 9 tiles, the listed bonuses are also its bonuses per 9 tiles.
+
+Against an enemy with 50% crit chance and a 2× critical multiplier, Randuin provides +15.3846% EHP, matching maximum TN in this particular expected-damage model. Against the two crit damage items, maximum TN provides +22.6041% EHP, exceeding Randuin. **Randuin consumes 9 inventory tiles and reduces critical damage, while TN reduces the frequency of critical hits.** The 20% proposal is intended as a strong situational option rather than a universally superior replacement for TN.
+
+Source: https://github.com/EgyipTomi425/mafia-reborn-loadout-optimizer
+
 ## 1. Class comparison: coefficients, value, and interpretation
 
 The supplied normalized comparison is reproduced by a **level-50 reference
